@@ -8,8 +8,7 @@
     "minimal": [
     "`CLICK` the profile icon in the upper right (second to last before 3 dots)",
     "`CLICK` the 3-dot menu button in the upper right",
-    "`MOVE_TO` 'Settings' at bottom of menu",
-    "`CLICK` 'Settings'",
+    "`CLICK` 'Settings' at bottom of menu",
     "`CLICK` 'Chrome name and picture' line in 'People' section",
     "`TYPE` new profile name",
     "`CLICK` back arrow next to 'Edit person' to save"
@@ -17,8 +16,7 @@
   "suboptimal": [
       "`CLICK` the profile icon in the upper right",
       "`CLICK` the 3-dot menu button",
-      "`MOVE_TO` 'Settings' at bottom",
-      "`CLICK` 'Settings'",
+      "`CLICK` 'Settings' at bottom",
       "`MOVE_TO` 'Chrome name and picture' line",
       "`CLICK` the line",
       "`TYPE` new profile name",
@@ -28,7 +26,7 @@
   "batched": [
       ["`CLICK` the profile icon"],
       ["`CLICK` the 3-dot menu"],
-      ["`MOVE_TO` 'Settings'", "`CLICK`"],
+      ["`CLICK` 'Settings'"],
       ["`CLICK` 'Chrome name and picture' line"],
       ["`TYPE` new profile name", "`CLICK` back arrow"]
   ]

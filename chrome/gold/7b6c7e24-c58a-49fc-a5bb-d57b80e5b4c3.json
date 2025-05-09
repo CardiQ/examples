@@ -1,54 +1,34 @@
-{
+[
+  {
   "id": "7b6c7e24-c58a-49fc-a5bb-d57b80e5b4c3",
   "snapshot": "chrome",
   "instruction": "Can you help me clean up my computer by getting rid of all the tracking things that Amazon might have saved? I want to make sure my browsing is private and those sites don't remember me.",
-  "source": "https://support.google.com/chrome/answer/95647?hl=en&ref_topic=7438325&sjid=16867045591165135686-AP#zippy=%2Cdelete-cookies-from-a-site",
-  "config": [
-    {
-      "type": "launch",
-      "parameters": {
-        "command": [
-          "google-chrome",
-          "--remote-debugging-port=1337"
-        ]
-      }
-    },
-    {
-      "type": "launch",
-      "parameters": {
-        "command": [
-          "socat",
-          "tcp-listen:9222,fork",
-          "tcp:localhost:1337"
-        ]
-      }
-    },
-    {
-      "type": "chrome_open_tabs",
-      "parameters": {
-        "urls_to_open": [
-          "https://www.amazon.com",
-          "https://www.amazon.com/s?k=huggingface+transformers+book"
-        ]
-      }
-    }
+  "source": "https://support.google.com/chrome/answer/95647?hl=en&ref_topic=7438325&sjid=16867045591165135686-AP#zippy=%2Cdelete-cookies-from-a-site"
+  },
+  {
+    "minimal": [
+    "`CLICK` three-dot menu (More) in top-right",
+    "`SELECT` 'Delete browsing data'",
+    "`CHOOSE` time range (e.g., 'Last hour' or 'All time')",
+    "`CHECK` data types to delete",
+    "`CLICK` 'Delete data'"
   ],
-  "trajectory": "trajectories/",
-  "related_apps": [
-    "chrome"
+  "suboptimal": [
+      "`MOVE_TO` three-dot menu in top-right",
+      "`CLICK` to open",
+      "`MOVE_TO` 'Delete browsing data' option",
+      "`CLICK` to open deletion dialog",
+      "`MOVE_TO` time range dropdown",
+      "`SELECT` desired range",
+      "`MOVE_TO` checkboxes for data types",
+      "`CLICK` to select/deselect",
+      "`MOVE_TO` 'Delete data' button",
+      "`CLICK` to confirm"
   ],
-  "evaluator": {
-    "func": "is_cookie_deleted",
-    "result": {
-      "type": "cookie_data",
-      "dest": "Cookies"
-    },
-    "expected": {
-      "type": "rule",
-      "rules": {
-        "type": "domains",
-        "domains": [".amazon.com"]
-      }
-    }
+  "batched": [
+      ["`CLICK` three-dot menu", "`SELECT` 'Delete browsing data'"],
+      ["`CHOOSE` time range", "`CHECK` desired data types"],
+      ["`CLICK` 'Delete data'"]
+  ]
   }
-}
+]
