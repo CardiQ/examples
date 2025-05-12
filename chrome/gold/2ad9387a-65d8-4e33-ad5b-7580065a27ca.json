@@ -8,14 +8,12 @@
   { 
     "minimal": [
       "`RIGHT_CLICK` on empty space in the bookmarks bar",
-      "`MOVE_TO` the 'Add Folder' button in the window",
       "`CLICK` the 'Add Folder' button in the window",
       "`TYPE` 'Favorites'",
-      "`KEY_DOWN` enter/return key"
+      "`PRESS` enter/return key"
     ], 
     "suboptimal": [
       "`RIGHT_CLICK` on empty space in the bookmarks bar",
-      "`MOVE_TO` the 'Add Folder' button in the window",
       "`CLICK` the 'Add Folder' button in the window",
       "`TYPE` 'Favorites'",
       "`MOVE_TO` the save button",
@@ -23,8 +21,8 @@
     ],
     "batched": [
       ["`RIGHT_CLICK` on empty space in the bookmarks bar"],
-      ["`MOVE_TO` the 'Add Folder' button in the window", "`CLICK`"],
-      ["`TYPE` 'Favorites'", "`KEY_DOWN` enter/return key"]
+      ["`CLICK` the 'Add Folder' button in the window"],
+      ["`TYPE` 'Favorites'", "`PRESS` enter/return key"]
     ]
   }
 ]

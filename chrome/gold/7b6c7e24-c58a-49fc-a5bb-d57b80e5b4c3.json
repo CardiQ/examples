@@ -7,28 +7,21 @@
   },
   {
     "minimal": [
-    "`CLICK` three-dot menu (More) in top-right",
-    "`SELECT` 'Delete browsing data'",
-    "`CHOOSE` time range (e.g., 'Last hour' or 'All time')",
-    "`CHECK` data types to delete",
+    "`HOTKEY` press the key combination 'Ctrl+Shift+Del'",
+    "`CLICK` 'browsing records'",
+    "`CLICK` 'cookies'",
     "`CLICK` 'Delete data'"
   ],
   "suboptimal": [
-      "`MOVE_TO` three-dot menu in top-right",
-      "`CLICK` to open",
-      "`MOVE_TO` 'Delete browsing data' option",
-      "`CLICK` to open deletion dialog",
-      "`MOVE_TO` time range dropdown",
-      "`SELECT` desired range",
-      "`MOVE_TO` checkboxes for data types",
-      "`CLICK` to select/deselect",
-      "`MOVE_TO` 'Delete data' button",
-      "`CLICK` to confirm"
+    "`CLICK` three-dot menu (More) in top-right",
+    "`CLICK` 'Delete browsing data'",
+    "`CLICK` 'browsing records'",
+    "`CLICK` 'cookies'",
+    "`CLICK` 'Delete data'"
   ],
   "batched": [
-      ["`CLICK` three-dot menu", "`SELECT` 'Delete browsing data'"],
-      ["`CHOOSE` time range", "`CHECK` desired data types"],
-      ["`CLICK` 'Delete data'"]
+      ["`HOTKEY` press the key combination 'Ctrl+Shift+Del'"],
+      ["`CLICK` 'browsing records'","`CLICK` 'cookies'","`CLICK` 'Delete data'"]
   ]
   }
 ]

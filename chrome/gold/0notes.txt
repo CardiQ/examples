@@ -1,0 +1,11 @@
+self inference:
+06fe7178-4491-4589-810f-2e2bc9502122.json - human inference
+
+not sure with known source:
+ae78f875-5b98-4907-bbb5-9c737fc68c03.json - the source solution nolonger fits
+bb5e4c0d-f964-439c-97b6-bdb9747de3f4.json - the source solution nolonger fits
+
+
+other notes:
+1. all tasks are by default assumed to be conducted with an opened Chrome unless specified
+2. all batched actions are decided by the context (e.g. UI) before the action executed
