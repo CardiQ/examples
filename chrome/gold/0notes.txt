@@ -5,6 +5,15 @@ not sure with known source:
 ae78f875-5b98-4907-bbb5-9c737fc68c03.json - the source solution nolonger fits
 bb5e4c0d-f964-439c-97b6-bdb9747de3f4.json - the source solution nolonger fits
 
+in small task:
+"chrome": [
+    "bb5e4c0d-f964-439c-97b6-bdb9747de3f4", - notsure
+    "7b6c7e24-c58a-49fc-a5bb-d57b80e5b4c3",
+    "35253b65-1c19-4304-8aa4-6884b8218fc0",
+    "a96b564e-dbe9-42c3-9ccf-b4498073438a" - notsure
+  ],
+
+
 
 other notes:
 1. all tasks are by default assumed to be conducted with an opened Chrome unless specified

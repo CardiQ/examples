@@ -1,0 +1,28 @@
+[{
+    "id": "2a729ded-3296-423d-aec4-7dd55ed5fbb3",
+    "snapshot": "gimp",
+    "instruction": "Could you make the background of this image transparent for me?",
+    "source": "https://www.youtube.com/watch?v=lOzSiOIipSM"
+},
+{
+    "minimal": [
+      "`RIGHT_CLICK` on the first image layer",
+      "`CLICK` 'Add Alpha Channel' in the dropdown menu",
+      "`CLICK` Fuzzy Select tool",
+      "`CLICK` Anti-aliasing",
+      "`CLICK` Feather edges",
+      "`CLICK` Draw mask",
+      "`DRAG_TO` on background area from up to down",
+      "`PRESS` Delete key"
+    ],
+    "batched": [
+      ["`RIGHT_CLICK` on the first image layer"],
+      ["`CLICK` 'Add Alpha Channel' in the dropdown menu"],
+      ["`CLICK` Fuzzy Select tool",
+      "`CLICK` Anti-aliasing",
+      "`CLICK` Feather edges",
+      "`CLICK` Draw mask",
+      "`DRAG_TO` on background area from up to down",
+      "`PRESS` Delete key"]
+    ]
+  }]

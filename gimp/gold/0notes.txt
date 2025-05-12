@@ -1,0 +1,15 @@
+self inference:
+
+not sure with known source:
+
+in small task:
+"gimp": [
+    "7a4deb26-d57d-4ea9-9a73-630f66a7b568",
+    "554785e9-4523-4e7a-b8e1-8016f565f56a"
+  ],
+
+
+
+other notes:
+1. all tasks are by default assumed to be conducted with an opened Chrome unless specified
+2. all batched actions are decided by the context (e.g. UI) before the action executed
