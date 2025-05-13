@@ -1,0 +1,15 @@
+self inference:
+
+not sure with known source:
+
+in small task:
+"vlc": [
+    "59f21cfb-0120-4326-b255-a5b827b38967",
+    "8f080098-ddb1-424c-b438-4e96e5e4786e"
+  ],
+
+
+
+other notes:
+1. all tasks are by default assumed to be conducted with an opened Chrome unless specified
+2. all batched actions are decided by the context (e.g. UI) before the action executed

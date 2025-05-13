@@ -1,0 +1,15 @@
+self inference:
+
+not sure with known source:
+
+in small task:
+"libreoffice_impress": [
+    "5d901039-a89c-4bfb-967b-bf66f4df075e",
+    "550ce7e7-747b-495f-b122-acdc4d0b8e54"
+  ],
+
+
+
+other notes:
+1. all tasks are by default assumed to be conducted with an opened Chrome unless specified
+2. all batched actions are decided by the context (e.g. UI) before the action executed

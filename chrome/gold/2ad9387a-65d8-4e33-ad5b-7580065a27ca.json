@@ -5,24 +5,23 @@
     "instruction": "Can you make a new folder for me on the bookmarks bar in my internet browser? Let's call it 'Favorites.'",
     "source": "https://www.youtube.com/watch?v=IN-Eq_UripQ"
   },
-  { 
+  {
     "minimal": [
-      "`RIGHT_CLICK` on empty space in the bookmarks bar",
-      "`CLICK` the 'Add Folder' button in the window",
-      "`TYPE` 'Favorites'",
-      "`PRESS` enter/return key"
-    ], 
+        "`CLICK` the 'Image' menu",
+        "`MOVE_TO` the 'Mode' option",
+        "`CLICK` the 'Color indexed' option"
+    ],
     "suboptimal": [
-      "`RIGHT_CLICK` on empty space in the bookmarks bar",
-      "`CLICK` the 'Add Folder' button in the window",
-      "`TYPE` 'Favorites'",
-      "`MOVE_TO` the save button",
-      "`CLICK` the save button"
+        "`CLICK` the 'Image' menu",
+        "`MOVE_TO` the 'Mode' option",
+        "`CLICK` the 'Mode' submenu",
+        "`CLICK` the 'Color indexed' option",
+        "`WAIT` for the color index dialog to appear"
     ],
     "batched": [
-      ["`RIGHT_CLICK` on empty space in the bookmarks bar"],
-      ["`CLICK` the 'Add Folder' button in the window"],
-      ["`TYPE` 'Favorites'", "`PRESS` enter/return key"]
+        ["`CLICK` the 'Image' menu"],
+        ["`MOVE_TO` the 'Mode' option", "`CLICK` the 'Mode' submenu"],
+        ["`CLICK` the 'Color indexed' option"]
     ]
-  }
+}
 ]

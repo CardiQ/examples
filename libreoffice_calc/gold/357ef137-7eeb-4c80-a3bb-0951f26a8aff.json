@@ -1,0 +1,22 @@
+[{
+	"id": "357ef137-7eeb-4c80-a3bb-0951f26a8aff",
+	"snapshot": "libreoffice_calc",
+	"instruction": "I have calculated the total work hours from the everday hours. And I have an hourly rate. Now I want to multiply the total hours with the hourly rate to get a total earned amount. However, I can't get a correct answer by directly multiply the two cells. Here the \"total hours\" is of time and \"hourly rate\" is just a number. How can I get the correct product of them?",
+	"source": "https://www.reddit.com/r/excel/comments/17zny8u/calculating_total_amount_earned_from_total_hours/"
+},{
+    "minimal": [
+        "`SELECT` cell containing total hours (time format)",
+        "`TYPE` formula: =HOUR(cell)+MINUTE(cell)/60",
+        "`PRESS` Enter to convert time to decimal hours",
+        "`SELECT` target cell for calculation",
+        "`TYPE` formula: =decimal_hours_cell*hourly_rate_cell",
+        "`PRESS` Enter to calculate total earnings"
+    ],
+    "batched": [
+        ["`SELECT` hours cell", "`TYPE` conversion formula", "`PRESS` Enter"],
+        ["`RIGHT_CLICK` converted cell", "`COPY` value"],
+        ["`RIGHT_CLICK` target cell", "`PASTE_SPECIAL` as value"],
+        ["`SELECT` calculation cell", "`TYPE` multiplication formula", "`PRESS` Enter"]
+    ]
+}
+]

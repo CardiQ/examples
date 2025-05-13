@@ -1,6 +1,7 @@
 self inference:
 
 not sure with known source:
+for GIMP the annotations mainly rely on source-websites
 
 in small task:
 "gimp": [
