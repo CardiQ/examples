@@ -2,7 +2,7 @@
     "id": "4e9f0faf-2ecc-4ae8-a804-28c9a75d1ddc",
     "snapshot": "chrome",
     "instruction": "Could you help me extract data in the table from a new invoice uploaded to my Google Drive, then export it to a Libreoffice calc .xlsx file in the desktop?",
-    "source": "https://marketplace.uipath.com/listings/extract-data-from-a-new-invoice-file-in-google-drive-and-store-it-in-google-sheets4473",
+    "source": "https://marketplace.uipath.com/listings/extract-data-from-a-new-invoice-file-in-google-drive-and-store-it-in-google-sheets4473", // instead of clear instructions, it just gives an app doing the same thing
     "config": [
         {
             "type": "googledrive",

@@ -2,7 +2,7 @@
     "id": "2b9493d7-49b8-493a-a71b-56cd1f4d6908",
     "snapshot": "libreoffice_writer",
     "instruction": "Hey, my LibreOffice Writer seems to have frozen and I can't get it to close normally. Can you help me force quit the application from the command line? I'm on Ubuntu and I don't want to restart my computer or lose any other work I have open.",
-    "source": "https://devicetests.com/kill-libreoffice-writer-command-line-ubuntu",
+    "source": "https://devicetests.com/kill-libreoffice-writer-command-line-ubuntu", // can't find the page
     "config": [
         {
             "type": "download",

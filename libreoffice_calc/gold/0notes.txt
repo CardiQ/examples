@@ -1,6 +1,7 @@
 self inference:
 
 not sure with known source:
+all tasks rely on source websites
 
 in small task:
 "libreoffice_calc": [

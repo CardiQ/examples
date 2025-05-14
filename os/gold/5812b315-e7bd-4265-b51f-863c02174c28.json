@@ -1,64 +1,54 @@
-{
+[{
   "id": "5812b315-e7bd-4265-b51f-863c02174c28",
   "snapshot": "os",
   "instruction": "Please create an SSH user named \"charles\" with password \"Ex@mpleP@55w0rd!\" on Ubuntu who is only allowed to access the folder \"/home/test1\".",
-  "source": "https://superuser.com/questions/149404/create-an-ssh-user-who-only-has-permission-to-access-specific-folders",
-  "config": [
-    {
-      "type": "execute",
-      "parameters": {
-        "command": "mkdir /home/test1",
-        "shell": true
-      }
-    }
+  "source": "https://superuser.com/questions/149404/create-an-ssh-user-who-only-has-permission-to-access-specific-folders"
+},
+{
+  "minimal": [
+    "`HOTKEY`'Ctrl+Alt+T' open the terminal",
+    "`TYPE` 'sudo adduser --home /home/test1 charles'",
+    "`PRESS` 'Enter'",
+    "`TYPE` the new password 'Ex@mpleP@55w0rd!' when prompted",
+    "`PRESS` 'Enter'",
+    "`TYPE` the password again to confirm",
+    "`PRESS` 'Enter'",
+    "`TYPE` any additional user information or press 'Enter' to skip",
+    "`PRESS` 'Enter'",
+    "`TYPE` 'sudo nano /etc/ssh/sshd_config'",
+    "`PRESS` 'Enter'",
+    "`SCROLL` to the end of the file",
+    "`TYPE` the following lines: 'Match user charles\r\n' '  ChrootDirectory /home/test1\r\n' 'ForceCommand internal-sftp\r\n' ",
+    "`SCROLL` to the line of 'Subsystem sftp /usr/lib/openssh/sftp-server'",
+    "`CLICK` at the beginning of that line of 'Subsystem sftp /usr/lib/openssh/sftp-server'",
+    "`TYPE` a '#' to comment it out",
+    "`HOTKEY` 'Ctrl+X'",
+    "`PRESS` 'Y' to save the changes",
+    "`PRESS` 'Enter' to confirm the filename",
+    "`TYPE` 'sudo systemctl restart sshd'",
+    "`PRESS` 'Enter'"
   ],
-  "trajectory": "trajectories/",
-  "related_apps": [
-    "os"
-  ],
-  "evaluator": {
-    "postconfig": [
-      {
-        "type": "execute",
-        "parameters": {
-          "command": "echo 'password' | sudo -S apt-get install -y expect",
-          "shell": true
-        }
-      },
-      {
-        "type": "download",
-        "parameters": {
-          "files": [
-            {
-              "url": "https://drive.usercontent.google.com/download?id=1lOkekinDJRPBqmQN4Xx6pV4WO2uSwKln&export=download&authuser=0&confirm=t&uuid=52b722f4-ec9e-40a1-9b4f-02cb4c5d6b5b&at=APZUnTVY8y0fxhsUBPuc4zC250kv:1707208254033",
-              "path": "check_password.sh"
-            }
-          ]
-        }
-      },
-      {
-        "type": "execute",
-        "parameters": {
-          "command": "chmod +x check_password.sh",
-          "shell": true
-        }
-      }
-    ],
-    "func": "check_include_exclude",
-    "result": {
-      "type": "vm_command_line",
-      "command": "USERNAME=\"charles\"; HOMEDIR=\"/home/test1\"; PASSWORD=\"Ex@mpleP@55w0rd!\"; ./check_password.sh \"$USERNAME\" \"$PASSWORD\" && [ \"$(getent passwd \"$USERNAME\" | cut -d: -f6)\" = \"$HOMEDIR\" ] && [ $(stat -c \"%A\" \"$HOMEDIR\" | cut -b 3) = \"w\" ] && echo \"Password, home directory, and write permission check passed\" || echo \"Check failed\"",
-      "shell": true
-    },
-    "expected": {
-      "type": "rule",
-      "rules": {
-        "include": [
-          "Password, home directory, and write permission check passed"
-        ],
-        "exclude": [
-        ]
-      }
-    }
-  }
-}
+  "batched": [
+    ["`HOTKEY`'Ctrl+Alt+T' open the terminal"],
+    ["`TYPE` 'sudo adduser --home /home/test1 charles'",
+    "`PRESS` 'Enter'",
+    "`TYPE` the new password 'Ex@mpleP@55w0rd!' when prompted",
+    "`PRESS` 'Enter'",
+    "`TYPE` the password again to confirm",
+    "`PRESS` 'Enter'",
+    "`TYPE` any additional user information or press 'Enter' to skip",
+    "`PRESS` 'Enter'",
+    "`TYPE` 'sudo nano /etc/ssh/sshd_config'",
+    "`PRESS` 'Enter'"],
+    ["`SCROLL` to the end of the file"],
+    ["`TYPE` the following lines: 'Match user charles\r\n' '  ChrootDirectory /home/test1\r\n' 'ForceCommand internal-sftp\r\n' "],
+    ["`SCROLL` to the line of 'Subsystem sftp /usr/lib/openssh/sftp-server'"],
+    ["`CLICK` at the beginning of that line of 'Subsystem sftp /usr/lib/openssh/sftp-server'",
+    "`TYPE` a '#' to comment it out"],
+    ["`HOTKEY` 'Ctrl+X'"],
+    ["`PRESS` 'Y' to save the changes"],
+    ["`PRESS` 'Enter' to confirm the filename"],
+    ["`TYPE` 'sudo systemctl restart sshd'",
+    "`PRESS` 'Enter'"]
+  ]
+}]

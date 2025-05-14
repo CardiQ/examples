@@ -5,18 +5,20 @@
 	"source": "https://www.reddit.com/r/excel/comments/17zny8u/calculating_total_amount_earned_from_total_hours/"
 },{
     "minimal": [
-        "`SELECT` cell containing total hours (time format)",
-        "`TYPE` formula: =HOUR(cell)+MINUTE(cell)/60",
+        "`DOUBLE_CLICK` cell containing total hours (time format)",
+        "`TYPE` formula: =HOUR(cell)+MINUTE(cell)/60 in top bar",
         "`PRESS` Enter to convert time to decimal hours",
-        "`SELECT` target cell for calculation",
-        "`TYPE` formula: =decimal_hours_cell*hourly_rate_cell",
+        "`DOUBLE_CLICK` target cell for calculation",
+        "`TYPE` formula: =decimal_hours_cell*hourly_rate_cell in top bar",
         "`PRESS` Enter to calculate total earnings"
     ],
     "batched": [
-        ["`SELECT` hours cell", "`TYPE` conversion formula", "`PRESS` Enter"],
-        ["`RIGHT_CLICK` converted cell", "`COPY` value"],
-        ["`RIGHT_CLICK` target cell", "`PASTE_SPECIAL` as value"],
-        ["`SELECT` calculation cell", "`TYPE` multiplication formula", "`PRESS` Enter"]
+        "`DOUBLE_CLICK` cell containing total hours (time format)",
+        "`TYPE` formula: =HOUR(cell)+MINUTE(cell)/60 in top bar",
+        "`PRESS` Enter to convert time to decimal hours",
+        "`DOUBLE_CLICK` target cell for calculation",
+        "`TYPE` formula: =decimal_hours_cell*hourly_rate_cell in top bar",
+        "`PRESS` Enter to calculate total earnings"
     ]
 }
 ]

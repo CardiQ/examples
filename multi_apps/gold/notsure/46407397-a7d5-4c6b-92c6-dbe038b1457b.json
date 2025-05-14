@@ -2,7 +2,7 @@
     "id": "46407397-a7d5-4c6b-92c6-dbe038b1457b",
     "snapshot": "chrome",
     "instruction": "Help me export charts, graph or other images from docx files received in email \"Lecture Document\" in Notes folder and upload these png files to the figures/ folder in Google Drive for later use (use numbers to name them).",
-    "source": "https://marketplace.uipath.com/listings/merge-pdfs-from-gmail-email-attachments-and-upload-to-gogle-drive",
+    "source": "https://marketplace.uipath.com/listings/merge-pdfs-from-gmail-email-attachments-and-upload-to-gogle-drive", // only an app
     "config": [
         {
             "type": "googledrive",
