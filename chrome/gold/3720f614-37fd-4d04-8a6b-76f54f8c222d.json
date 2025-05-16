@@ -16,7 +16,7 @@
     "`CLICK` 'Korean'",
     "`CLICK` 'Add'",
     "`CLICK` three-dot menu next to new language",
-    "`SELECT` 'Display Google Chrome in this language'"
+    "`CLICK` 'Display Google Chrome in this language'"
 ],
 "batched": [
     ["`CLICK` URL bar",
@@ -26,10 +26,10 @@
     "`TYPE` 'language' in search box",
     "`PRESS` enter/return key"],
     ["`CLICK` 'Add languages'"],
-    ["`SCROLL` until find 'Korean'",
-    "`CLICK` 'Korean'",
+    ["`SCROLL` until find 'Korean'"],
+    ["`CLICK` 'Korean'",
     "`CLICK` 'Add'"],
-    ["`CLICK` three-dot menu next to new language",
-    "`SELECT` 'Display Google Chrome in this language'"]
+    ["`CLICK` three-dot menu next to new language"],
+    ["`CLICK` 'Display Google Chrome in this language'"]
 ]
 }]

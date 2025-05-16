@@ -14,7 +14,9 @@
         "`DOUBLE_CLICK` the duplicate layer name, type 'Edited'",
         "`CLICK` the 'Colors' menu",
         "`CLICK` the 'Levels' option",
-        "`ADJUST` the midtones slider left to reduce brightness"
+        "`KEY_DOWN` the midtones slider",
+        "`DRAG_TO` the midtones slider left to reduce brightness",
+        "`KEY_UP`"
     ],
     "batched": [
         ["`CLICK` the 'File' menu"], 
@@ -23,9 +25,11 @@
         "`CLICK` the 'Open' button"],
         ["`CLICK` the photo layer in Layers panel",
         "`CLICK` the 'Duplicate' icon",
-        "`DOUBLE_CLICK` the duplicate layer name, type 'Edited'",
-        "`CLICK` the 'Colors' menu",
-        "`CLICK` the 'Levels' option",
-        "`ADJUST` the midtones slider left to reduce brightness"]
+        "`DOUBLE_CLICK` the duplicate layer name, type 'Edited'"],
+        ["`CLICK` the 'Colors' menu"],
+        ["`CLICK` the 'Levels' option"],
+        ["`KEY_DOWN` the midtones slider",
+        "`DRAG_TO` the midtones slider left to reduce brightness",
+        "`KEY_UP`"]
     ]
 }]

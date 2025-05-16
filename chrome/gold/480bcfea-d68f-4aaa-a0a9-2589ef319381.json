@@ -23,9 +23,9 @@
     ["`CLICK` search box",
     "`TYPE` 'refresh' in search box",
     "`PRESS` enter/return key"],
-    ["`CLICK` 'Default' next to 'Chrome Refresh 2023'",
-    "`CLICK` 'Enabled' in the dropdown menu",
-    "`CLICK` 'Chrome WebUI Refresh 2023'",
-    "`CLICK` 'Enabled' in the dropdown menu"]
+    ["`CLICK` 'Default' next to 'Chrome Refresh 2023'"],
+    ["`CLICK` 'Enabled' in the dropdown menu"],
+    ["`CLICK` 'Chrome WebUI Refresh 2023'"],
+    ["`CLICK` 'Enabled' in the dropdown menu"]
 ]
 }]

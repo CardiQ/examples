@@ -1,15 +1,39 @@
-{
+[[{
   "id": "e19bd559-633b-4b02-940f-d946248f088e",
   "snapshot": "gimp",
   "instruction": "Could you tone down the brightness of my photo at desktop?",
-  "source": "https://www.quora.com/How-do-I-edit-a-photo-in-GIMP",
-  "config": [
-  ],
-  "trajectory": "trajectories/",
-  "related_apps": [
-    "gimp"
-  ],
-  "evaluator": {
-    "func": "infeasible"
-  }
+  "source": "https://www.quora.com/How-do-I-edit-a-photo-in-GIMP"
+},
+{
+    "minimal": [
+        "`CLICK` the 'File' menu",
+        "`CLICK` the 'Open' option",
+        "`CLICK` 'Desktop'",
+        "`DOUBLE_CLICK` the photo",
+        "`CLICK` Open",
+        "`CLICK` the photo layer in Layers panel",
+        "`CLICK` the 'Duplicate' icon",
+        "`DOUBLE_CLICK` the duplicate layer name, type 'Edited'",
+        "`CLICK` the 'Colors' menu",
+        "`CLICK` the 'Levels' option",
+        "`KEY_DOWN` the midtones slider",
+        "`DRAG_TO` the midtones slider left to reduce brightness",
+        "`KEY_UP`"
+    ],
+    "batched": [
+        ["`CLICK` the 'File' menu"], 
+        ["`CLICK` the 'Open' option"],
+        ["`CLICK` 'Desktop'"],
+        ["`DOUBLE_CLICK` the photo",
+        "`CLICK` Open"],
+        ["`CLICK` the photo layer in Layers panel",
+        "`CLICK` the 'Duplicate' icon"],
+        ["`DOUBLE_CLICK` the duplicate layer name, type 'Edited'"],
+        ["`CLICK` the 'Colors' menu"],
+        ["`CLICK` the 'Levels' option"],
+        ["`KEY_DOWN` the midtones slider",
+        "`DRAG_TO` the midtones slider left to reduce brightness",
+        "`KEY_UP`"]
+    ]
 }
+]]
