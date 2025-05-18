@@ -1,28 +1,40 @@
-[{
-  "id": "37608790-6147-45d0-9f20-1137bb35703d",
-  "snapshot": "libreoffice_calc",
-  "instruction": "The information are mixed in one field. Help me split them and fill in the columns of First Name, Last Name and Rank",
-  "source": "https://www.youtube.com/shorts/uzPo_CPCHH8"
-},
-{
-  "minimal": [
-    "`CLICK` the first row",
-    "`TYPE` the \"First Name\", \"Last Name\", and \"Rank\" based on the mixed data in the first cell.",
-    "`CLICK` on the cell below the first typed row under \"First Name\".",
-    "`HOTKEY` Ctrl + E to Flash Fill the remaining rows.",
-    "`CLICK` on the cell below the first typed row under \"Last Name\".",
-    "`HOTKEY` Ctrl + E to Flash Fill the remaining rows.",
-    "`CLICK` on the cell below the first typed row under \"Rank\".",
-    "`HOTKEY` Ctrl + E to Flash Fill the remaining rows."
-  ],
-  "batched": [
-    ["`CLICK` the first row"],
-    ["`TYPE` the \"First Name\", \"Last Name\", and \"Rank\" based on the mixed data in the first cell."],
-    ["`CLICK` on the cell below the first typed row under \"First Name\".",
-    "`HOTKEY` Ctrl + E to Flash Fill the remaining rows."],
-    ["`CLICK` on the cell below the first typed row under \"Last Name\".",
-    "`HOTKEY` Ctrl + E to Flash Fill the remaining rows."],
-    ["`CLICK` on the cell below the first typed row under \"Rank\".",
-    "`HOTKEY` Ctrl + E to Flash Fill the remaining rows."]
-  ]
-}]
+[
+  {
+    "id": "37608790-6147-45d0-9f20-1137bb35703d",
+    "snapshot": "libreoffice_calc",
+    "instruction": "The information are mixed in one field. Help me split them and fill in the columns of First Name, Last Name and Rank",
+    "source": "https://www.youtube.com/shorts/uzPo_CPCHH8"
+  },
+  {
+    "minimal": [
+      "`CLICK` the first row",
+      "`TYPING` the \"First Name\", \"Last Name\", and \"Rank\" based on the mixed data in the first cell.",
+      "`CLICK` on the cell below the first typed row under \"First Name\".",
+      "`HOTKEY` Ctrl + E to Flash Fill the remaining rows.",
+      "`CLICK` on the cell below the first typed row under \"Last Name\".",
+      "`HOTKEY` Ctrl + E to Flash Fill the remaining rows.",
+      "`CLICK` on the cell below the first typed row under \"Rank\".",
+      "`HOTKEY` Ctrl + E to Flash Fill the remaining rows."
+    ],
+    "batched": [
+      [
+        "`CLICK` the first row"
+      ],
+      [
+        "`TYPING` the \"First Name\", \"Last Name\", and \"Rank\" based on the mixed data in the first cell."
+      ],
+      [
+        "`CLICK` on the cell below the first typed row under \"First Name\".",
+        "`HOTKEY` Ctrl + E to Flash Fill the remaining rows."
+      ],
+      [
+        "`CLICK` on the cell below the first typed row under \"Last Name\".",
+        "`HOTKEY` Ctrl + E to Flash Fill the remaining rows."
+      ],
+      [
+        "`CLICK` on the cell below the first typed row under \"Rank\".",
+        "`HOTKEY` Ctrl + E to Flash Fill the remaining rows."
+      ]
+    ]
+  }
+]

@@ -1,37 +1,58 @@
-[{
-	"id": "8b1ce5f2-59d2-4dcc-b0b0-666a714b9a14",
-	"snapshot": "libreoffice_calc",
-	"instruction": "Given a partial calendar, please highlight all the weekends (Satureday & Sunday) by setting the cell background as red (#ff0000).",
-	"source": "https://www.youtube.com/shorts/Hbcwu6IQ1ns"
-},
-{
-  "minimal": [
-    "`MOUSE_DOWN` the first table cell of the date range in your calendar.",
-    "`DRAG_TO` the last table cell of the date range in your calendar.",
-    "`MOUSE_UP` ",
-    "`CLICK` Conditional Formatting",
-    "`CLICK` New Rule...",
-    "`CLICK` Use a formula to determine which cells to format",
-    "`TYPE` =WEEKDAY(A1,2)>5 (where A1 is the first cell in your date range)",
-    "`CLICK` Format...",
-    "`CLICK` Fill tab",
-    "`CLICK` Red (#ff0000) as the background color",
-    "`CLICK` OK",
-    "`CLICK` OK"
-  ],
-  "batched": [
-    ["`MOUSE_DOWN` the first table cell of the date range in your calendar.",
-    "`DRAG_TO` the last table cell of the date range in your calendar.",
-    "`MOUSE_UP` "],
-    ["`CLICK` Conditional Formatting"],
-    ["`CLICK` New Rule..."],
-    ["`CLICK` Use a formula to determine which cells to format"],
-    ["`TYPE` =WEEKDAY(A1,2)>5 (where A1 is the first cell in your date range)"],
-    ["`CLICK` Format..."],
-    ["`CLICK` Fill tab"],
-    ["`CLICK` Red (#ff0000) as the background color"],
-    ["`CLICK` OK"],
-	["`CLICK` OK"]
-  ]
-}
+[
+  {
+    "id": "8b1ce5f2-59d2-4dcc-b0b0-666a714b9a14",
+    "snapshot": "libreoffice_calc",
+    "instruction": "Given a partial calendar, please highlight all the weekends (Satureday & Sunday) by setting the cell background as red (#ff0000).",
+    "source": "https://www.youtube.com/shorts/Hbcwu6IQ1ns"
+  },
+  {
+    "minimal": [
+      "`MOUSE_DOWN` the first table cell of the date range in your calendar.",
+      "`DRAG_TO` the last table cell of the date range in your calendar.",
+      "`MOUSE_UP` ",
+      "`CLICK` Conditional Formatting",
+      "`CLICK` New Rule...",
+      "`CLICK` Use a formula to determine which cells to format",
+      "`TYPING` =WEEKDAY(A1,2)>5 (where A1 is the first cell in your date range)",
+      "`CLICK` Format...",
+      "`CLICK` Fill tab",
+      "`CLICK` Red (#ff0000) as the background color",
+      "`CLICK` OK",
+      "`CLICK` OK"
+    ],
+    "batched": [
+      [
+        "`MOUSE_DOWN` the first table cell of the date range in your calendar.",
+        "`DRAG_TO` the last table cell of the date range in your calendar.",
+        "`MOUSE_UP` "
+      ],
+      [
+        "`CLICK` Conditional Formatting"
+      ],
+      [
+        "`CLICK` New Rule..."
+      ],
+      [
+        "`CLICK` Use a formula to determine which cells to format"
+      ],
+      [
+        "`TYPING` =WEEKDAY(A1,2)>5 (where A1 is the first cell in your date range)"
+      ],
+      [
+        "`CLICK` Format..."
+      ],
+      [
+        "`CLICK` Fill tab"
+      ],
+      [
+        "`CLICK` Red (#ff0000) as the background color"
+      ],
+      [
+        "`CLICK` OK"
+      ],
+      [
+        "`CLICK` OK"
+      ]
+    ]
+  }
 ]

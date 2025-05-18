@@ -1,24 +1,36 @@
-[{
-  "id": "d16c99dc-2a1e-46f2-b350-d97c86c85c15",
-  "snapshot": "gimp",
-  "instruction": "Could you assist me with resizing just one layer of an image? I need to adjust the height to 512 pixels while maintaining the original aspect ratio?",
-  "source": "https://stackoverflow.com/questions/75185543/use-gimp-to-resize-image-in-one-layer-only"
-},
-{
-  "minimal": [
-    "`CLICK` the layer you want to resize",
-    "`CLICK` the 'Scale' tool",
-    "`CLICK` on the selected layer in the image",
-    "`CLICK` the chain icon between the width and height fields in the 'Scale' dialog to maintain aspect ratio",
-    "`TYPE` '512' in the 'Height' field",
-    "`CLICK` 'Scale'"
-  ],
-  "batched": [
-    ["`CLICK` the layer you want to resize"],
-    ["`CLICK` the 'Scale' tool"],
-    ["`CLICK` on the selected layer in the image"],
-    ["`CLICK` the chain icon between the width and height fields in the 'Scale' dialog to maintain aspect ratio"],
-    ["`TYPE` '512' in the 'Height' field",
-    "`CLICK` 'Scale'"]
-  ]
-}]
+[
+  {
+    "id": "d16c99dc-2a1e-46f2-b350-d97c86c85c15",
+    "snapshot": "gimp",
+    "instruction": "Could you assist me with resizing just one layer of an image? I need to adjust the height to 512 pixels while maintaining the original aspect ratio?",
+    "source": "https://stackoverflow.com/questions/75185543/use-gimp-to-resize-image-in-one-layer-only"
+  },
+  {
+    "minimal": [
+      "`CLICK` the layer you want to resize",
+      "`CLICK` the 'Scale' tool",
+      "`CLICK` on the selected layer in the image",
+      "`CLICK` the chain icon between the width and height fields in the 'Scale' dialog to maintain aspect ratio",
+      "`TYPING` '512' in the 'Height' field",
+      "`CLICK` 'Scale'"
+    ],
+    "batched": [
+      [
+        "`CLICK` the layer you want to resize"
+      ],
+      [
+        "`CLICK` the 'Scale' tool"
+      ],
+      [
+        "`CLICK` on the selected layer in the image"
+      ],
+      [
+        "`CLICK` the chain icon between the width and height fields in the 'Scale' dialog to maintain aspect ratio"
+      ],
+      [
+        "`TYPING` '512' in the 'Height' field",
+        "`CLICK` 'Scale'"
+      ]
+    ]
+  }
+]

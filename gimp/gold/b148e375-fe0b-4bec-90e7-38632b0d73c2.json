@@ -1,19 +1,28 @@
-[{
+[
+  {
     "id": "b148e375-fe0b-4bec-90e7-38632b0d73c2",
     "snapshot": "gimp",
     "instruction": "Could you assist me in adding a new layer and naming it 'Square'?",
     "source": "https://www.quora.com/How-do-I-add-layers-in-GIMP"
-},
-{
-  "minimal": [
-    "`CLICK` 'Layer' in the menu bar",
-    "`CLICK` 'New Layer...' in the Layer menu",
-    "`TYPE` 'Square' in the 'Layer Name' field",
-    "`CLICK` 'OK'"
-  ],
-  "batched": [
-    ["`CLICK` 'Layer' in the menu bar"],
-    ["`CLICK` 'New Layer...' in the Layer menu"],
-    ["`TYPE` 'Square' in the 'Layer Name' field", "`CLICK` 'OK'"]
-  ]
-}]
+  },
+  {
+    "minimal": [
+      "`CLICK` 'Layer' in the menu bar",
+      "`CLICK` 'New Layer...' in the Layer menu",
+      "`TYPING` 'Square' in the 'Layer Name' field",
+      "`CLICK` 'OK'"
+    ],
+    "batched": [
+      [
+        "`CLICK` 'Layer' in the menu bar"
+      ],
+      [
+        "`CLICK` 'New Layer...' in the Layer menu"
+      ],
+      [
+        "`TYPING` 'Square' in the 'Layer Name' field",
+        "`CLICK` 'OK'"
+      ]
+    ]
+  }
+]

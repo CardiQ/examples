@@ -1,19 +1,24 @@
-[{
-  "id": "7efeb4b1-3d19-4762-b163-63328d66303b",
-  "snapshot": "libreoffice_calc",
-  "instruction": "Fill the Sequence Numbers as \"No. #\" in the \"Seq No.\" column",
-  "source": "https://www.youtube.com/shorts/4jzXfZNhfmk"
-},
-{
-  "minimal": [
-    "`CLICK` the first cell under the \"Seq No.\" column",
-    "`TYPE` =\"No. \"&SEQUENCE(n) where 'n' is the total number of rows you want to fill.",
-    "`PRESS` Enter."
-  ],
-  "batched": [
-    ["`CLICK` the first cell under the \"Seq No.\" column"],
-    ["`TYPE` =\"No. \"&SEQUENCE(n) where 'n' is the total number of rows you want to fill.",
-  "`PRESS` Enter."]
-  ]
-}
+[
+  {
+    "id": "7efeb4b1-3d19-4762-b163-63328d66303b",
+    "snapshot": "libreoffice_calc",
+    "instruction": "Fill the Sequence Numbers as \"No. #\" in the \"Seq No.\" column",
+    "source": "https://www.youtube.com/shorts/4jzXfZNhfmk"
+  },
+  {
+    "minimal": [
+      "`CLICK` the first cell under the \"Seq No.\" column",
+      "`TYPING` =\"No. \"&SEQUENCE(n) where 'n' is the total number of rows you want to fill.",
+      "`PRESS` Enter."
+    ],
+    "batched": [
+      [
+        "`CLICK` the first cell under the \"Seq No.\" column"
+      ],
+      [
+        "`TYPING` =\"No. \"&SEQUENCE(n) where 'n' is the total number of rows you want to fill.",
+        "`PRESS` Enter."
+      ]
+    ]
+  }
 ]

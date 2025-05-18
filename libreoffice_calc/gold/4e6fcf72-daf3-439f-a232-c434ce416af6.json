@@ -1,25 +1,32 @@
-[{
-	"id": "4e6fcf72-daf3-439f-a232-c434ce416af6",
-	"snapshot": "libreoffice_calc",
-	"instruction": "Please calculate the ages of the employees according to their birthday.",
-	"source": "https://www.youtube.com/shorts/0uxJccNCKcE"
-},
-{
-  "minimal": [
-    "`CLICK` on the first table cell of the column 'Age'", 
-	"`TYPE` the formula `=DATEDIF(B2,TODAY(),\"Y\")` where 'B2' is the column containing the first employee's birthdate",
-	"`PRESS` 'Enter",
-    "`KEY_DOWN` the fill handle (the small square at the bottom-right of the cell) of the first cell of the column 'Age'",
-    "`DRAG_TO` down to apply the formula to all employees.",
-    "`KEY_UP`"
-  ],
-  "batched": [
-    ["`CLICK` on the first table cell of the column 'Age'"],
-    ["`TYPE` the formula `=DATEDIF(B2,TODAY(),\"Y\")` where 'B2' is the column containing the first employee's birthdate",
-	"`PRESS` 'Enter"],
-    ["`KEY_DOWN` the fill handle (the small square at the bottom-right of the cell) of the first cell of the column 'Age'",
-    "`DRAG_TO` down to apply the formula to all employees.",
-    "`KEY_UP`"]
-  ]
-}
+[
+  {
+    "id": "4e6fcf72-daf3-439f-a232-c434ce416af6",
+    "snapshot": "libreoffice_calc",
+    "instruction": "Please calculate the ages of the employees according to their birthday.",
+    "source": "https://www.youtube.com/shorts/0uxJccNCKcE"
+  },
+  {
+    "minimal": [
+      "`CLICK` on the first table cell of the column 'Age'",
+      "`TYPING` the formula `=DATEDIF(B2,TODAY(),\"Y\")` where 'B2' is the column containing the first employee's birthdate",
+      "`PRESS` 'Enter",
+      "`KEY_DOWN` the fill handle (the small square at the bottom-right of the cell) of the first cell of the column 'Age'",
+      "`DRAG_TO` down to apply the formula to all employees.",
+      "`KEY_UP`"
+    ],
+    "batched": [
+      [
+        "`CLICK` on the first table cell of the column 'Age'"
+      ],
+      [
+        "`TYPING` the formula `=DATEDIF(B2,TODAY(),\"Y\")` where 'B2' is the column containing the first employee's birthdate",
+        "`PRESS` 'Enter"
+      ],
+      [
+        "`KEY_DOWN` the fill handle (the small square at the bottom-right of the cell) of the first cell of the column 'Age'",
+        "`DRAG_TO` down to apply the formula to all employees.",
+        "`KEY_UP`"
+      ]
+    ]
+  }
 ]

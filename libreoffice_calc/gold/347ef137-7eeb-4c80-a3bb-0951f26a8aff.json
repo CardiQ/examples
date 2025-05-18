@@ -1,72 +1,106 @@
-[{
-	"id": "347ef137-7eeb-4c80-a3bb-0951f26a8aff",
-	"snapshot": "libreoffice_calc",
-	"instruction": "Here are two tables recording the per-month costs in 2019 and 2020. I want to create two column bar charts reflecting per-month cost variations for each year from these data. Help me, Mr. Assistant!",
-	"source": "https://www.youtube.com/watch?v=bgO40-CjYNY"
-},
-{
-  "minimal": [
-    "`MOUSE_DOWN` on the first table cell of all the cells of the data range for 2019 (including months and cost values).",
-    "`DRAG_TO` on the last table cell of all the cells of the data range for 2019 (including months and cost values).",
-    "`MOUSE_UP` ",
-    "`CLICK` the Insert tab.",
-    "`CLICK` the desired Column chart type.",
-    "`CLICK` chart title.",
-    "`TYPE` \"Personal Cost 2019\".",
-    "`PRESS` 'Enter'.",
-    "`CLICK` X-axis label.",
-    "`TYPE` \"Months\".",
-    "`PRESS` 'Enter'.",
-    "`CLICK` Y-axis label.",
-    "`TYPE` \"Cost\".",
-    "`PRESS` 'Enter'.",
-    "`CLICK` Remove the legend.",
-    "`MOUSE_DOWN` on the first table cell of all the cells of the data range for 2020 (including months and cost values).",
-    "`DRAG_TO` on the last table cell of all the cells of the data range for 2020 (including months and cost values).",
-    "`MOUSE_UP` ",
-    "`CLICK` the Insert tab.",
-    "`CLICK` the desired Column chart type.",
-    "`CLICK` chart title.",
-    "`TYPE` \"Personal Cost 2020\".",
-    "`PRESS` 'Enter'.",
-    "`CLICK` X-axis label.",
-    "`TYPE` \"Months\".",
-    "`PRESS` 'Enter'.",
-    "`CLICK` Y-axis label.",
-    "`TYPE` \"Cost\".",
-    "`PRESS` 'Enter'.",
-    "`CLICK` Remove the legend."
-  ],
-  "batched": [
-    ["`MOUSE_DOWN` on the first table cell of all the cells of the data range for 2019 (including months and cost values).",
-    "`DRAG_TO` on the last table cell of all the cells of the data range for 2019 (including months and cost values).",
-    "`MOUSE_UP` "],
-    ["`CLICK` the Insert tab."],
-    ["`CLICK` the desired Column chart type."],
-    ["`CLICK` chart title."],
-    ["`TYPE` \"Personal Cost 2019\".",
-    "`PRESS` 'Enter'."],
-    ["`CLICK` X-axis label.",
-    "`TYPE` \"Months\".",
-    "`PRESS` 'Enter'."],
-    ["`CLICK` Y-axis label.",
-    "`TYPE` \"Cost\".",
-    "`PRESS` 'Enter'."],
-    ["`CLICK` Remove the legend."],
-    ["`MOUSE_DOWN` on the first table cell of all the cells of the data range for 2020 (including months and cost values).",
-    "`DRAG_TO` on the last table cell of all the cells of the data range for 2020 (including months and cost values).",
-    "`MOUSE_UP` "],
-    ["`CLICK` the Insert tab."],
-    ["`CLICK` the desired Column chart type."],
-    ["`CLICK` chart title."],
-    ["`TYPE` \"Personal Cost 2020\".",
-    "`PRESS` 'Enter'."],
-    ["`CLICK` X-axis label.",
-    "`TYPE` \"Months\".",
-    "`PRESS` 'Enter'."],
-    ["`CLICK` Y-axis label.",
-    "`TYPE` \"Cost\".",
-    "`PRESS` 'Enter'."],
-    ["`CLICK` Remove the legend."]
-  ]
-}]
+[
+  {
+    "id": "347ef137-7eeb-4c80-a3bb-0951f26a8aff",
+    "snapshot": "libreoffice_calc",
+    "instruction": "Here are two tables recording the per-month costs in 2019 and 2020. I want to create two column bar charts reflecting per-month cost variations for each year from these data. Help me, Mr. Assistant!",
+    "source": "https://www.youtube.com/watch?v=bgO40-CjYNY"
+  },
+  {
+    "minimal": [
+      "`MOUSE_DOWN` on the first table cell of all the cells of the data range for 2019 (including months and cost values).",
+      "`DRAG_TO` on the last table cell of all the cells of the data range for 2019 (including months and cost values).",
+      "`MOUSE_UP` ",
+      "`CLICK` the Insert tab.",
+      "`CLICK` the desired Column chart type.",
+      "`CLICK` chart title.",
+      "`TYPING` \"Personal Cost 2019\".",
+      "`PRESS` 'Enter'.",
+      "`CLICK` X-axis label.",
+      "`TYPING` \"Months\".",
+      "`PRESS` 'Enter'.",
+      "`CLICK` Y-axis label.",
+      "`TYPING` \"Cost\".",
+      "`PRESS` 'Enter'.",
+      "`CLICK` Remove the legend.",
+      "`MOUSE_DOWN` on the first table cell of all the cells of the data range for 2020 (including months and cost values).",
+      "`DRAG_TO` on the last table cell of all the cells of the data range for 2020 (including months and cost values).",
+      "`MOUSE_UP` ",
+      "`CLICK` the Insert tab.",
+      "`CLICK` the desired Column chart type.",
+      "`CLICK` chart title.",
+      "`TYPING` \"Personal Cost 2020\".",
+      "`PRESS` 'Enter'.",
+      "`CLICK` X-axis label.",
+      "`TYPING` \"Months\".",
+      "`PRESS` 'Enter'.",
+      "`CLICK` Y-axis label.",
+      "`TYPING` \"Cost\".",
+      "`PRESS` 'Enter'.",
+      "`CLICK` Remove the legend."
+    ],
+    "batched": [
+      [
+        "`MOUSE_DOWN` on the first table cell of all the cells of the data range for 2019 (including months and cost values).",
+        "`DRAG_TO` on the last table cell of all the cells of the data range for 2019 (including months and cost values).",
+        "`MOUSE_UP` "
+      ],
+      [
+        "`CLICK` the Insert tab."
+      ],
+      [
+        "`CLICK` the desired Column chart type."
+      ],
+      [
+        "`CLICK` chart title."
+      ],
+      [
+        "`TYPING` \"Personal Cost 2019\".",
+        "`PRESS` 'Enter'."
+      ],
+      [
+        "`CLICK` X-axis label.",
+        "`TYPING` \"Months\".",
+        "`PRESS` 'Enter'."
+      ],
+      [
+        "`CLICK` Y-axis label.",
+        "`TYPING` \"Cost\".",
+        "`PRESS` 'Enter'."
+      ],
+      [
+        "`CLICK` Remove the legend."
+      ],
+      [
+        "`MOUSE_DOWN` on the first table cell of all the cells of the data range for 2020 (including months and cost values).",
+        "`DRAG_TO` on the last table cell of all the cells of the data range for 2020 (including months and cost values).",
+        "`MOUSE_UP` "
+      ],
+      [
+        "`CLICK` the Insert tab."
+      ],
+      [
+        "`CLICK` the desired Column chart type."
+      ],
+      [
+        "`CLICK` chart title."
+      ],
+      [
+        "`TYPING` \"Personal Cost 2020\".",
+        "`PRESS` 'Enter'."
+      ],
+      [
+        "`CLICK` X-axis label.",
+        "`TYPING` \"Months\".",
+        "`PRESS` 'Enter'."
+      ],
+      [
+        "`CLICK` Y-axis label.",
+        "`TYPING` \"Cost\".",
+        "`PRESS` 'Enter'."
+      ],
+      [
+        "`CLICK` Remove the legend."
+      ]
+    ]
+  }
+]

@@ -1,35 +1,52 @@
-[{
-  "id": "3720f614-37fd-4d04-8a6b-76f54f8c222d",
-  "snapshot": "chrome",
-  "instruction": "I am more familiar with Korean as I am from Korea. I want to use chrome with my mother tongue. Could you help me change the Chrome interface language to Korean? ",
-  "source": "https://superuser.com/questions/984668/change-interface-language-of-chrome-to-english"
-},{
-  "minimal": [
-    "`CLICK` URL bar",
-    "`TYPE` 'chrome://settings' in address bar",
-    "`PRESS` enter/return key",
-    "`CLICK` search box",
-    "`TYPE` 'language' in search box",
-    "`PRESS` enter/return key",
-    "`CLICK` 'Add languages'",
-    "`SCROLL` until find 'Korean'",
-    "`CLICK` 'Korean'",
-    "`CLICK` 'Add'",
-    "`CLICK` three-dot menu next to new language",
-    "`CLICK` 'Display Google Chrome in this language'"
-],
-"batched": [
-    ["`CLICK` URL bar",
-    "`TYPE` chrome://settings in address bar",
-    "`PRESS` enter/return key"],
-    ["`CLICK` search box",
-    "`TYPE` 'language' in search box",
-    "`PRESS` enter/return key"],
-    ["`CLICK` 'Add languages'"],
-    ["`SCROLL` until find 'Korean'"],
-    ["`CLICK` 'Korean'",
-    "`CLICK` 'Add'"],
-    ["`CLICK` three-dot menu next to new language"],
-    ["`CLICK` 'Display Google Chrome in this language'"]
+[
+  {
+    "id": "3720f614-37fd-4d04-8a6b-76f54f8c222d",
+    "snapshot": "chrome",
+    "instruction": "I am more familiar with Korean as I am from Korea. I want to use chrome with my mother tongue. Could you help me change the Chrome interface language to Korean? ",
+    "source": "https://superuser.com/questions/984668/change-interface-language-of-chrome-to-english"
+  },
+  {
+    "minimal": [
+      "`CLICK` URL bar",
+      "`TYPING` 'chrome://settings' in address bar",
+      "`PRESS` enter/return key",
+      "`CLICK` search box",
+      "`TYPING` 'language' in search box",
+      "`PRESS` enter/return key",
+      "`CLICK` 'Add languages'",
+      "`SCROLL` until find 'Korean'",
+      "`CLICK` 'Korean'",
+      "`CLICK` 'Add'",
+      "`CLICK` three-dot menu next to new language",
+      "`CLICK` 'Display Google Chrome in this language'"
+    ],
+    "batched": [
+      [
+        "`CLICK` URL bar",
+        "`TYPING` chrome://settings in address bar",
+        "`PRESS` enter/return key"
+      ],
+      [
+        "`CLICK` search box",
+        "`TYPING` 'language' in search box",
+        "`PRESS` enter/return key"
+      ],
+      [
+        "`CLICK` 'Add languages'"
+      ],
+      [
+        "`SCROLL` until find 'Korean'"
+      ],
+      [
+        "`CLICK` 'Korean'",
+        "`CLICK` 'Add'"
+      ],
+      [
+        "`CLICK` three-dot menu next to new language"
+      ],
+      [
+        "`CLICK` 'Display Google Chrome in this language'"
+      ]
+    ]
+  }
 ]
-}]

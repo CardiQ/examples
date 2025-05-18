@@ -1,24 +1,36 @@
-[{
-  "id": "53ad5833-3455-407b-bbc6-45b4c79ab8fb",
-  "snapshot": "vscode",
-  "instruction": "Please help me use VS Code to open the \"project\" in the \"user\" folder under \"home\".",
-  "source": "https://www.youtube.com/watch?v=VqCgcpAypFQ"
-},
-{
-  "minimal": [
-    "`DOUBLE_CLICK` VS Code",
-    "`CLICK` 'File' in the menu",
-    "`CLICK` 'Open Folder...'",
-    "`TYPE` '/home/user/'",
-    "`CLICK` the 'project' folder",
-    "`CLICK` 'Open'"
-  ],
-  "batched": [
-    ["`DOUBLE_CLICK` VS Code"],
-    ["`CLICK` 'File' in the menu"],
-    ["`CLICK` 'Open Folder...'"],
-    ["`TYPE` '/home/user/'"],
-    ["`CLICK` the 'project' folder", "`CLICK` 'Open'"]
-  ]
-}
+[
+  {
+    "id": "53ad5833-3455-407b-bbc6-45b4c79ab8fb",
+    "snapshot": "vscode",
+    "instruction": "Please help me use VS Code to open the \"project\" in the \"user\" folder under \"home\".",
+    "source": "https://www.youtube.com/watch?v=VqCgcpAypFQ"
+  },
+  {
+    "minimal": [
+      "`DOUBLE_CLICK` VS Code",
+      "`CLICK` 'File' in the menu",
+      "`CLICK` 'Open Folder...'",
+      "`TYPING` '/home/user/'",
+      "`CLICK` the 'project' folder",
+      "`CLICK` 'Open'"
+    ],
+    "batched": [
+      [
+        "`DOUBLE_CLICK` VS Code"
+      ],
+      [
+        "`CLICK` 'File' in the menu"
+      ],
+      [
+        "`CLICK` 'Open Folder...'"
+      ],
+      [
+        "`TYPING` '/home/user/'"
+      ],
+      [
+        "`CLICK` the 'project' folder",
+        "`CLICK` 'Open'"
+      ]
+    ]
+  }
 ]

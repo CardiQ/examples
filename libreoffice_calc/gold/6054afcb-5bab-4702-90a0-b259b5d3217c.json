@@ -1,43 +1,70 @@
-[{
-	"id": "6054afcb-5bab-4702-90a0-b259b5d3217c",
-	"snapshot": "libreoffice_calc",
-	"instruction": "Some data are missed by now and are filled by 'N/A' temporarily. Please hide them in the table for now. Do not delete them and filter is no needed.",
-	"source": "https://www.youtube.com/shorts/JTbZ8sRxkdU"
-},
-{
-  "minimal": [
-    "`MOUSE_DOWN` the first cell in range of cells where you want to hide 'N/A'.",
-    "`DRAG_TO` the last cell in range of cells where you want to hide 'N/A'.",
-    "`MOUSE_UP` ",
-    "`CLICK` Format",
-    "`CLICK` Conditional formatting...",
-    "`CLICK` Add Rule",
-    "`CLICK` Format cells if...",
-    "`CLICK` Custom formula is",
-    "`TYPE` =A1=\"N/A\"",
-    "`CLICK` Format...",
-    "`CLICK` Number",
-    "`CLICK` Custom",
-    "`TYPE` ';;;' in the Type box",
-    "`CLICK` OK",
-    "`CLICK` Done"
-  ],
-  "batched": [
-    ["`MOUSE_DOWN` the first cell in range of cells where you want to hide 'N/A'.",
-    "`DRAG_TO` the last cell in range of cells where you want to hide 'N/A'.",
-    "`MOUSE_UP` "],
-    ["`CLICK` Format"],
-    ["`CLICK` Conditional formatting..."],
-    ["`CLICK` Add Rule"],
-    ["`CLICK` Format cells if..."],
-    ["`CLICK` Custom formula is"],
-    ["`TYPE` =A1=\"N/A\""],
-    ["`CLICK` Format..."],
-    ["`CLICK` Number"],
-    ["`CLICK` Custom"],
-    ["`TYPE` ';;;' in the Type box"],
-    ["`CLICK` OK"],
-    ["`CLICK` Done"]
-  ]
-}
+[
+  {
+    "id": "6054afcb-5bab-4702-90a0-b259b5d3217c",
+    "snapshot": "libreoffice_calc",
+    "instruction": "Some data are missed by now and are filled by 'N/A' temporarily. Please hide them in the table for now. Do not delete them and filter is no needed.",
+    "source": "https://www.youtube.com/shorts/JTbZ8sRxkdU"
+  },
+  {
+    "minimal": [
+      "`MOUSE_DOWN` the first cell in range of cells where you want to hide 'N/A'.",
+      "`DRAG_TO` the last cell in range of cells where you want to hide 'N/A'.",
+      "`MOUSE_UP` ",
+      "`CLICK` Format",
+      "`CLICK` Conditional formatting...",
+      "`CLICK` Add Rule",
+      "`CLICK` Format cells if...",
+      "`CLICK` Custom formula is",
+      "`TYPING` =A1=\"N/A\"",
+      "`CLICK` Format...",
+      "`CLICK` Number",
+      "`CLICK` Custom",
+      "`TYPING` ';;;' in the Type box",
+      "`CLICK` OK",
+      "`CLICK` Done"
+    ],
+    "batched": [
+      [
+        "`MOUSE_DOWN` the first cell in range of cells where you want to hide 'N/A'.",
+        "`DRAG_TO` the last cell in range of cells where you want to hide 'N/A'.",
+        "`MOUSE_UP` "
+      ],
+      [
+        "`CLICK` Format"
+      ],
+      [
+        "`CLICK` Conditional formatting..."
+      ],
+      [
+        "`CLICK` Add Rule"
+      ],
+      [
+        "`CLICK` Format cells if..."
+      ],
+      [
+        "`CLICK` Custom formula is"
+      ],
+      [
+        "`TYPING` =A1=\"N/A\""
+      ],
+      [
+        "`CLICK` Format..."
+      ],
+      [
+        "`CLICK` Number"
+      ],
+      [
+        "`CLICK` Custom"
+      ],
+      [
+        "`TYPING` ';;;' in the Type box"
+      ],
+      [
+        "`CLICK` OK"
+      ],
+      [
+        "`CLICK` Done"
+      ]
+    ]
+  }
 ]

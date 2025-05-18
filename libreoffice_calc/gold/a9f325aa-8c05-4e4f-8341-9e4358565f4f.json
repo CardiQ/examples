@@ -1,28 +1,36 @@
-[{
-  "id": "a9f325aa-8c05-4e4f-8341-9e4358565f4f",
-  "snapshot": "libreoffice_calc",
-  "instruction": "Remove the adundant whitespaces and canonicalize the letter cases by capitalizing the first letter of each words and leave other letters as lower case.",
-  "source": "https://www.youtube.com/shorts/A0gmEBRKXWs"
-},
-{
-  "minimal": [
-    "`MOUSE_DOWN` the first cell of the cells containing the text you want to clean.",
-    "`DRAG_TO` the last cell of the cells containing the text you want to clean.",
-    "`MOUSE_UP` ",
-    "`TYPE` '=PROPER(TRIM(A1))' in an empty cell (replace A1 with the first cell in your selection).",
-    "`PRESS` Enter.",
-    "`MOUSE_DOWN` the fill handle (the small square at the bottom-right of the cell).",
-    "`DRAG_TO`   down to apply the formula to the rest of the cells.",
-    "`MOUSE_UP` "
-  ],
-  "batched": [
-    ["`MOUSE_DOWN` the first cell of the cells containing the text you want to clean.",
-    "`DRAG_TO` the last cell of the cells containing the text you want to clean.",
-    "`MOUSE_UP` "],
-    ["`TYPE` '=PROPER(TRIM(A1))' in an empty cell (replace A1 with the first cell in your selection).",
-    "`PRESS` Enter."],
-    ["`MOUSE_DOWN` the fill handle (the small square at the bottom-right of the cell).",
-    "`DRAG_TO`   down to apply the formula to the rest of the cells.",
-    "`MOUSE_UP` "]
-  ]
-}]
+[
+  {
+    "id": "a9f325aa-8c05-4e4f-8341-9e4358565f4f",
+    "snapshot": "libreoffice_calc",
+    "instruction": "Remove the adundant whitespaces and canonicalize the letter cases by capitalizing the first letter of each words and leave other letters as lower case.",
+    "source": "https://www.youtube.com/shorts/A0gmEBRKXWs"
+  },
+  {
+    "minimal": [
+      "`MOUSE_DOWN` the first cell of the cells containing the text you want to clean.",
+      "`DRAG_TO` the last cell of the cells containing the text you want to clean.",
+      "`MOUSE_UP` ",
+      "`TYPING` '=PROPER(TRIM(A1))' in an empty cell (replace A1 with the first cell in your selection).",
+      "`PRESS` Enter.",
+      "`MOUSE_DOWN` the fill handle (the small square at the bottom-right of the cell).",
+      "`DRAG_TO`   down to apply the formula to the rest of the cells.",
+      "`MOUSE_UP` "
+    ],
+    "batched": [
+      [
+        "`MOUSE_DOWN` the first cell of the cells containing the text you want to clean.",
+        "`DRAG_TO` the last cell of the cells containing the text you want to clean.",
+        "`MOUSE_UP` "
+      ],
+      [
+        "`TYPING` '=PROPER(TRIM(A1))' in an empty cell (replace A1 with the first cell in your selection).",
+        "`PRESS` Enter."
+      ],
+      [
+        "`MOUSE_DOWN` the fill handle (the small square at the bottom-right of the cell).",
+        "`DRAG_TO`   down to apply the formula to the rest of the cells.",
+        "`MOUSE_UP` "
+      ]
+    ]
+  }
+]

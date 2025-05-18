@@ -1,32 +1,34 @@
-[{
-  "id": "0bf05a7d-b28b-44d2-955a-50b41e24012a",
-  "snapshot": "libreoffice_calc",
-  "instruction": "I would like to pad all the numbers in the 'Old ID' column with zeros in front, to fill them up to seven digits in the 'New 7 Digit ID' column.",
-  "source": "https://www.youtube.com/shorts/FPAQaDTS8VY"
-},
-{
-  "minimal": [
-    "`DOUBLE_CLICK` on the tab of 'Old ID' to select the whole column",
-    "`CLICK` the small arrow in the 'Number' section to open the 'Format Cells' dialog box",
-    "`CLICK` 'Custom' in the 'Category' list",
-    "`TYPE` 7 zeros in the 'Type' box",
-    "`CLICK` OK"
-  ],
-  "batched": [
-    [
-      "`DOUBLE_CLICK` on the tab of 'Old ID' to select the whole column"
-    ],
-    [
-      "`CLICK` the small arrow in the 'Number' section to open the 'Format Cells' dialog box"
-    ],
-    [
-      "`SELECT` 'Custom' in the 'Category' list"
-    ],
-    [
-      "`TYPE` 7 zeros in the 'Type' box"
-    ],
-    [
+[
+  {
+    "id": "0bf05a7d-b28b-44d2-955a-50b41e24012a",
+    "snapshot": "libreoffice_calc",
+    "instruction": "I would like to pad all the numbers in the 'Old ID' column with zeros in front, to fill them up to seven digits in the 'New 7 Digit ID' column.",
+    "source": "https://www.youtube.com/shorts/FPAQaDTS8VY"
+  },
+  {
+    "minimal": [
+      "`DOUBLE_CLICK` on the tab of 'Old ID' to select the whole column",
+      "`CLICK` the small arrow in the 'Number' section to open the 'Format Cells' dialog box",
+      "`CLICK` 'Custom' in the 'Category' list",
+      "`TYPING` 7 zeros in the 'Type' box",
       "`CLICK` OK"
+    ],
+    "batched": [
+      [
+        "`DOUBLE_CLICK` on the tab of 'Old ID' to select the whole column"
+      ],
+      [
+        "`CLICK` the small arrow in the 'Number' section to open the 'Format Cells' dialog box"
+      ],
+      [
+        "`SELECT` 'Custom' in the 'Category' list"
+      ],
+      [
+        "`TYPING` 7 zeros in the 'Type' box"
+      ],
+      [
+        "`CLICK` OK"
+      ]
     ]
-  ]
-}]
+  }
+]

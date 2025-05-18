@@ -1,38 +1,54 @@
-[{
-	"id": "abed40dc-063f-4598-8ba5-9fe749c0615d",
-	"snapshot": "libreoffice_calc",
-	"instruction": "Check the names in column \"Names with duplicates\" and put the unique ones in column \"Unique Names\". Keep the original order.",
-	"source": "https://help.libreoffice.org/7.6/ro/text/scalc/guide/remove_duplicates.html?&DbPAR=SHARED&System=UNIX"
-},{
-    "minimal": [
-        "`MOUSE_DOWN` the first item in column \"Names with duplicates\"",
-        "`DRAG_TO` from the first item to the last item in column \"Names with duplicates\"",
-        "`MOUSE_UP` the last item in column \"Names with duplicates\"",
-        "`CLICK` 'Data' menu",
-        "`CLICK` 'More Filters'",
-        "`CLICK` 'Standard Filter'",
-        "`CLICK` '=' (default) in Condition in the Standard Filter dialog",
-        "`CLICK` 'Not Empty' in Value in the Standard Filter dialog",
-        "`CLICK` 'Options' the Standard Filter dialog",
-        "`CLICK` 'No duplications' in the dropdown menu",
-        "`CLICK` input box below copy results to inform the cell address where the unique entries are to be entered.",
-        "`TYPE` \"Unique Names\"",
-        "`CLICK` 'OK'"
-    ],
-    "batched": [
-        [
-        "`MOUSE_DOWN` the first item in column \"Names with duplicates\"",
-        "`DRAG_TO` from the first item to the last item in column \"Names with duplicates\"",
-        "`MOUSE_UP` the last item in column \"Names with duplicates\""],
-        ["`CLICK` 'Data' menu"],
-        ["`CLICK` 'More Filters'"],
-        ["`CLICK` 'Standard Filter'"],
-        ["`CLICK` '=' (default) in Condition in the Standard Filter dialog"],
-        ["`CLICK` 'Not Empty' in Value in the Standard Filter dialog",
-        "`CLICK` 'Options' the Standard Filter dialog",
-        "`CLICK` 'No duplications' in the dropdown menu"],
-        ["`CLICK` input box below copy results to inform the cell address where the unique entries are to be entered.",
-        "`TYPE` \"Unique Names\"",
-        "`CLICK` 'OK'"]
-    ]
-}]
+[
+    {
+        "id": "abed40dc-063f-4598-8ba5-9fe749c0615d",
+        "snapshot": "libreoffice_calc",
+        "instruction": "Check the names in column \"Names with duplicates\" and put the unique ones in column \"Unique Names\". Keep the original order.",
+        "source": "https://help.libreoffice.org/7.6/ro/text/scalc/guide/remove_duplicates.html?&DbPAR=SHARED&System=UNIX"
+    },
+    {
+        "minimal": [
+            "`MOUSE_DOWN` the first item in column \"Names with duplicates\"",
+            "`DRAG_TO` from the first item to the last item in column \"Names with duplicates\"",
+            "`MOUSE_UP` the last item in column \"Names with duplicates\"",
+            "`CLICK` 'Data' menu",
+            "`CLICK` 'More Filters'",
+            "`CLICK` 'Standard Filter'",
+            "`CLICK` '=' (default) in Condition in the Standard Filter dialog",
+            "`CLICK` 'Not Empty' in Value in the Standard Filter dialog",
+            "`CLICK` 'Options' the Standard Filter dialog",
+            "`CLICK` 'No duplications' in the dropdown menu",
+            "`CLICK` input box below copy results to inform the cell address where the unique entries are to be entered.",
+            "`TYPING` \"Unique Names\"",
+            "`CLICK` 'OK'"
+        ],
+        "batched": [
+            [
+                "`MOUSE_DOWN` the first item in column \"Names with duplicates\"",
+                "`DRAG_TO` from the first item to the last item in column \"Names with duplicates\"",
+                "`MOUSE_UP` the last item in column \"Names with duplicates\""
+            ],
+            [
+                "`CLICK` 'Data' menu"
+            ],
+            [
+                "`CLICK` 'More Filters'"
+            ],
+            [
+                "`CLICK` 'Standard Filter'"
+            ],
+            [
+                "`CLICK` '=' (default) in Condition in the Standard Filter dialog"
+            ],
+            [
+                "`CLICK` 'Not Empty' in Value in the Standard Filter dialog",
+                "`CLICK` 'Options' the Standard Filter dialog",
+                "`CLICK` 'No duplications' in the dropdown menu"
+            ],
+            [
+                "`CLICK` input box below copy results to inform the cell address where the unique entries are to be entered.",
+                "`TYPING` \"Unique Names\"",
+                "`CLICK` 'OK'"
+            ]
+        ]
+    }
+]

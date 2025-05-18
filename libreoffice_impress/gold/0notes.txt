@@ -1,6 +1,9 @@
 self inference:
 
 not sure with known source:
+below are those from the same paper that lists only APIs to call w/o detailed instructions
+0a211154-fda0-48d0-9274-eaac4ce5486d
+... and all those with pdf source
 
 in small task:
 "libreoffice_impress": [

@@ -1,49 +1,74 @@
-[{
+[
+  {
     "id": "a74b607e-6bb5-4ea8-8a7c-5d97c7bbcd2a",
     "snapshot": "multiapps",
     "instruction": "I have developed a new Chrome extension myself, so it needs to be installed manually. Please help me install the extension located in the Desktop directory into the Chrome browser.",
     "source": "https://support.google.com/chrome/thread/205881926/it-s-possible-to-load-unpacked-extension-automatically-in-chrome?hl=en"
-  },{
-  "minimal": [
-    "`CLICK` the three-dot menu in the top right corner of Chrome",
-    "`HOVER` over 'More tools'",
-    "`CLICK` 'Extensions'",
-    "`CLICK` the 'Developer mode' toggle in the top right corner",
-    "`CLICK` 'Load unpacked'",
-    "`CLICK` the 'Desktop' directory",
-    "`CLICK` the extension folder",
-    "`CLICK` 'Select Folder'",
-    "`RIGHT_CLICK` the extension ID on the extensions page",
-    "`CLICK` 'copy' to copy the extension ID on the extensions page",
-    "`CLICK` upright corner to close the extensions page",
-    "`RIGHT_CLICK` the Chrome shortcut",
-    "`CLICK` 'Properties'",
-    "`CLICK` the text in the 'Target' field",
-    "`TYPE` --load-extension=\"C:\\Users\\YourUsername\\Desktop\\YourExtensionFolder\" --disable-extensions-except=your_extension_id",
-    "`DOUBLE_CLICK` 'your_extension_id' to choose it as target",
-    "`HOTKEY` 'Ctrl+V' to paste 'your_extension_id' with the noted extension ID",
-    "`CLICK` 'Apply'",
-    "`CLICK` 'OK'"
-  ],
-  "batched": [
-    ["`CLICK` the three-dot menu in the top right corner of Chrome"],
-    ["`HOVER` over 'More tools'", "`CLICK` 'Extensions'"],
-    ["`CLICK` the 'Developer mode' toggle in the top right corner"],
-    ["`CLICK` 'Load unpacked'"],
-    ["`CLICK` the 'Desktop' directory",
-    "`CLICK` the extension folder",
-    "`CLICK` 'Select Folder'"],
-    ["`RIGHT_CLICK` the extension ID on the extensions page",
-    "`CLICK` 'copy' to copy the extension ID on the extensions page"],
-    ["`CLICK` upright corner to close the extensions page"],
-    ["`RIGHT_CLICK` the Chrome shortcut", "`CLICK` 'Properties'"],
-    ["`CLICK` the text in the 'Target' field"],
-    [
-      "`TYPE` --load-extension=\"C:\\Users\\YourUsername\\Desktop\\YourExtensionFolder\" --disable-extensions-except=your_extension_id",
-    "`DOUBLE_CLICK` 'your_extension_id' to choose it as target",
-    "`HOTKEY` 'Ctrl+V' to paste 'your_extension_id' with the noted extension ID"
+  },
+  {
+    "minimal": [
+      "`CLICK` the three-dot menu in the top right corner of Chrome",
+      "`HOVER` over 'More tools'",
+      "`CLICK` 'Extensions'",
+      "`CLICK` the 'Developer mode' toggle in the top right corner",
+      "`CLICK` 'Load unpacked'",
+      "`CLICK` the 'Desktop' directory",
+      "`CLICK` the extension folder",
+      "`CLICK` 'Select Folder'",
+      "`RIGHT_CLICK` the extension ID on the extensions page",
+      "`CLICK` 'copy' to copy the extension ID on the extensions page",
+      "`CLICK` upright corner to close the extensions page",
+      "`RIGHT_CLICK` the Chrome shortcut",
+      "`CLICK` 'Properties'",
+      "`CLICK` the text in the 'Target' field",
+      "`TYPING` --load-extension=\"C:\\Users\\YourUsername\\Desktop\\YourExtensionFolder\" --disable-extensions-except=your_extension_id",
+      "`DOUBLE_CLICK` 'your_extension_id' to choose it as target",
+      "`HOTKEY` 'Ctrl+V' to paste 'your_extension_id' with the noted extension ID",
+      "`CLICK` 'Apply'",
+      "`CLICK` 'OK'"
     ],
-    ["`CLICK` 'Apply'", "`CLICK` 'OK'"]
-  ]
-}
+    "batched": [
+      [
+        "`CLICK` the three-dot menu in the top right corner of Chrome"
+      ],
+      [
+        "`HOVER` over 'More tools'",
+        "`CLICK` 'Extensions'"
+      ],
+      [
+        "`CLICK` the 'Developer mode' toggle in the top right corner"
+      ],
+      [
+        "`CLICK` 'Load unpacked'"
+      ],
+      [
+        "`CLICK` the 'Desktop' directory",
+        "`CLICK` the extension folder",
+        "`CLICK` 'Select Folder'"
+      ],
+      [
+        "`RIGHT_CLICK` the extension ID on the extensions page",
+        "`CLICK` 'copy' to copy the extension ID on the extensions page"
+      ],
+      [
+        "`CLICK` upright corner to close the extensions page"
+      ],
+      [
+        "`RIGHT_CLICK` the Chrome shortcut",
+        "`CLICK` 'Properties'"
+      ],
+      [
+        "`CLICK` the text in the 'Target' field"
+      ],
+      [
+        "`TYPING` --load-extension=\"C:\\Users\\YourUsername\\Desktop\\YourExtensionFolder\" --disable-extensions-except=your_extension_id",
+        "`DOUBLE_CLICK` 'your_extension_id' to choose it as target",
+        "`HOTKEY` 'Ctrl+V' to paste 'your_extension_id' with the noted extension ID"
+      ],
+      [
+        "`CLICK` 'Apply'",
+        "`CLICK` 'OK'"
+      ]
+    ]
+  }
 ]

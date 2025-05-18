@@ -1,42 +1,60 @@
-[{
-  "id": "d681960f-7bc3-4286-9913-a8812ba3261a",
-  "snapshot": "libreoffice_calc",
-  "instruction": "According to the scale table shown above, calculate and give each student a grade in the table below",
-  "source": "https://www.youtube.com/shorts/d7U1S_IsTVM"
-},
-{
-  "minimal": [
-    "`CLICK` the cell where you want the first student's grade to appear.",
-    "`TYPE` '=VLOOKUP('",
-    "`MOUSE_DOWN` the first cell of cells containing the student's marks.",
-    "`DRAG_TO` the last cell of cells containing the student's marks.",
-    "`MOUSE_UP` ",
-    "`TYPE` ','",
-    "`MOUSE_DOWN` the first cell of the entire scale table (marks and corresponding grades).",
-    "`DRAG_TO` the last cell of the entire scale table (marks and corresponding grades).",
-    "`MOUSE_UP` ",
-    "`PRESS` F4 to make the scale table range absolute (e.g., $A$1:$B$10).",
-    "`TYPE` ,2,TRUE)",
-    "`PRESS` Enter",
-    "`MOUSE_DOWN` the cell where you entered the formula.",
-    "`DRAG_TO` down to apply the formula to the rest of the students.",
-    "`MOUSE_UP`"
-  ],
-  "batched": [
-    ["`CLICK` the cell where you want the first student's grade to appear."],
-    ["`TYPE` '=VLOOKUP('"],
-    ["`MOUSE_DOWN` the first cell of cells containing the student's marks.",
-    "`DRAG_TO` the last cell of cells containing the student's marks.",
-    "`MOUSE_UP` "],
-    ["`TYPE` ','"],
-    ["`MOUSE_DOWN` the first cell of the entire scale table (marks and corresponding grades).",
-    "`DRAG_TO` the last cell of the entire scale table (marks and corresponding grades).",
-    "`MOUSE_UP` "],
-    ["`PRESS` F4 to make the scale table range absolute (e.g., $A$1:$B$10)."],
-    ["`TYPE` ,2,TRUE)",
-    "`PRESS` Enter"],
-    ["`MOUSE_DOWN` the cell where you entered the formula.",
-    "`DRAG_TO` down to apply the formula to the rest of the students.",
-    "`MOUSE_UP`"]
-  ]
-}]
+[
+  {
+    "id": "d681960f-7bc3-4286-9913-a8812ba3261a",
+    "snapshot": "libreoffice_calc",
+    "instruction": "According to the scale table shown above, calculate and give each student a grade in the table below",
+    "source": "https://www.youtube.com/shorts/d7U1S_IsTVM"
+  },
+  {
+    "minimal": [
+      "`CLICK` the cell where you want the first student's grade to appear.",
+      "`TYPING` '=VLOOKUP('",
+      "`MOUSE_DOWN` the first cell of cells containing the student's marks.",
+      "`DRAG_TO` the last cell of cells containing the student's marks.",
+      "`MOUSE_UP` ",
+      "`TYPING` ','",
+      "`MOUSE_DOWN` the first cell of the entire scale table (marks and corresponding grades).",
+      "`DRAG_TO` the last cell of the entire scale table (marks and corresponding grades).",
+      "`MOUSE_UP` ",
+      "`PRESS` F4 to make the scale table range absolute (e.g., $A$1:$B$10).",
+      "`TYPING` ,2,TRUE)",
+      "`PRESS` Enter",
+      "`MOUSE_DOWN` the cell where you entered the formula.",
+      "`DRAG_TO` down to apply the formula to the rest of the students.",
+      "`MOUSE_UP`"
+    ],
+    "batched": [
+      [
+        "`CLICK` the cell where you want the first student's grade to appear."
+      ],
+      [
+        "`TYPING` '=VLOOKUP('"
+      ],
+      [
+        "`MOUSE_DOWN` the first cell of cells containing the student's marks.",
+        "`DRAG_TO` the last cell of cells containing the student's marks.",
+        "`MOUSE_UP` "
+      ],
+      [
+        "`TYPING` ','"
+      ],
+      [
+        "`MOUSE_DOWN` the first cell of the entire scale table (marks and corresponding grades).",
+        "`DRAG_TO` the last cell of the entire scale table (marks and corresponding grades).",
+        "`MOUSE_UP` "
+      ],
+      [
+        "`PRESS` F4 to make the scale table range absolute (e.g., $A$1:$B$10)."
+      ],
+      [
+        "`TYPING` ,2,TRUE)",
+        "`PRESS` Enter"
+      ],
+      [
+        "`MOUSE_DOWN` the cell where you entered the formula.",
+        "`DRAG_TO` down to apply the formula to the rest of the students.",
+        "`MOUSE_UP`"
+      ]
+    ]
+  }
+]

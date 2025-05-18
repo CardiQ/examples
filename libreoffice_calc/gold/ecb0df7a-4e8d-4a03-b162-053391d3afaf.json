@@ -1,28 +1,42 @@
-[{
-  "id": "ecb0df7a-4e8d-4a03-b162-053391d3afaf",
-  "snapshot": "libreoffice_calc",
-  "instruction": "Enable each cell in the column\"Pass/Fail/Held\" is a drop down list",
-  "source": "https://www.youtube.com/shorts/tXOovKn0H68"
-},
-{
-  "minimal": [
-    "`MOUSE_DOWN` the first cell of the cells in the \"Pass/Fail/Held\" column.",
-    "`DRAG_TO` the last cell of the cells in the \"Pass/Fail/Held\" column.",
-    "`MOUSE_UP` ",
-    "`CLICK` Data in the menu bar.",
-    "`CLICK` Data Validation...",
-    "`CLICK` List from the Allow dropdown in the Data Validation window, ",
-    "`TYPE` 'Pass,Fail,Held' in the Source box.",
-    "`CLICK` OK"
-  ],
-  "batched": [
-    ["`MOUSE_DOWN` the first cell of the cells in the \"Pass/Fail/Held\" column.",
-    "`DRAG_TO` the last cell of the cells in the \"Pass/Fail/Held\" column.",
-    "`MOUSE_UP` "],
-    ["`CLICK` Data in the menu bar."],
-    ["`CLICK` Data Validation..."],
-    ["`CLICK` List from the Allow dropdown in the Data Validation window, "],
-    ["`TYPE` 'Pass,Fail,Held' in the Source box."],
-    ["`CLICK` OK"]
-  ]
-}]
+[
+  {
+    "id": "ecb0df7a-4e8d-4a03-b162-053391d3afaf",
+    "snapshot": "libreoffice_calc",
+    "instruction": "Enable each cell in the column\"Pass/Fail/Held\" is a drop down list",
+    "source": "https://www.youtube.com/shorts/tXOovKn0H68"
+  },
+  {
+    "minimal": [
+      "`MOUSE_DOWN` the first cell of the cells in the \"Pass/Fail/Held\" column.",
+      "`DRAG_TO` the last cell of the cells in the \"Pass/Fail/Held\" column.",
+      "`MOUSE_UP` ",
+      "`CLICK` Data in the menu bar.",
+      "`CLICK` Data Validation...",
+      "`CLICK` List from the Allow dropdown in the Data Validation window, ",
+      "`TYPING` 'Pass,Fail,Held' in the Source box.",
+      "`CLICK` OK"
+    ],
+    "batched": [
+      [
+        "`MOUSE_DOWN` the first cell of the cells in the \"Pass/Fail/Held\" column.",
+        "`DRAG_TO` the last cell of the cells in the \"Pass/Fail/Held\" column.",
+        "`MOUSE_UP` "
+      ],
+      [
+        "`CLICK` Data in the menu bar."
+      ],
+      [
+        "`CLICK` Data Validation..."
+      ],
+      [
+        "`CLICK` List from the Allow dropdown in the Data Validation window, "
+      ],
+      [
+        "`TYPING` 'Pass,Fail,Held' in the Source box."
+      ],
+      [
+        "`CLICK` OK"
+      ]
+    ]
+  }
+]

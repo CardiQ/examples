@@ -1,23 +1,36 @@
-[{
+[
+  {
     "id": "77b8ab4d-994f-43ac-8930-8ca087d7c4b4",
     "snapshot": "gimp",
     "instruction": "Could you assist me in placing my photo on the desktop and renaming it to export.jpg?",
     "source": "https://superuser.com/questions/1636113/how-to-get-gimp-to-recognize-images-or-pictures-folder-as-the-default-folder-for"
-},
-{
-  "minimal": [
-    "`CLICK` 'File' in the menu",
-    "`CLICK` 'Export As' (or press Shift+Ctrl+E)",
-    "`SCROLL` to the 'Desktop' in the export window",
-    "`CLICK` the 'Desktop' in the export window",
-    "`TYPE` 'export.jpg' in the file name field",
-    "`CLICK` 'Export'"
-  ],
-  "batched": [
-    ["`CLICK` 'File' in the menu"],
-    ["`CLICK` 'Export As' (or press Shift+Ctrl+E)"],
-    ["`SCROLL` the 'Desktop' in the export window", "`CLICK` the 'Desktop' in the export window"],
-    ["`TYPE` 'export.jpg' in the file name field"],
-    ["`CLICK` 'Export'"]
-  ]
-}]
+  },
+  {
+    "minimal": [
+      "`CLICK` 'File' in the menu",
+      "`CLICK` 'Export As' (or press Shift+Ctrl+E)",
+      "`SCROLL` to the 'Desktop' in the export window",
+      "`CLICK` the 'Desktop' in the export window",
+      "`TYPING` 'export.jpg' in the file name field",
+      "`CLICK` 'Export'"
+    ],
+    "batched": [
+      [
+        "`CLICK` 'File' in the menu"
+      ],
+      [
+        "`CLICK` 'Export As' (or press Shift+Ctrl+E)"
+      ],
+      [
+        "`SCROLL` the 'Desktop' in the export window",
+        "`CLICK` the 'Desktop' in the export window"
+      ],
+      [
+        "`TYPING` 'export.jpg' in the file name field"
+      ],
+      [
+        "`CLICK` 'Export'"
+      ]
+    ]
+  }
+]

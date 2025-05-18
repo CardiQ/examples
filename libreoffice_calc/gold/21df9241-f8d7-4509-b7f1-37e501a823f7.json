@@ -1,27 +1,42 @@
-[{
-	"id": "21df9241-f8d7-4509-b7f1-37e501a823f7",
-	"snapshot": "libreoffice_calc",
-	"instruction": "Change the representation of colum \"Parameter\" and show in Millions (M) and Billions (B). Keep one decimal and place a white space between the digits and the unit.",
-	"source": "https://www.youtube.com/watch?v=p5C4V_AO1UU"
-},
-{
-  "minimal": [
-    "`CLICK` the top index to select \"Parameter\" column.",
-    "`RIGHT_CLICK` the selected column.",
-    "`CLICK` Format Cells...",
-    "`CLICK` 'Number' in the 'Category' list.",
-    "`CLICK` the 'Format Code' text box.",
-    "`TYPE` [>=1,000,000,000]0.0 \" B\";[>=1000000]0.0 \" M\";[>=1000]0.0 \" K\";0.0",
-    "`CLICK` OK"
-  ],
-  "batched": [
-    ["`CLICK` the top index to select \"Parameter\" column."],
-    ["`RIGHT_CLICK` the selected column."],
-    ["`CLICK` Format Cells..."],
-    ["`CLICK` 'Number' in the 'Category' list."],
-    ["`CLICK` the 'Format Code' text box."],
-    ["`TYPE` [>=1,000,000,000]0.0 \" B\";[>=1000000]0.0 \" M\";[>=1000]0.0 \" K\";0.0"],
-    ["`CLICK` OK"]
-  ]
-}
+[
+  {
+    "id": "21df9241-f8d7-4509-b7f1-37e501a823f7",
+    "snapshot": "libreoffice_calc",
+    "instruction": "Change the representation of colum \"Parameter\" and show in Millions (M) and Billions (B). Keep one decimal and place a white space between the digits and the unit.",
+    "source": "https://www.youtube.com/watch?v=p5C4V_AO1UU"
+  },
+  {
+    "minimal": [
+      "`CLICK` the top index to select \"Parameter\" column.",
+      "`RIGHT_CLICK` the selected column.",
+      "`CLICK` Format Cells...",
+      "`CLICK` 'Number' in the 'Category' list.",
+      "`CLICK` the 'Format Code' text box.",
+      "`TYPING` [>=1,000,000,000]0.0 \" B\";[>=1000000]0.0 \" M\";[>=1000]0.0 \" K\";0.0",
+      "`CLICK` OK"
+    ],
+    "batched": [
+      [
+        "`CLICK` the top index to select \"Parameter\" column."
+      ],
+      [
+        "`RIGHT_CLICK` the selected column."
+      ],
+      [
+        "`CLICK` Format Cells..."
+      ],
+      [
+        "`CLICK` 'Number' in the 'Category' list."
+      ],
+      [
+        "`CLICK` the 'Format Code' text box."
+      ],
+      [
+        "`TYPING` [>=1,000,000,000]0.0 \" B\";[>=1000000]0.0 \" M\";[>=1000]0.0 \" K\";0.0"
+      ],
+      [
+        "`CLICK` OK"
+      ]
+    ]
+  }
 ]

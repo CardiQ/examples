@@ -1,27 +1,42 @@
-[{
+[
+  {
     "id": "510f64c8-9bcc-4be1-8d30-638705850618",
     "snapshot": "vscode",
     "instruction": "Could you start VS Code in folder ~/Desktop/project from the terminal?",
     "source": "https://www.geeksforgeeks.org/how-to-start-vs-code-from-the-terminal-command-line/"
-}, {
-  "minimal": [
-    "`DOUBLE_CLICK` VS Code on desktop to open",
-    "`HOTKEY` 'Ctrl+Shift+P'",
-    "`TYPE` 'Shell'",
-    "`CLICK` 'Shell Command: Install 'code' command in PATH'",
-    "`PRESS` 'Enter'",
-    "`HOTKEY` 'Ctrl+Alt+T'",
-    "`TYPE` 'code ~/Desktop/project'",
-    "`PRESS` 'Enter'"
-  ],
-  "batched": [
-    ["`DOUBLE_CLICK` VS Code on desktop to open"],
-    ["`HOTKEY` 'Ctrl+Shift+P'"],
-    ["`TYPE` 'Shell'"],
-    ["`CLICK` 'Shell Command: Install 'code' command in PATH'",
-    "`PRESS` 'Enter'"],
-    ["`HOTKEY` 'Ctrl+Alt+T'"],
-    ["`TYPE` 'code ~/Desktop/project'",
-    "`PRESS` 'Enter'"]
-  ]
-}]
+  },
+  {
+    "minimal": [
+      "`DOUBLE_CLICK` VS Code on desktop to open",
+      "`HOTKEY` 'Ctrl+Shift+P'",
+      "`TYPING` 'Shell'",
+      "`CLICK` 'Shell Command: Install 'code' command in PATH'",
+      "`PRESS` 'Enter'",
+      "`HOTKEY` 'Ctrl+Alt+T'",
+      "`TYPING` 'code ~/Desktop/project'",
+      "`PRESS` 'Enter'"
+    ],
+    "batched": [
+      [
+        "`DOUBLE_CLICK` VS Code on desktop to open"
+      ],
+      [
+        "`HOTKEY` 'Ctrl+Shift+P'"
+      ],
+      [
+        "`TYPING` 'Shell'"
+      ],
+      [
+        "`CLICK` 'Shell Command: Install 'code' command in PATH'",
+        "`PRESS` 'Enter'"
+      ],
+      [
+        "`HOTKEY` 'Ctrl+Alt+T'"
+      ],
+      [
+        "`TYPING` 'code ~/Desktop/project'",
+        "`PRESS` 'Enter'"
+      ]
+    ]
+  }
+]

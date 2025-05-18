@@ -1,37 +1,62 @@
-[{
+[
+  {
     "id": "15c3b339-88f7-4a86-ab16-e71c58dcb01e",
     "snapshot": "thunderbird",
     "instruction": "Help me access my outlook account with address \"anonym-x2024@outlook.com\" and password 'Wlv(z._6y|a,rrjfQuQhIi\\$;' (without ')",
     "source": "https://www.wikihow.com/Access-Gmail-With-Mozilla-Thunderbird"
-},
-{
-  "minimal": [
-    "`DOUBLE_CLICK` Thunderbird",
-    "`CLICK` the 'Tools' menu",
-    "`CLICK` 'Account Settings...'",
-    "`CLICK` 'Add Mail Account...' from the drop-down list on the left",
-    "`CLICK` 'name'",
-    "`TYPE` \"anonym-x2024\"",
-    "`CLICK` 'email address'",
-    "`TYPE` 'anonym-x2024@outlook.com' as the email address",
-    "`CLICK` 'password'",
-    "`TYPE` 'Wlv(z._6y|a,rrjfQuQhIi$;' as the password",
-    "`CLICK` 'Continue'",
-    "`CLICK` 'Done'"
-  ],
-  "batched": [
-    ["`DOUBLE_CLICK` Thunderbird"],
-    [ "`CLICK` the 'Tools' menu"],
-    ["`CLICK` 'Account Settings...'"],
-    ["`CLICK` 'Add Mail Account...' from the drop-down list on the left"],
-    ["`CLICK` 'name'"],
-    ["`TYPE` \"anonym-x2024\""],
-    ["`CLICK` 'email address'"],
-    ["`TYPE` 'anonym-x2024@outlook.com' as the email address"],
-    ["`CLICK` 'password'"],
-    ["`TYPE` 'Wlv(z._6y|a,rrjfQuQhIi$;' as the password"],
-    ["`CLICK` 'Continue'"],
-    ["`CLICK` 'Done'"]
-  ]
-}
+  },
+  {
+    "minimal": [
+      "`DOUBLE_CLICK` Thunderbird",
+      "`CLICK` the 'Tools' menu",
+      "`CLICK` 'Account Settings...'",
+      "`CLICK` 'Add Mail Account...' from the drop-down list on the left",
+      "`CLICK` 'name'",
+      "`TYPING` \"anonym-x2024\"",
+      "`CLICK` 'email address'",
+      "`TYPING` 'anonym-x2024@outlook.com' as the email address",
+      "`CLICK` 'password'",
+      "`TYPING` 'Wlv(z._6y|a,rrjfQuQhIi$;' as the password",
+      "`CLICK` 'Continue'",
+      "`CLICK` 'Done'"
+    ],
+    "batched": [
+      [
+        "`DOUBLE_CLICK` Thunderbird"
+      ],
+      [
+        "`CLICK` the 'Tools' menu"
+      ],
+      [
+        "`CLICK` 'Account Settings...'"
+      ],
+      [
+        "`CLICK` 'Add Mail Account...' from the drop-down list on the left"
+      ],
+      [
+        "`CLICK` 'name'"
+      ],
+      [
+        "`TYPING` \"anonym-x2024\""
+      ],
+      [
+        "`CLICK` 'email address'"
+      ],
+      [
+        "`TYPING` 'anonym-x2024@outlook.com' as the email address"
+      ],
+      [
+        "`CLICK` 'password'"
+      ],
+      [
+        "`TYPING` 'Wlv(z._6y|a,rrjfQuQhIi$;' as the password"
+      ],
+      [
+        "`CLICK` 'Continue'"
+      ],
+      [
+        "`CLICK` 'Done'"
+      ]
+    ]
+  }
 ]

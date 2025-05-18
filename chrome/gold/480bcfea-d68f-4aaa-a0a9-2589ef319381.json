@@ -1,31 +1,46 @@
-[{
-  "id": "480bcfea-d68f-4aaa-a0a9-2589ef319381",
-  "snapshot": "chrome",
-  "instruction": "I do not like the design of the new 2023 chrome UI. I want to keep using the original one. Can you disable the new 2023 version chrome UI for me? ",
-  "source": "https://bugartisan.medium.com/disable-the-new-chrome-ui-round-in-2023-db168271f71e"
-},{
-  "minimal": [
-    "`CLICK` URL bar",
-    "`TYPE` 'chrome://flags' in address bar",
-    "`PRESS` enter/return key",
-    "`CLICK` search box",
-    "`TYPE` 'refresh' in search box",
-    "`PRESS` enter/return key",
-    "`CLICK` 'Default' next to 'Chrome Refresh 2023'",
-    "`CLICK` 'Enabled' in the dropdown menu",
-    "`CLICK` 'Chrome WebUI Refresh 2023'",
-    "`CLICK` 'Enabled' in the dropdown menu"
-],
-"batched": [
-    ["`CLICK` URL bar",
-    "`TYPE` 'chrome://flags in address bar'",
-    "`PRESS` enter/return key"],
-    ["`CLICK` search box",
-    "`TYPE` 'refresh' in search box",
-    "`PRESS` enter/return key"],
-    ["`CLICK` 'Default' next to 'Chrome Refresh 2023'"],
-    ["`CLICK` 'Enabled' in the dropdown menu"],
-    ["`CLICK` 'Chrome WebUI Refresh 2023'"],
-    ["`CLICK` 'Enabled' in the dropdown menu"]
+[
+  {
+    "id": "480bcfea-d68f-4aaa-a0a9-2589ef319381",
+    "snapshot": "chrome",
+    "instruction": "I do not like the design of the new 2023 chrome UI. I want to keep using the original one. Can you disable the new 2023 version chrome UI for me? ",
+    "source": "https://bugartisan.medium.com/disable-the-new-chrome-ui-round-in-2023-db168271f71e"
+  },
+  {
+    "minimal": [
+      "`CLICK` URL bar",
+      "`TYPING` 'chrome://flags' in address bar",
+      "`PRESS` enter/return key",
+      "`CLICK` search box",
+      "`TYPING` 'refresh' in search box",
+      "`PRESS` enter/return key",
+      "`CLICK` 'Default' next to 'Chrome Refresh 2023'",
+      "`CLICK` 'Enabled' in the dropdown menu",
+      "`CLICK` 'Chrome WebUI Refresh 2023'",
+      "`CLICK` 'Enabled' in the dropdown menu"
+    ],
+    "batched": [
+      [
+        "`CLICK` URL bar",
+        "`TYPING` 'chrome://flags in address bar'",
+        "`PRESS` enter/return key"
+      ],
+      [
+        "`CLICK` search box",
+        "`TYPING` 'refresh' in search box",
+        "`PRESS` enter/return key"
+      ],
+      [
+        "`CLICK` 'Default' next to 'Chrome Refresh 2023'"
+      ],
+      [
+        "`CLICK` 'Enabled' in the dropdown menu"
+      ],
+      [
+        "`CLICK` 'Chrome WebUI Refresh 2023'"
+      ],
+      [
+        "`CLICK` 'Enabled' in the dropdown menu"
+      ]
+    ]
+  }
 ]
-}]

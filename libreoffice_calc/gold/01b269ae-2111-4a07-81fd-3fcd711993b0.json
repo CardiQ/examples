@@ -1,29 +1,40 @@
-[{
-	"id": "01b269ae-2111-4a07-81fd-3fcd711993b0",
-	"snapshot": "libreoffice_calc",
-	"instruction": "Fill all the blank cells with the value in the cell above it",
-	"source": "https://www.youtube.com/shorts/VrUzPTIwQ04"
-},
-{
-  "minimal": [
-    "`HOTKEY` 'CTRL+A' to select all data",
-    "`HOTKEY` 'CTRL+G' to open the 'Go To Special' dialog box",
-    "`CLICK` Special",
-    "`CLICK` Blanks",
-    "`CLICK` OK",
-    "`CLICK` the first table cell in the specific column",
-    "`TYPE` =C2 (assuming C2 is the first cell with a value above a blank)",
-    "`HOTKEY` CTRL+Enter"
-  ],
-  "batched": [
-	["`HOTKEY` 'CTRL+A' to select all data"],
-	["`HOTKEY` 'CTRL+G' to open the 'Go To Special' dialog box"],
-	["`CLICK` Special"],
-	["`CLICK` Blanks",
-	"`CLICK` OK"],
-	["`CLICK` the first table cell in the specific column",
-    "`TYPE` =C2 (assuming C2 is the first cell with a value above a blank)",
-    "`HOTKEY` CTRL+Enter"]
-  ]
-}
+[
+  {
+    "id": "01b269ae-2111-4a07-81fd-3fcd711993b0",
+    "snapshot": "libreoffice_calc",
+    "instruction": "Fill all the blank cells with the value in the cell above it",
+    "source": "https://www.youtube.com/shorts/VrUzPTIwQ04"
+  },
+  {
+    "minimal": [
+      "`HOTKEY` 'CTRL+A' to select all data",
+      "`HOTKEY` 'CTRL+G' to open the 'Go To Special' dialog box",
+      "`CLICK` Special",
+      "`CLICK` Blanks",
+      "`CLICK` OK",
+      "`CLICK` the first table cell in the specific column",
+      "`TYPING` =C2 (assuming C2 is the first cell with a value above a blank)",
+      "`HOTKEY` CTRL+Enter"
+    ],
+    "batched": [
+      [
+        "`HOTKEY` 'CTRL+A' to select all data"
+      ],
+      [
+        "`HOTKEY` 'CTRL+G' to open the 'Go To Special' dialog box"
+      ],
+      [
+        "`CLICK` Special"
+      ],
+      [
+        "`CLICK` Blanks",
+        "`CLICK` OK"
+      ],
+      [
+        "`CLICK` the first table cell in the specific column",
+        "`TYPING` =C2 (assuming C2 is the first cell with a value above a blank)",
+        "`HOTKEY` CTRL+Enter"
+      ]
+    ]
+  }
 ]
