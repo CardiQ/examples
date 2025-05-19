@@ -6,7 +6,6 @@
 },
 {
   "minimal": [
-    "`DOUBLE_CLICK` VS Code",
     "`CLICK` 'File' in the menu",
     "`CLICK` 'Open Folder...'",
     "`TYPE` '/home/user/'",
@@ -14,7 +13,6 @@
     "`CLICK` 'Open'"
   ],
   "batched": [
-    ["`DOUBLE_CLICK` VS Code"],
     ["`CLICK` 'File' in the menu"],
     ["`CLICK` 'Open Folder...'"],
     ["`TYPE` '/home/user/'"],

@@ -1,29 +1,15 @@
-{
-  "id": "971cbb5b-3cbf-4ff7-9e24-b5c84fcebfa6",
+[{
+  "id": "6ed0a554-cbee-4b44-84ea-fd6c042f4fe1",
   "snapshot": "vscode",
-  "instruction": "Please help me change the settings of VS Code so that every time I open it, it automatically creates a python file called \"test.py\".",
-  "source": "",
-  "config": [
-    {
-      "type": "launch",
-      "parameters": {
-        "command": [
-          "code"
-        ]
-      }
-    },
-    {
-      "type": "activate_window",
-      "parameters": {
-        "window_name": "Visual Studio Code"
-      }
-    }
+  "instruction": "Please help me add folder \"/home/user/data1\" and folder \"/home/user/data2\" to the current workspace.",
+  "source": "https://www.youtube.com/watch?v=B-s71n0dHUk"
+},
+{
+  "minimal": [
+    "`FAIL`"
   ],
-  "trajectory": "trajectories/",
-  "related_apps": [
-    "vscode"
-  ],
-  "evaluator": {
-    "func": "infeasible"
-  }
+  "batched": [
+    ["`FAIL`"]
+  ]
 }
+]

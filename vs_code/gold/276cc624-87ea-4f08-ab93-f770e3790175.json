@@ -6,7 +6,6 @@
 },
 {
   "minimal": [
-    "`DOUBLE_CLICK` VS Code",
     "`CLICK` 'File' in the menu",
     "`CLICK` 'Preferences'",
     "`CLICK` 'Settings'",
@@ -16,7 +15,6 @@
     "`ENTER` '50' in the value field for this setting"
   ],
   "batched": [
-    ["`DOUBLE_CLICK` VS Code"],
     ["`CLICK` 'File' in the menu"],
     ["`CLICK` 'Preferences'"],
     ["`CLICK` 'Settings'"],

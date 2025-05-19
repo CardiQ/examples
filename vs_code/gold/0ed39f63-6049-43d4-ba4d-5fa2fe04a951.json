@@ -6,14 +6,16 @@
 },
 {
   "minimal": [
-    "`PRESS` 'Ctrl+H'",
+    "`CLICK` 'Edit'",
+    "`CLICK` 'Replace'",
     "`TYPE` 'text'",
     "`CLICK` 'Replace' field",
     "`TYPE` 'test' in the 'Replace with' field",
     "`CLICK` 'Replace All'"
   ],
   "batched": [
-    ["`PRESS` 'Ctrl+H'"],
+    ["`CLICK` 'Edit'"],
+    ["`CLICK` 'Replace'"],
     ["`TYPE` 'text'",
     "`CLICK` 'Replace' field",
     "`TYPE` 'test' in the 'Replace with' field",
