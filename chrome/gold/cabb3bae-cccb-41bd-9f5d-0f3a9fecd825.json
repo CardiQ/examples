@@ -1,0 +1,24 @@
+[
+  {
+    "id": "cabb3bae-cccb-41bd-9f5d-0f3a9fecd825",
+    "snapshot": "chrome",
+    "instruction": "Browse spider-man toys for kids and sort by lowest price.",
+    "source": "online_tasks"
+  },
+  {
+    "minimal": [
+      "`CLICK` 'Kids & Toys' tab",
+      "`CLICK` the search bar",
+      "`TYPE` 'spider-man toys'",
+      "`PRESS` 'Enter'",
+      "`CLICK` 'Sort by' dropdown",
+      "`CLICK` 'Price Low-High'"
+    ],
+    "batched": [
+      ["`CLICK` 'Kids & Toys' tab"],
+      ["`CLICK` the search bar", "`TYPE` 'spider-man toys'", "`PRESS` 'Enter'"],
+      ["`CLICK` 'Sort by' dropdown"],
+      ["`CLICK` 'Price Low-High'"]
+    ]
+}
+]

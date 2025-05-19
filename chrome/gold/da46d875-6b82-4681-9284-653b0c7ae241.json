@@ -1,0 +1,37 @@
+[
+  {
+    "id": "da46d875-6b82-4681-9284-653b0c7ae241",
+    "snapshot": "chrome",
+    "instruction": "Schedule an appointment to apply for transportation access pass in  the Charlie Card store on the first Monday four months later, 10:15 am, fill in my details (James Smith, james.smith@gmail.com). And don not click \"book\" directly. Let me review it.",
+    "source": "test_task_2"
+  },
+  {
+    "minimal": [
+      "`CLICK` 'Fares'",
+      "`CLICK` 'Charlie Service Center'",
+      "`SCROLL` down 400 units (-400)",
+      "`CLICK` 'Schedule an appointment'",
+      "`CLICK` 'Apply for Transportation Access Pass'",
+      "`SCROLL` down 200 units (-200)",
+      "4x`CLICK` the right arrow next to the month",
+      "`CLICK` 10:15 am button",
+      "`SCROLL` down 200 units (-200)",
+      "`CLICK` the 'First and last name' field",
+      "`TYPE` 'James Smith' into the 'First and last name' field'",
+      "`CLICK` the Email field",
+      "`TYPE` 'james.smith@gmail.com' into the 'Email address' field'"
+    ],
+    "batched": [
+      ["`CLICK` 'Fares'"],
+      ["`CLICK` 'Charlie Service Center'"],
+      ["`SCROLL` down 400 units (-400)"],
+      ["`CLICK` 'Schedule an appointment'"],
+      ["`CLICK` 'Apply for Transportation Access Pass'"],
+      ["`SCROLL` down 200 units (-200)"],
+      ["4x`CLICK` the right arrow next to the month"],
+      ["`CLICK` 10:15 am button"],
+      ["`SCROLL` down 200 units (-200)"],
+      ["`CLICK` the 'First and last name' field", "`TYPE` 'James Smith' into the 'First and last name' field'", "`CLICK` the Email field", "`TYPE` 'james.smith@gmail.com' into the 'Email address' field'"]
+    ]
+}
+]

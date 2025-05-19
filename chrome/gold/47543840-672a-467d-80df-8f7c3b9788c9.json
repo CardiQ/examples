@@ -1,0 +1,31 @@
+[
+  {
+    "id": "47543840-672a-467d-80df-8f7c3b9788c9",
+    "snapshot": "chrome",
+    "instruction": "Find and select the car with the most number of seats to pick up in Boston Logan Intl Airport from 10th next month to 11th next month.",
+    "source": "test_task_1"
+  },
+  {
+    "minimal": [
+      "`CLICK` the text box under 'Pick-up Location'",
+      "`TYPE` 'Boston Logan Intl Airport'",
+      "`CLICK` 'Boston Logan Intl Airport' in the dropdown",
+      "`CLICK` the calendar icon under 'Pick-up Date'",
+      "`CLICK` the 10th of next month",
+      "`CLICK` the 11th of next month",
+      "`CLICK` 'Select My Car",
+      "`CLICK` the 'sort by' dropdown",
+      "`CLICK` 'Number of Seats High to Low'"
+    ],
+    "batched": [
+      ["`CLICK` the text box under 'Pick-up Location'"],
+      ["`TYPE` 'Boston Logan Intl Airport'", "`CLICK` 'Boston Logan Intl Airport' in the dropdown"],
+      ["`CLICK` the calendar icon under 'Pick-up Date'"],
+      ["`CLICK` the 10th of next month"],
+      ["`CLICK` the 11th of next month"],
+      ["`CLICK` 'Select My Car"],
+      ["`CLICK` the 'sort by' dropdown"],
+      ["`CLICK` 'Number of Seats High to Low'"]
+    ]
+}
+]

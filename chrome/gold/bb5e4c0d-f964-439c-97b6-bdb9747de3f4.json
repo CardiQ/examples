@@ -1,0 +1,25 @@
+[
+  {
+    "id": "bb5e4c0d-f964-439c-97b6-bdb9747de3f4",
+    "snapshot": "chrome",
+    "instruction": "Can you make Bing the main search thingy when I look stuff up on the internet?",
+    "source": "https://support.google.com/chrome/answer/95426?sjid=16867045591165135686-AP"
+  },
+  {
+    "minimal": [
+      "`CLICK` the 3 dots in the top right corner'",
+      "`CLICK` 'Settings'",
+      "`CLICK` 'Search engine' on the left sidebar",
+      "`CLICK` 'Change' button",
+      "`CLICK` 'Microsoft Bing' radio button",
+      "`CLICK` 'Set as default'"
+    ],
+    "batched": [
+      ["`CLICK` the 3 dots in the top right corner'"],
+      ["`CLICK` 'Settings'"],
+      ["`CLICK` 'Search engine' on the left sidebar"],
+      ["`CLICK` 'Change' button"],
+      ["`CLICK` 'Microsoft Bing' radio button", "`CLICK` 'Set as default'"]
+    ]
+}
+]

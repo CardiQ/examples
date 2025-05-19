@@ -1,0 +1,27 @@
+[
+  {
+    "id": "f79439ad-3ee8-4f99-a518-0eb60e5652b0",
+    "snapshot": "chrome",
+    "instruction": "Search for a one way flight from Dublin to Vienna on 10th next month for 2 adults.",
+    "source": "test_task_2"
+  },
+  {
+    "minimal": [
+      "`CLICK` 'One-way' radio button",
+      "`CLICK` 'From' dropdown",
+      "`HOTKEY` 'ctrl-a'",
+      "`TYPE` 'Dublin'",
+      "`PRESS` 'Enter'",
+      "`TYPE` 'Vienna'",
+      "`PRESS` 'Enter'",
+      "`CLICK` '10' on the calendar for next month",
+      "`CLICK` '+' next to 'Adults'",
+      "`CLICK` 'Search' button"
+    ],
+    "batched": [
+      ["`CLICK` 'One-way' radio button", "`CLICK` 'From' dropdown", "`HOTKEY` 'ctrl-a'", "`TYPE` 'Dublin'", "`PRESS` 'Enter'", "`TYPE` 'Vienna'", "`PRESS` 'Enter'"],
+      ["`CLICK` '10' on the calendar for next month"],
+      ["`CLICK` '+' next to 'Adults'", "`CLICK` 'Search' button"]
+    ]
+}
+]

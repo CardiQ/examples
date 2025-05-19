@@ -1,0 +1,32 @@
+[
+  {
+    "id": "fc6d8143-9452-4171-9459-7f515143419a",
+    "snapshot": "chrome",
+    "instruction": "Find the status of tomorrow flights from New York airports to Columbus in Ohio.",
+    "source": "test_task_0"
+  },
+  {
+    "minimal": [
+      "`CLICK` 'Flight Status' tab at the top",
+      "`CLICK` the date dropdown",
+      "`CLICK` the next date on the calendar",
+      "`CLICK` 'From'",
+      "`CLICK` the search bar",
+      "`TYPE` 'New york airports'",
+      "`PRESS` 'Enter'",
+      "`CLICK` 'To'",
+      "`TYPE` 'Columbus Ohio'",
+      "`PRESS` 'Enter'",
+      "`CLICK` the red 'go' button with right arrow"
+    ],
+    "batched": [
+      ["`CLICK` 'Flight Status' tab at the top"],
+      ["`CLICK` the date dropdown"],
+      ["`CLICK` the next date on the calendar", "`CLICK` 'From'"],
+      ["`CLICK` the search bar", "`TYPE` 'New york airports'", "`PRESS` 'Enter'"],
+      ["`CLICK` 'To'"],
+      ["`TYPE` 'Columbus Ohio'", "`PRESS` 'Enter'"],
+      ["`CLICK` the red 'go' button with right arrow"]
+    ]
+}
+]

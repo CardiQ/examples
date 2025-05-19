@@ -1,0 +1,20 @@
+[
+  {
+    "id": "59155008-fe71-45ec-8a8f-dc35497b6aa8",
+    "snapshot": "chrome",
+    "instruction": "What are the similar names to the name carl",
+    "source": "Mind2Web"
+  },
+  {
+    "minimal": [
+      "`CLICK` 'Baby Names' tab",
+      "`CLICK` text box under 'Search a name'",
+      "`TYPE` 'Carl'",
+      "`PRESS` 'Enter'"
+    ],
+    "batched": [
+      ["`CLICK` 'Baby Names' tab"],
+      ["`CLICK` text box under 'Search a name'", "`TYPE` 'Carl'", "`PRESS` 'Enter'"]
+    ]
+}
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "0d8b7de3-e8de-4d86-b9fd-dd2dce58a217",
+    "snapshot": "chrome",
+    "instruction": "Browse the natural products database.",
+    "source": "Mind2Web"
+  },
+  {
+    "minimal": [
+      "`CLICK` the 'More' button under 'Browse by Site Section",
+      "`SCROLL` down 200 units (-200)",
+      "`CLICK` 'Natural products"
+    ],
+    "batched": [
+      ["`CLICK` the 'More' button under 'Browse by Site Section"],
+      ["`SCROLL` down 200 units (-200)"],
+      ["`CLICK` 'Natural products"]
+    ]
+  }
+]

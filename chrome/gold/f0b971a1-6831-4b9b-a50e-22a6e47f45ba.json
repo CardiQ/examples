@@ -1,0 +1,25 @@
+[
+  {
+    "id": "f0b971a1-6831-4b9b-a50e-22a6e47f45ba",
+    "snapshot": "chrome",
+    "instruction": "Show me the scores for the 2019 super bowl",
+    "source": "Mind2Web"
+  },
+  {
+    "minimal": [
+      "`MOVE_TO` 'Games' tab",
+      "`CLICK` 'Scores'",
+      "`CLICK` the dropdown labeled '2025'",
+      "`CLICK` '2019'",
+      "`CLICK` the dropdown labaled 'Week 1'",
+      "`CLICK` 'Super Bowl'"
+    ],
+    "batched": [
+      ["`MOVE_TO` 'Games' tab"],
+      ["`CLICK` 'Scores'"],
+      ["`CLICK` the dropdown labeled '2025'"],
+      ["`CLICK` '2019'", "`CLICK` the dropdown labaled 'Week 1'"],
+      ["`CLICK` 'Super Bowl'"]
+    ]
+}
+]
