@@ -1,15 +1,35 @@
-{
+[{
   "id": "2bd59342-0664-4ccb-ba87-79379096cc08",
   "snapshot": "libreoffice_calc",
   "instruction": "Make sparkline chart line by line",
-  "source": "https://www.youtube.com/shorts/L3Z-F1QTQFY",
-  "config": [
+  "source": "https://www.youtube.com/shorts/L3Z-F1QTQFY"
+},
+{
+  "minimal": [
+    "`KEY_DOWN` on the start item in whole lines and columns of source data",
+    "`DRAG_TO`the end item in whole lines and columns to select all the lines and columns of source data",
+    "`KEY_UP` on the end item in whole lines and columns of source data",
+    "`CLICK` 'turn right' icon on the top right in up pannel to find the tab of Sparkline on top",
+    "`CLICK` the tab of Sparkline on top",
+    "`CLICK` Line in the Sparklines group in the drop done menu",
+    "`CLICK` 'Location Range'",
+    "`KEY_DOWN` on the start item in whole lines and columns of target locations",
+    "`DRAG_TO`the end item in whole lines and columns to select all the lines and columns of target locations",
+    "`KEY_UP` on the end item in whole lines and columns of target locations",
+    "`CLICK` OK"
   ],
-  "trajectory": "trajectories/2bd59342-0664-4ccb-ba87-79379096cc08",
-  "related_apps": [
-    "libreoffice_calc"
-  ],
-  "evaluator": {
-    "func": "infeasible"
-  }
+  "batched": [
+    ["`KEY_DOWN` on the start item in whole lines and columns of source data",
+    "`DRAG_TO`the end item in whole lines and columns to select all the lines and columns of source data",
+    "`KEY_UP` on the end item in whole lines and columns of source data"],
+    ["`CLICK` 'turn right' icon on the top right in up pannel to find the tab of Sparkline on top"],
+    ["`CLICK` the tab of Sparkline on top"],
+    ["`CLICK` Line in the Sparklines group in the drop done menu"],
+    ["`CLICK` 'Location Range'"],
+    ["`KEY_DOWN` on the start item in whole lines and columns of target locations",
+    "`DRAG_TO`the end item in whole lines and columns to select all the lines and columns of target locations",
+    "`KEY_UP` on the end item in whole lines and columns of target locations"],
+    ["`CLICK` OK"]
+  ]
 }
+]

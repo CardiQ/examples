@@ -1,43 +1,62 @@
-[{
-  "id": "6766f2b8-8a72-417f-a9e5-56fcaa735837",
-  "snapshot": "chrome",
-  "instruction": "Could you help me install the unpacked extension at /home/user/Desktop/ in Chrome?",
-  "source": "https://support.google.com/chrome/thread/205881926/it-s-possible-to-load-unpacked-extension-automatically-in-chrome?hl=en"
-},{
-  "minimal": [
-    "`CLICK` URL bar",
-    "`TYPE` 'chrome://extensions/' in address bar",
-    "`PRESS` enter/return key",
-    "`CLICK` Developer mode switch ON",
-    "`CLICK` Load unpacked and select extension folder",
-    "`CLICK` path bar",
-    "`TYPE` '/home/user/Desktop/' in path bar",
-    "`DOUBLE_CLICK` target file",
-    "`CLICK` choose",
-    "`DOUBLE_CLICK` extension ID from details",
-    "`HOTKEY` press the key combination 'Ctrl+C'",
-    "`CLICK` upright close Chrome completely",
-    "`RIGHT_CLICK` Chrome shortcut",
-    "`CLICK` 'properties' in dropdown menu",
-    "`TYPE` to Target: \"--load-extension=<path>\" \"--disable-extensions-except=<ID>\"",
-    "`CLICK` Apply"
-],
-"batched": [
-    [ "`CLICK` URL bar",
-    "`TYPE` 'chrome://extensions/' in address bar",
-    "`PRESS` enter/return key"],
-    ["`CLICK` Developer mode switch ON",
-    "`CLICK` Load unpacked and select extension folder"],
-    ["`CLICK` path bar",
-    "`TYPE` '/home/user/Desktop/' in path bar"],
-    ["`DOUBLE_CLICK` target file",
-    "`CLICK` choose"],
-    ["`DOUBLE_CLICK` extension ID from details",
-    "`HOTKEY` press the key combination 'Ctrl+C'",
-    "`CLICK` upright close Chrome completely"],
-    ["`RIGHT_CLICK` Chrome shortcut"],
-    ["`CLICK` 'properties' in dropdown menu"],
-    ["`TYPE` to Target: \"--load-extension=<path>\" \"--disable-extensions-except=<ID>\"",
-    "`CLICK` Apply"]
+[
+  {
+    "id": "6766f2b8-8a72-417f-a9e5-56fcaa735837",
+    "snapshot": "chrome",
+    "instruction": "Could you help me install the unpacked extension at /home/user/Desktop/ in Chrome?",
+    "source": "https://support.google.com/chrome/thread/205881926/it-s-possible-to-load-unpacked-extension-automatically-in-chrome?hl=en"
+  },
+  {
+    "minimal": [
+      "`CLICK` URL bar",
+      "`TYPING` 'chrome://extensions/' in address bar",
+      "`PRESS` enter/return key",
+      "`CLICK` Developer mode switch ON",
+      "`CLICK` Load unpacked and select extension folder",
+      "`CLICK` path bar",
+      "`TYPING` '/home/user/Desktop/' in path bar",
+      "`DOUBLE_CLICK` target file",
+      "`CLICK` choose",
+      "`DOUBLE_CLICK` extension ID from details",
+      "`HOTKEY` press the key combination 'Ctrl+C'",
+      "`CLICK` upright close Chrome completely",
+      "`RIGHT_CLICK` Chrome shortcut",
+      "`CLICK` 'properties' in dropdown menu",
+      "`TYPING` to Target: \"--load-extension=<path>\" \"--disable-extensions-except=<ID>\"",
+      "`CLICK` Apply"
+    ],
+    "batched": [
+      [
+        "`CLICK` URL bar",
+        "`TYPING` 'chrome://extensions/' in address bar",
+        "`PRESS` enter/return key"
+      ],
+      [
+        "`CLICK` Developer mode switch ON",
+        "`CLICK` Load unpacked and select extension folder"
+      ],
+      [
+        "`CLICK` path bar",
+        "`TYPING` '/home/user/Desktop/' in path bar"
+      ],
+      [
+        "`DOUBLE_CLICK` target file",
+        "`CLICK` choose"
+      ],
+      [
+        "`DOUBLE_CLICK` extension ID from details",
+        "`HOTKEY` press the key combination 'Ctrl+C'",
+        "`CLICK` upright close Chrome completely"
+      ],
+      [
+        "`RIGHT_CLICK` Chrome shortcut"
+      ],
+      [
+        "`CLICK` 'properties' in dropdown menu"
+      ],
+      [
+        "`TYPING` to Target: \"--load-extension=<path>\" \"--disable-extensions-except=<ID>\"",
+        "`CLICK` Apply"
+      ]
+    ]
+  }
 ]
-}]

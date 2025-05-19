@@ -1,25 +1,40 @@
-[{
-  "id": "5ea617a3-0e86-4ba6-aab2-dac9aa2e8d57",
-  "snapshot": "os",
-  "instruction": "I am currently using an Ubuntu system, and I have wrongly deleted a poster of party night. Could you help me recover it from the Trash?",
-  "source": "https://help.ubuntu.com/lts/ubuntu-help/files-recover.html.en"
-},{
-  "minimal": [
-    "`DOUBLE_CLICK` the Activities overview",
-    "`CLICK` search bar",
-    "`TYPE` 'Files'",
-    "`CLICK` 'Files' to open the file manager",
-    "`CLICK` 'Trash' in the sidebar",
-    "`CLICK` the last deleted file",
-    "`CLICK` 'Restore From Trash'"
-  ],
-  "batched": [
-    ["`DOUBLE_CLICK` the Activities overview"],
-    ["`CLICK` search bar",
-    "`TYPE` 'Files'"],
-    ["`CLICK` 'Files' to open the file manager"],
-    ["`CLICK` 'Trash' in the sidebar"],
-    ["`CLICK` the last deleted file"],
-    ["`CLICK` 'Restore From Trash'"]
-  ]
-}]
+[
+  {
+    "id": "5ea617a3-0e86-4ba6-aab2-dac9aa2e8d57",
+    "snapshot": "os",
+    "instruction": "I am currently using an Ubuntu system, and I have wrongly deleted a poster of party night. Could you help me recover it from the Trash?",
+    "source": "https://help.ubuntu.com/lts/ubuntu-help/files-recover.html.en"
+  },
+  {
+    "minimal": [
+      "`DOUBLE_CLICK` the Activities overview",
+      "`CLICK` search bar",
+      "`TYPING` 'Files'",
+      "`CLICK` 'Files' to open the file manager",
+      "`CLICK` 'Trash' in the sidebar",
+      "`CLICK` the last deleted file",
+      "`CLICK` 'Restore From Trash'"
+    ],
+    "batched": [
+      [
+        "`DOUBLE_CLICK` the Activities overview"
+      ],
+      [
+        "`CLICK` search bar",
+        "`TYPING` 'Files'"
+      ],
+      [
+        "`CLICK` 'Files' to open the file manager"
+      ],
+      [
+        "`CLICK` 'Trash' in the sidebar"
+      ],
+      [
+        "`CLICK` the last deleted file"
+      ],
+      [
+        "`CLICK` 'Restore From Trash'"
+      ]
+    ]
+  }
+]

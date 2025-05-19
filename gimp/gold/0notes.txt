@@ -1,7 +1,10 @@
 self inference:
+72f83cdc-bf76-4531-9a1b-eb893a13f8aa
 
 not sure with known source:
 for GIMP the annotations mainly rely on source-websites
+045bf3ff-9077-4b86-b483-a1040a949cff - FAIL
+
 
 in small task:
 "gimp": [
@@ -14,3 +17,6 @@ in small task:
 other notes:
 1. all tasks are by default assumed to be conducted with an opened Chrome unless specified
 2. all batched actions are decided by the context (e.g. UI) before the action executed
+other concerns:
+3. didn't open the app first
+4. not sure which target situation

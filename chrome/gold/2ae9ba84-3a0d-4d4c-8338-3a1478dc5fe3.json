@@ -1,4 +1,5 @@
-[{
+[
+  {
     "id": "2ae9ba84-3a0d-4d4c-8338-3a1478dc5fe3",
     "snapshot": "chrome",
     "instruction": "Lately I have changed my English name to Thomas. I want to update my username. Could you help me change the username in chrome profiles to Thomas?",
@@ -6,29 +7,40 @@
   },
   {
     "minimal": [
-    "`CLICK` the profile icon in the upper right (second to last before 3 dots)",
-    "`CLICK` the 3-dot menu button in the upper right",
-    "`CLICK` 'Settings' at bottom of menu",
-    "`CLICK` 'Chrome name and picture' line in 'People' section",
-    "`TYPE` new profile name",
-    "`CLICK` back arrow next to 'Edit person' to save"
-  ],
-  "suboptimal": [
+      "`CLICK` the profile icon in the upper right (second to last before 3 dots)",
+      "`CLICK` the 3-dot menu button in the upper right",
+      "`CLICK` 'Settings' at bottom of menu",
+      "`CLICK` 'Chrome name and picture' line in 'People' section",
+      "`TYPING` new profile name",
+      "`CLICK` back arrow next to 'Edit person' to save"
+    ],
+    "suboptimal": [
       "`CLICK` the profile icon in the upper right",
       "`CLICK` the 3-dot menu button",
       "`CLICK` 'Settings' at bottom",
       "`MOVE_TO` 'Chrome name and picture' line",
       "`CLICK` the line",
-      "`TYPE` new profile name",
+      "`TYPING` new profile name",
       "`MOVE_TO` back arrow",
       "`CLICK` back arrow to save"
-  ],
-  "batched": [
-      ["`CLICK` the profile icon"],
-      ["`CLICK` the 3-dot menu"],
-      ["`CLICK` 'Settings'"],
-      ["`CLICK` 'Chrome name and picture' line"],
-      ["`TYPE` new profile name", "`CLICK` back arrow"]
-  ]
+    ],
+    "batched": [
+      [
+        "`CLICK` the profile icon"
+      ],
+      [
+        "`CLICK` the 3-dot menu"
+      ],
+      [
+        "`CLICK` 'Settings'"
+      ],
+      [
+        "`CLICK` 'Chrome name and picture' line"
+      ],
+      [
+        "`TYPING` new profile name",
+        "`CLICK` back arrow"
+      ]
+    ]
   }
 ]
