@@ -7,7 +7,6 @@
   },
   {
     "minimal": [
-      "`DOUBLE_CLICK` VLC Media Player",
       "`CLICK` 'Media' in the menu",
       "`CLICK` 'Convert / Save'",
       "`CLICK` the '+Add' button in the 'Open Media' dialogue",
@@ -31,9 +30,6 @@
       "`CLICK` 'Save'"
     ],
     "batched": [
-      [
-        "`DOUBLE_CLICK` VLC Media Player"
-      ],
       [
         "`CLICK` 'Media' in the menu"
       ],

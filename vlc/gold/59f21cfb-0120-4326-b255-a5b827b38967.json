@@ -6,7 +6,6 @@
 },
 {
   "minimal": [
-    "`DOUBLE_CLICK` VLC Media Player",
     "`CLICK` 'Media' in the menu",
     "`CLICK` 'Open File'",
     "`CLICK` the 'Desktop'",
@@ -14,7 +13,6 @@
     "`CLICK` 'Open'"
   ],
   "batched": [
-    ["`DOUBLE_CLICK` VLC Media Player"],
     ["`CLICK` 'Media' in the menu"],
     ["`CLICK` 'Open File'"],
     ["`CLICK` the 'Desktop'"],

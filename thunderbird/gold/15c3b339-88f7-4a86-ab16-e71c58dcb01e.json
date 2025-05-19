@@ -7,7 +7,6 @@
   },
   {
     "minimal": [
-      "`DOUBLE_CLICK` Thunderbird",
       "`CLICK` the 'Tools' menu",
       "`CLICK` 'Account Settings...'",
       "`CLICK` 'Add Mail Account...' from the drop-down list on the left",
@@ -21,9 +20,6 @@
       "`CLICK` 'Done'"
     ],
     "batched": [
-      [
-        "`DOUBLE_CLICK` Thunderbird"
-      ],
       [
         "`CLICK` the 'Tools' menu"
       ],
