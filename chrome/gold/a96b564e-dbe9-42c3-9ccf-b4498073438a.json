@@ -1,0 +1,27 @@
+[
+  {
+    "id": "a96b564e-dbe9-42c3-9ccf-b4498073438a",
+    "snapshot": "chrome",
+    "instruction": "Find discussions of community and open one with most replies.",
+    "source": "test_task_0"
+  },
+  {
+    "minimal": [
+      "`HOTKEY` ctrl-down arrow",
+      "`CLICK` 'Discussion' tab under 'Community'",
+      "`CLICK` 'Top'",
+      "`CLICK` 'Replies'",
+      "`CLICK` 'Year' dropdown",
+      "`CLICK` 'All time'",
+      "`CLICK` first entry ('The Banter thread')"
+    ],
+    "batched": [
+      ["`HOTKEY` ctrl-down arrow"],
+      ["`CLICK` 'Discussion' tab under 'Community'"],
+      ["`CLICK` 'Top'"],
+      ["`CLICK` 'Replies'", "`CLICK` 'Year' dropdown"],
+      ["`CLICK` 'All time'"],
+      ["`CLICK` first entry ('The Banter thread')"]
+    ]
+}
+]

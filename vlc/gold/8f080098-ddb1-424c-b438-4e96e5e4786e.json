@@ -1,83 +1,56 @@
-[
-  {
-    "id": "8f080098-ddb1-424c-b438-4e96e5e4786e",
-    "snapshot": "base_setup",
-    "instruction": "Could you download the song from this music video and save it as an MP3 file? I'd like to have it on my device to play whenever I want. Please save the file just on the desktop and title the file \"Baby Justin Bieber.mp3.\" I really appreciate your help!",
-    "source": "https://medium.com/@jetscribe_ai/how-to-extract-mp3-audio-from-videos-using-vlc-media-player-beeef644ebfb"
-  },
-  {
-    "minimal": [
-      "`CLICK` 'Media' in the menu",
-      "`CLICK` 'Convert / Save'",
-      "`CLICK` the '+Add' button in the 'Open Media' dialogue",
-      "`CLICK` the video file",
-      "`CLICK` 'Convert/Save'",
-      "`CLICK` the wrench icon in the 'Convert' dialogue",
-      "`CLICK` the 'Audio codec' tab",
-      "`CLICK` 'MP3' to select",
-      "`CLICK` the bitrate",
-      "`CLICK` '20 kb/s'",
-      "`CLICK` 'Channels'",
-      "`CLICK` '1'",
-      "`CLICK` 'Sample Rate'",
-      "`CLICK` '44100 Hz'",
-      "`CLICK` 'Save'",
-      "`CLICK` 'Browse'",
-      "`CLICK` 'Desktop'",
-      "`CLICK` the file name",
-      "`TYPING` 'Baby Justin Bieber.mp3' as the file name",
-      "`PRESS` 'Enter'",
-      "`CLICK` 'Save'"
-    ],
-    "batched": [
-      [
-        "`CLICK` 'Media' in the menu"
-      ],
-      [
-        "`CLICK` 'Convert / Save'"
-      ],
-      [
-        "`CLICK` the '+Add' button in the 'Open Media' dialogue"
-      ],
-      [
-        "`CLICK` the video file"
-      ],
-      [
-        "`CLICK` 'Convert/Save'"
-      ],
-      [
-        "`CLICK` the wrench icon in the 'Convert' dialogue"
-      ],
-      [
-        "`CLICK` the 'Audio codec' tab"
-      ],
-      [
-        "`CLICK` 'MP3' to select"
-      ],
-      [
-        "`CLICK` the bitrate"
-      ],
-      [
-        "`CLICK` the bitrate",
-        "`CLICK` '20 kb/s'",
-        "`CLICK` 'Channels'",
-        "`CLICK` '1'",
-        "`CLICK` 'Sample Rate'",
-        "`CLICK` '44100 Hz'",
-        "`CLICK` 'Save'"
-      ],
-      [
-        "`CLICK` 'Browse'"
-      ],
-      [
-        "`CLICK` 'Desktop'",
-        "`CLICK` the file name",
-        "`TYPING` 'Baby Justin Bieber.mp3' as the file name",
-        "`PRESS` 'Enter'"
-      ],
-      [
-        "`CLICK` 'Save'"
-      ]
-    ]
-  }
-]
+[{
+  "id": "8f080098-ddb1-424c-b438-4e96e5e4786e",
+  "snapshot": "base_setup",
+  "instruction": "Could you download the song from this music video and save it as an MP3 file? I'd like to have it on my device to play whenever I want. Please save the file just on the desktop and title the file \"Baby Justin Bieber.mp3.\" I really appreciate your help!",
+  "source": "https://medium.com/@jetscribe_ai/how-to-extract-mp3-audio-from-videos-using-vlc-media-player-beeef644ebfb"
+},
+{
+  "minimal": [
+    "`CLICK` 'Media' in the menu",
+    "`CLICK` 'Convert / Save'",
+    "`CLICK` the '+Add' button in the 'Open Media' dialogue",
+    "`CLICK` the video file",
+    "`CLICK` 'Convert/Save'",
+    "`CLICK` the wrench icon in the 'Convert' dialogue",
+    "`CLICK` the 'Audio codec' tab",
+    "`CLICK` the dropdown next to 'Codec'",
+    "`CLICK` 'MP3' to select",
+    "`CLICK` the box next to bitrate",
+    "`TYPE` '20 kb/s'",
+    "`CLICK` the box next to 'Channels'",
+    "`CLICK` '1'",
+    "`CLICK` the dropdown next to 'Sample Rate'",
+    "`CLICK` '44100 Hz'",
+    "`CLICK` 'Save'",
+    "`CLICK` 'Browse'",
+    "`CLICK` 'Desktop'",
+    "`CLICK` the text box next to file name",
+    "`TYPE` 'Baby Justin Bieber.mp3' as the file name",
+    "`PRESS` 'Enter'",
+    "`CLICK` 'Save'",
+    "`CLICK` 'Start'"
+  ],
+  "batched": [
+    ["`CLICK` 'Media' in the menu"],
+    ["`CLICK` 'Convert / Save'"],
+    ["`CLICK` the '+Add' button in the 'Open Media' dialogue"],
+    ["`CLICK` the video file"],
+    ["`CLICK` 'Convert/Save'"],
+    ["`CLICK` the wrench icon in the 'Convert' dialogue"],
+    ["`CLICK` the 'Audio codec' tab"],
+    ["`CLICK` the dropdown next to 'Codec'"],
+    ["`CLICK` 'MP3' to select"],
+    ["`CLICK` the box next to bitrate", "`TYPE` '20 kb/s'", 
+      "`CLICK` 'Channels'", "`CLICK` '1'", 
+      "`CLICK` the dropdown next to 'Sample Rate'"],
+    ["`CLICK` '44100 Hz'"],
+    ["`CLICK` 'Save'"],
+    ["`CLICK` 'Browse'"],
+    ["`CLICK` 'Desktop'"],
+    ["`CLICK` the text box next to file name", 
+      "`TYPE` 'Baby Justin Bieber.mp3' as the file name", 
+      "`PRESS` 'Enter'", 
+      "`CLICK` 'Save'"],
+    ["`CLICK` 'Start'"]
+  ]
+}]

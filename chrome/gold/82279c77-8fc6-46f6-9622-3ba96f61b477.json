@@ -1,0 +1,29 @@
+[
+  {
+    "id": "82279c77-8fc6-46f6-9622-3ba96f61b477",
+    "snapshot": "chrome",
+    "instruction": "Find electric cars with a maximum price of $50,000 within 50 miles of 10001.",
+    "source": "test_task_1"
+  },
+  {
+    "minimal": [
+      "`CLICK` 'Cars for sale' tab at the top on the navigation bar",
+      "`CLICK` 'Electric' tab",
+      "`CLICK` the checkbox 'Electric' under 'Fuel Type'",
+      "`CLICK` 'Price' dropdown",
+      "`MOVE_TO` the expand indicator arrow at the bottom of the dropdown",
+      "`CLICK` $50,000",
+      "`CLICK` the ZIP text box",
+      "`TYPE` '10001'",
+      "`CLICK` the 'Search' button"
+    ],
+    "batched": [
+      ["`CLICK` 'Cars for sale' tab at the top on the navigation bar"],
+      ["`CLICK` 'Electric' tab", "`CLICK` the checkbox 'Electric' under 'Fuel Type'"],
+      ["`CLICK` 'Price' dropdown"],
+      ["`MOVE_TO` the expand indicator arrow at the bottom of the dropdown"],
+      ["`CLICK` $50,000"],
+      ["`CLICK` the ZIP text box", "`TYPE` '10001'", "`CLICK` the 'Search' button"]
+    ]
+}
+]

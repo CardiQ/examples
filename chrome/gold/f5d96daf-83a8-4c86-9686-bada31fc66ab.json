@@ -1,0 +1,25 @@
+[
+  {
+    "id": "f5d96daf-83a8-4c86-9686-bada31fc66ab",
+    "snapshot": "chrome",
+    "instruction": "Compare iPhone 15 Pro Max with iPhone 13 Pro Max",
+    "source": "Mind2Web"
+  },
+  {
+    "minimal": [
+      "`MOVE_TO` 'iPhone'",
+      "`CLICK` 'Compare iPhone' link",
+      "`CLICK` leftmost dropdown",
+      "`CLICK` iPhone15 Pro Max",
+      "`CLICK` middle dropdown",
+      "`CLICK` iPhone13 Pro Max"
+    ],
+    "batched": [
+      ["`MOVE_TO` 'iPhone'"],
+      ["`CLICK` 'Compare iPhone' link"],
+      ["`CLICK` leftmost dropdown"],
+      ["`CLICK` iPhone15 Pro Max", "`CLICK` middle dropdown"],
+      ["`CLICK` iPhone13 Pro Max"]
+    ]
+}
+]

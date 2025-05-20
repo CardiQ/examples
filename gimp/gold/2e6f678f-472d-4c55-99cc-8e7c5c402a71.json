@@ -1,0 +1,14 @@
+[{
+    "id": "2e6f678f-472d-4c55-99cc-8e7c5c402a71",
+    "snapshot": "gimp",
+    "instruction": "Please batch process the images on the desktop by lifting the brightness to 50.",
+    "source": ""
+},
+{
+    "minimal": [
+      "`FAIL`"
+    ],
+    "batched": [
+      ["`FAIL`"]
+    ]
+  }]

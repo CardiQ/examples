@@ -6,17 +6,10 @@
 },
 {
   "minimal": [
-    "`CLICK` 'Media' in the menu",
-    "`CLICK` 'Open File'",
-    "`CLICK` the 'Desktop'",
-    "`CLICK` the music video file",
-    "`CLICK` 'Open'"
+    "`DRAG_AND_DROP` the mp4 file on the desktop to the vlc window"
   ],
   "batched": [
-    ["`CLICK` 'Media' in the menu"],
-    ["`CLICK` 'Open File'"],
-    ["`CLICK` the 'Desktop'"],
-    ["`CLICK` the music video file", "`CLICK` 'Open'"]
+    ["`DRAG_AND_DROP` the mp4 file on the desktop to the vlc window"]
   ]
 }
 ]
