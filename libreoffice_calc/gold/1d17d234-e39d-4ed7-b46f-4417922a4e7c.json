@@ -1,0 +1,56 @@
+[{
+  "id": "1d17d234-e39d-4ed7-b46f-4417922a4e7c",
+	"snapshot": "libreoffice_calc",
+	"instruction": "Create a new sheet named \"Sheet2\" and merge cells A1:C1 to write the header \"Investment Summary\". Beneath that, merge cells A2:B2 to write \"High Interest Rate\" and merge cells C2:D2 to form \"Low Interest Rate\".",
+	"source": "SheetCopilot@73"
+},
+{
+  "minimal": [
+    "`CLICK` on the + button to the left of 'Sheet1'",
+    "`KEY_DOWN` 'Shift'",
+		"`CLICK` cell C1",
+		"`KEY_UP` 'Shift'",
+		"`RIGHT_CLICK` selected range",
+		"`CLICK` 'merge cells'",
+		"`TYPE` 'Investment Summary'",
+    "`PRESS` enter",
+		"`KEY_DOWN` 'Shift'",
+    "`CLICK` cell B2",
+		"`KEY_UP` 'Shift'",
+		"`RIGHT_CLICK` selected range",
+		"`CLICK` 'merge cells'",
+    "`TYPE` 'High Interest Rate'",
+		"`PRESS` tab",
+		"`KEY_DOWN` shift",
+		"`CLICK` cell D2",
+		"`KEY_UP` shift",
+		"`RIGHT_CLICK` selected range",
+		"`CLICK` 'merge cells'",
+    "`TYPE` 'Low Interest Rate'",
+		"`PRESS` enter`"
+  ],
+  "batched": [
+    ["`CLICK` on the + button to the left of 'Sheet1'"],
+    ["`KEY_DOWN` 'Shift'",
+		"`CLICK` cell C1",
+		"`KEY_UP` 'Shift'",
+		"`RIGHT_CLICK` selected range",
+		"`CLICK` 'merge cells'",
+		"`TYPE` 'Investment Summary'",
+    "`PRESS` enter",
+		"`KEY_DOWN` 'Shift'",
+    "`CLICK` cell B2",
+		"`KEY_UP` 'Shift'",
+		"`RIGHT_CLICK` selected range",
+		"`CLICK` 'merge cells'",
+    "`TYPE` 'High Interest Rate'",
+		"`PRESS` tab",
+		"`KEY_DOWN` shift",
+		"`CLICK` cell D2",
+		"`KEY_UP` shift",
+		"`RIGHT_CLICK` selected range",
+		"`CLICK` 'merge cells'",
+    "`TYPE` 'Low Interest Rate', `PRESS` enter`"]
+  ]
+}
+]

@@ -1,0 +1,31 @@
+[{
+  "id": "4de54231-e4b5-49e3-b2ba-61a0bec721c0",
+	"snapshot": "libreoffice_calc",
+	"instruction": "I have compute the acceleration in row 2 and I want you to fill out other rows for column B and D. Next concatenate the values from columns A to D, including their headers (the pattern is \"Header: cell value, ..., Header: cell value\"), into a new column named \"Combined Data\" for all rows. In the new column, only keep 2 decimal digits.",
+	"source": "SheetCopilot@147"
+},
+{
+  "minimal": [
+    "`CLICK` on cell B2",
+		"`DOUBLE_CLICK` bottom right corner of the cell B2",
+    "`CLICK` on cell D2",
+		"`DOUBLE_CLICK` bottom right corner of the cell D2",
+		"`CLICK` on cell E1",
+    "`TYPE` 'Combined Data'",
+		"`PRESS` enter",
+		"`TYPE` '=$A$1&\": \"&FIXED(A2,2)&\", \"&$B$1&\": \"&FIXED(B2,2)&\", \"&$C$1&\": \"&FIXED(C2,2)&\", \"&$D$1&\": \"&FIXED(D2,2)'",
+		"`DOUBLE_CLICK` bottom right corner of the cell E2"
+  ],
+  "batched": [
+    ["`CLICK` on cell B2",
+		"`DOUBLE_CLICK` bottom right corner of the cell B2",
+    "`CLICK` on cell D2",
+		"`DOUBLE_CLICK` bottom right corner of the cell D2",
+		"`CLICK` on cell E1",
+    "`TYPE` 'Combined Data'",
+		"`PRESS` enter",
+		"`TYPE` '=$A$1&\": \"&FIXED(A2,2)&\", \"&$B$1&\": \"&FIXED(B2,2)&\", \"&$C$1&\": \"&FIXED(C2,2)&\", \"&$D$1&\": \"&FIXED(D2,2)'",
+		"`DOUBLE_CLICK` bottom right corner of the cell E2"]
+  ]
+}
+]

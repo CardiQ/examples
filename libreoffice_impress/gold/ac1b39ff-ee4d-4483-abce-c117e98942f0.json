@@ -1,0 +1,20 @@
+[{
+  "id": "ac1b39ff-ee4d-4483-abce-c117e98942f0",
+  "snapshot": "libreoffice_impress",
+  "instruction": "Move the table on Page 3 to the bottom of the slide.",
+  "source": "https://arxiv.org/pdf/2311.01767.pdf"
+},
+{
+  "minimal": [
+    "`CLICK` slide 3",
+    "`CLICK` table",
+    "`MOVE_TO` top left corner of the table directly to the right of the blue box",
+    "`DRAG_TO` bottom of the slide."
+  ],
+  "batched": [
+    ["`CLICK` slide 3"],
+    ["`CLICK` table"],
+    ["`MOVE_TO` top left corner of the table directly to the right of the blue box",
+    "`DRAG_TO` bottom of the slide."]
+  ]
+}]

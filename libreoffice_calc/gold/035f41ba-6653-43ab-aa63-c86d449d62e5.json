@@ -1,0 +1,35 @@
+[{
+  "id": "035f41ba-6653-43ab-aa63-c86d449d62e5",
+	"snapshot": "libreoffice_calc",
+	"instruction": "Help me fill in the Gross profit column. Then under column A named \"Year_Profit\" in a new sheet, display the Year Column in Sheet 1 as text appended by a \"_\" with the corresponding Gross Profit value.",
+	"source": "SheetCopilot@92"
+},
+{
+  "minimal": [
+    "`CLICK` on cell J2",
+    "`TYPE` '=B2-C2-D2-SUM(F2:H2)'",
+		"`CLICK` format as currency icon",
+		"`MOVE_TO` bottom right corner of the cell J2`",
+		"`DRAG_TO` bottom right corner of the cell J10",
+		"`CLICK` on + to left of sheet1",
+		"`TYPE` 'Year_Profit'",
+		"`PRESS` enter",
+		"`TYPE` '=$Sheet1.A2&\"_\"&$Sheet1.J2'",
+		"`MOVE_TO` bottom right corner of the cell A2`",
+		"`DRAG_TO` bottom right corner of the cell A10"
+  ],
+  "batched": [
+    ["`CLICK` on cell J2",
+    "`TYPE` '=B2-C2-D2-SUM(F2:H2)'",
+		"`CLICK` format as currency icon",
+		"`MOVE_TO` bottom right corner of the cell J2`",
+		"`DRAG_TO` bottom right corner of the cell J10",
+		"`CLICK` on + to left of sheet1"],
+		["`TYPE` 'Year_Profit'",
+		"`PRESS` enter",
+		"`TYPE` '=$Sheet1.A2&\"_\"&$Sheet1.J2'",
+		"`MOVE_TO` bottom right corner of the cell A2`",
+		"`DRAG_TO` bottom right corner of the cell A10"]
+  ]
+}
+]

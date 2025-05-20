@@ -1,0 +1,17 @@
+[{
+  "id": "2b94c692-6abb-48ae-ab0b-b3e8a19cb340",
+  "snapshot": "libreoffice_impress",
+  "instruction": "Move the image to the right side on Slide 2.",
+  "source": "https://arxiv.org/pdf/2311.01767.pdf"
+},
+{
+  "minimal": [
+    "`CLICK` Slide 2.",
+    "`MOVE_TO` the image",
+    "`DRAG_TO` the right side of the slide"
+  ],
+  "batched": [
+    ["`CLICK` Slide 2."],
+    ["`MOVE_TO` the image", "`DRAG_TO` the right side of the slide"]
+  ]
+}]

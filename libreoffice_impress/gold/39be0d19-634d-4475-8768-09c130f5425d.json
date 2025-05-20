@@ -1,0 +1,18 @@
+[{
+  "id": "39be0d19-634d-4475-8768-09c130f5425d",
+  "snapshot": "libreoffice_impress",
+  "instruction": "In the \"Features\" slide, insert a table with 5 rows and 2 columns.",
+  "source": "https://arxiv.org/pdf/2311.01767.pdf"
+},
+{
+  "minimal": [
+    "`CLICK` slide 3",
+    "`CLICK` table icon",
+    "`CLICK` the fifth row and second column of the mini-table"
+  ],
+  "batched": [
+    ["`CLICK` slide 3"],
+    ["`CLICK` table icon"],
+    ["`CLICK` the fifth row and second column of the mini-table"]
+  ]
+}]

@@ -1,0 +1,28 @@
+[{
+  "id": "57667013-ea97-417c-9dce-2713091e6e2a",
+  "snapshot": "libreoffice_impress",
+  "instruction": "OK, then move to the slide 5 and set the font color of all textboxes as yellow.",
+  "source": "https://arxiv.org/pdf/2311.01767.pdf"
+},
+{
+  "minimal": [
+    "`CLICK` slide 5",
+    "`CLICK` text in 'write an original...'",
+    "`HOTKEY` ctrl-A",
+    "`CLICK` font color dropdown.",
+    "`CLICK` yellow (2nd row, first from left)",
+    "`CLICK` text in 'Include a credit'...",
+    "`HOTKEY` ctrl-A",
+    "`CLICK` font color."
+  ],
+  "batched": [
+    ["`CLICK` slide 5"],
+    ["`CLICK` text in 'write an original...'",
+    "`HOTKEY` ctrl-A",
+    "`CLICK` font color dropdown."],
+    ["`CLICK` yellow (2nd row, first from left)"],
+    ["`CLICK` text in 'Include a credit'...",
+    "`HOTKEY` ctrl-A",
+    "`CLICK` font color."]
+  ]
+}]

@@ -1,0 +1,35 @@
+[{
+  "id": "1de60575-bb6e-4c3d-9e6a-2fa699f9f197",
+	"snapshot": "libreoffice_calc",
+	"instruction": "Summarize the total revenue for each promotion type in a new sheet (Sheet2) with the promotion names as the column headers.",
+	"source": "SheetCopilot@55"
+},
+{
+  "minimal": [
+    "`HOTEKY` 'ctrl-a'",
+    "`CLICK` double blue arrow curved icon in the top bar representing insert or edit pivot table",
+		"`CLICK` ok",
+		"`MOVE_TO` 'Promotion' in available fields section",
+		"`DRAG_TO` 'Column fields' box",
+		"`MOVE_TO` 'Revenue' in available fields section'",
+		"`DRAG_TO` 'Data fields' box",
+    "`PRESS` Enter",
+    "`DOUBLE_CLICK` on name 'Pivot Table_Sheet1_1'",
+    "`TYPE` 'Sheet2'",
+    "`PRESS` Enter"
+  ],
+  "batched": [
+    ["`HOTEKY` 'ctrl-a'",
+    "`CLICK` double blue arrow curved icon in the top bar representing insert or edit pivot table"],
+		["`CLICK` ok"],
+		["`MOVE_TO` 'Promotion' in available fields section",
+		"`DRAG_TO` 'Column fields' box",
+		"`MOVE_TO` 'Revenue' in available fields section'",
+		"`DRAG_TO` 'Data fields' box",
+    "`PRESS` Enter"],
+    ["`DOUBLE_CLICK` on name 'Pivot Table_Sheet1_1'"],
+    ["`TYPE` 'Sheet2'",
+    "`PRESS` Enter"]
+  ]
+}
+]

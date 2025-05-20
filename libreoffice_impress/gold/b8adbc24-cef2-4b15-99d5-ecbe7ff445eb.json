@@ -1,0 +1,28 @@
+[{
+  "id": "b8adbc24-cef2-4b15-99d5-ecbe7ff445eb",
+  "snapshot": "libreoffice_impress",
+  "instruction": "Create one more slide and name its title as \"Online Shopping\", same color with previous title.",
+  "source": "https://arxiv.org/pdf/2311.01767.pdf"
+},
+{
+  "minimal": [
+    "`CLICK` title text box",
+    "`HOTKEY` ctrl-c",
+    "`RIGHT_CLICK` the empty space in left panel",
+    "`CLICK` 'New slide'",
+    "`HOTKEY` ctrl-v",
+    "`CLICK` the text inside the box",
+    "`HOTKEY` ctrl-a",
+    "`TYPE` Online Shopping"
+  ],
+  "batched": [
+    ["`CLICK` title text box",
+    "`HOTKEY` ctrl-c",
+    "`RIGHT_CLICK` the empty space in left panel"],
+    ["`CLICK` 'New slide'"],
+    ["`HOTKEY` ctrl-v",
+    "`CLICK` the text inside the box",
+    "`HOTKEY` ctrl-a",
+    "`TYPE` Online Shopping"]
+  ]
+}]

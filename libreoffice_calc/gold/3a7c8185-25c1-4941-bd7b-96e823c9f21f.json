@@ -1,0 +1,32 @@
+[{
+ 	"id": "3a7c8185-25c1-4941-bd7b-96e823c9f21f",
+	"snapshot": "libreoffice_calc",
+	"instruction": "Sort the data according to column A in an ascending order and then create a line chart with the \"Date Time\" column on the X-axis and quantity on the Y-axis.",
+	"source": "SheetCopilot@5"
+},
+{
+  "minimal": [
+    "`CLICK` on the A grey cell to select the entire column",
+    "`CLICK` the ascending sort icon az with the down arrow",
+		"`PRESS` enter",
+		"`CLICK` on the A grey cell to select the entire column",
+		"`KEY_DOWN` ctrl",
+		"`CLICK` on the E grey cell to select the entire column",
+		"`CLICK` on the insert chart icon (3 bars)",
+		"`CLICK` line",
+    "`CLICK` the line only chart icon (3rd from the right)",
+    "`PRESS` enter"
+  ],
+  "batched": [
+    ["`CLICK` on the A grey cell to select the entire column",
+    "`CLICK` the ascending sort icon az with the down arrow"],
+		["`PRESS` enter"],
+		["`CLICK` on the A grey cell to select the entire column",
+		"`KEY_DOWN` ctrl",
+		"`CLICK` on the E grey cell to select the entire column", "`CLICK` on the insert chart icon (3 bars)"],
+		"`CLICK` line",
+    ["`CLICK` the line only chart icon (3rd from the right)",
+    "`PRESS` enter"]
+  ]
+}
+]

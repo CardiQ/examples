@@ -1,0 +1,32 @@
+[{
+  "id": "a434992a-89df-4577-925c-0c58b747f0f4",
+  "snapshot": "libreoffice_impress",
+  "instruction": "Change the font size of the content to 12, and change the font color to orange. Change the slide's background to red.",
+  "source": "https://arxiv.org/pdf/2311.01767.pdf"
+},
+{
+  "minimal": [
+    "`CLICK` background dropdown arrow",
+    "`CLICK` color",
+    "`CLICK` color dropdown arrow",
+    "`CLICK` red (2nd row, 5th from left)",
+    "`CLICK` the content text box",
+    "`CLICK` the font size dropdown arrow",
+    "`TYPE` 12",
+    "`PRESS` enter",
+    "`CLICK` the font color dropdown arrow",
+    "`CLICK` the orange color (2nd row, 3rd from left)"
+  ],
+  "batched": [
+    ["`CLICK` background dropdown arrow"],
+    ["`CLICK` color"],
+    ["`CLICK` color dropdown arrow"],
+    ["`CLICK` red (2nd row, 5th from left)",
+    "`CLICK` the content text box",
+    "`CLICK` the font size dropdown arrow",
+    "`TYPE` 12",
+    "`PRESS` enter",
+    "`CLICK` the font color dropdown arrow"],
+    ["`CLICK` the orange color (2nd row, 3rd from left)"]
+  ]
+}]

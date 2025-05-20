@@ -1,0 +1,28 @@
+[{
+  "id": "8979838c-54a5-4454-a2b8-3d135a1a5c8f",
+  "snapshot": "libreoffice_impress",
+  "instruction": "Give the slide a purple background color. Add the title to note.",
+  "source": "https://arxiv.org/pdf/2311.01767.pdf"
+},
+{
+  "minimal": [
+    "`CLICK` background dropdown",
+    "`CLICK` color",
+    "`CLICK` color dropdown",
+    "`CLICK` purple (2nd row, 7th from left).",
+    "`CLICK` view menu",
+    "`CLICK` Notes.",
+    "`CLICK` 'click to add' text",
+    "`TYPE` 'Should You Consider Studying Abroad'"
+  ],
+  "batched": [
+    ["`CLICK` background dropdown"],
+    ["`CLICK` color"],
+    ["`CLICK` color dropdown"],
+    ["`CLICK` purple (2nd row, 7th from left).",
+    "`CLICK` view menu"],
+    ["`CLICK` Notes."],
+    ["`CLICK` 'click to add' text",
+    "`TYPE` 'Should You Consider Studying Abroad'"]
+  ]
+}]

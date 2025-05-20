@@ -1,0 +1,37 @@
+[{
+  "id": "12382c62-0cd1-4bf2-bdc8-1d20bf9b2371",
+	"snapshot": "libreoffice_calc",
+	"instruction": "Create a clustered column chart showing the Sales and COGS data for each week in a new sheet. Set the chart title as \"Sales & COGS\".",
+	"source": "SheetCopilot@210"
+},
+{
+  "minimal": [
+		"`HOTKEY` ctrl-A",
+		"`CLICK` insert chart icon",
+    "`CLICK` next",
+		"`CLICK` chart elements on right sidebar",
+		"`CLICK` title text box",
+		"`TYPE` 'Sales & COGS'",
+		"`PRESS` enter",
+		"`CLICK` on cell A1 to cancel out of current menu",
+		"`CLICK` on chart to select it",
+		"`HOTKEY` ctrl-X",
+		"`CLICK` on + to left of sheet1",
+		"`HOTKEY` ctrl+v"
+  ],
+  "batched": [
+		["`HOTKEY` ctrl-A",
+		"`CLICK` insert chart icon"],
+    ["`CLICK` next"],
+		["`CLICK` chart elements on right sidebar"],
+		["`CLICK` title text box",
+		"`TYPE` 'Sales & COGS'",
+		"`PRESS` enter"],
+		["`CLICK` on cell A1 to cancel out of current menu",
+		"`CLICK` on chart to select it",
+		"`HOTKEY` ctrl-X",
+		"`CLICK` on + to left of sheet1",
+		"`HOTKEY` ctrl+v"]
+  ]
+}
+]
