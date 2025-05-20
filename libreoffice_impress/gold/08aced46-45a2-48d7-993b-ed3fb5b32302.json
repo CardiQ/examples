@@ -1,0 +1,20 @@
+[{
+  "id": "08aced46-45a2-48d7-993b-ed3fb5b32302",
+  "snapshot": "libreoffice_impress",
+  "instruction": "Give the slide 2 the right aligned title, \"Note\".",
+  "source": "https://arxiv.org/pdf/2311.01767.pdf"
+},
+{
+  "minimal": [
+    "`CLICK` Slide 2",
+    "`CLICK` the title text box",
+    "`TYPE` 'Note'",
+    "`CLICK` right align icon."
+  ],
+  "batched": [
+    ["`CLICK` Slide 2"],
+    ["`CLICK` the title text box",
+    "`TYPE` 'Note'",
+    "`CLICK` right align icon."]
+  ]
+}]

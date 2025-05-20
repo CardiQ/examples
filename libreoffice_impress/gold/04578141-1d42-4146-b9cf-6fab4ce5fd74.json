@@ -1,0 +1,34 @@
+[{
+  "id": "04578141-1d42-4146-b9cf-6fab4ce5fd74",
+  "snapshot": "libreoffice_impress",
+  "instruction": "Make the first three textboxes on slide 1 of color yellow, red, green, respectively.",
+  "source": "https://arxiv.org/pdf/2311.01767.pdf"
+},
+{
+  "minimal": [
+    "`CLICK` new product text",
+    "`HOTKEY` ctrl + a",
+    "`CLICK` font color dropdown",
+    "`CLICK` yellow (2nd row, first from left)",
+    "`CLICK` launch text",
+    "`HOTKEY` ctrl + a",
+    "`CLICK` font color dropdown",
+    "`CLICK` red (2nd row, 5th from left)",
+    "`CLICK` project proposal text",
+    "`HOTKEY` ctrl + a",
+    "`CLICK` green (2nd row, 2nd from right)"
+  ],
+  "batched": [
+    ["`CLICK` new product text",
+    "`HOTKEY` ctrl + a",
+    "`CLICK` font color dropdown"],
+    ["`CLICK` yellow (2nd row, first from left)",
+    "`CLICK` launch text",
+    "`HOTKEY` ctrl + a",
+    "`CLICK` font color dropdown"],
+    ["`CLICK` red (2nd row, 5th from left)",
+    "`CLICK` project proposal text",
+    "`HOTKEY` ctrl + a",
+    "`CLICK` green (2nd row, 2nd from right)"]
+  ]
+}]

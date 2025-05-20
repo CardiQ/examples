@@ -1,0 +1,42 @@
+[{
+  "id": "a53f80cd-4a90-4490-8310-097b011433f6",
+  "snapshot": "libreoffice_impress",
+  "instruction": "Set the font color of the title in slides 2 to 3 as black and bold the title. Also, delete the personal information in slide 4.",
+  "source": "https://arxiv.org/pdf/2311.01767.pdf"
+},
+{
+  "minimal": [
+    "`CLICK` slide 2",
+    "`CLICK` title text",
+    "`HOTKEY` ctrl-A",
+    "`CLICK` font color dropdown.",
+    "`CLICK` black (1st row, first from left)",
+    "`CLICK` bold icon",
+    "`CLICK` slide 3",
+    "`CLICK` title text",
+    "`HOTKEY` ctrl-A",
+    "`CLICK` font color icon",
+    "`CLICK` bold icon",
+    "`CLICK` slide 4",
+    "`MOVE_TO` top left corner of the location icon with some padding",
+    "`DRAG_TO` where bottom left corner of the pink image is",
+    "`PRESS` delete."
+  ],
+  "batched": [
+    ["`CLICK` slide 2"],
+    ["`CLICK` title text",
+    "`HOTKEY` ctrl-A",
+    "`CLICK` font color dropdown."],
+    ["`CLICK` black (1st row, first from left)",
+    "`CLICK` bold icon",
+    "`CLICK` slide 3"],
+    ["`CLICK` title text",
+    "`HOTKEY` ctrl-A",
+    "`CLICK` font color icon",
+    "`CLICK` bold icon",
+    "`CLICK` slide 4"],
+    ["`MOVE_TO` top left corner of the location icon with some padding",
+    "`DRAG_TO` where bottom left corner of the pink image is",
+    "`PRESS` delete."]
+  ]
+}]

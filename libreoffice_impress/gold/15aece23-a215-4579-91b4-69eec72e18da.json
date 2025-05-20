@@ -1,0 +1,18 @@
+[{
+  "id": "15aece23-a215-4579-91b4-69eec72e18da",
+  "snapshot": "libreoffice_impress",
+  "instruction": "Move the title of page 2 to the bottom of the slide.",
+  "source": "https://arxiv.org/pdf/2311.01767.pdf"
+},
+{
+  "minimal": [
+    "`CLICK` slide 2",
+    "`MOVE_TO` Product Comparison text box",
+    "`DRAG_TO` bottom of the slide"
+  ],
+  "batched": [
+    ["`CLICK` slide 2"],
+    ["`MOVE_TO` Product Comparison text box",
+    "`DRAG_TO` bottom of the slide"]
+  ]
+}]

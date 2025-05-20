@@ -1,0 +1,48 @@
+[{
+  "id": "4ed5abd0-8b5d-47bd-839f-cacfa15ca37a",
+  "snapshot": "libreoffice_impress",
+  "instruction": "Set the color of titles in slides 2,3,5 as black and underline them.",
+  "source": "https://arxiv.org/pdf/2311.01767.pdf"
+},
+{
+  "minimal": [
+    "`CLICK` Slide 2.",
+    "`CLICK` the title text box",
+    "`HOTKEY` ctrl-A",
+    "`CLICK` font color dropdown.",
+    "`CLICK` black",
+    "`CLICK` underline icon",
+    "`CLICK` Slide 3.",
+    "`CLICK` the title text box",
+    "`HOTKEY` ctrl-A",
+    "`CLICK` font color dropdown.",
+    "`CLICK` black",
+    "`CLICK` underline icon",
+    "`CLICK` Slide 5.",
+    "`CLICK` the title text box",
+    "`HOTKEY` ctrl-A",
+    "`CLICK` font color dropdown.",
+    "`CLICK` black",
+    "`CLICK` underline icon"
+  ],
+  "batched": [
+    ["`CLICK` Slide 2."],
+    ["`CLICK` the title text box",
+    "`HOTKEY` ctrl-A",
+    "`CLICK` font color dropdown."],
+    ["`CLICK` black",
+    "`CLICK` underline icon",
+    "`CLICK` Slide 3."],
+    ["`CLICK` the title text box",
+    "`HOTKEY` ctrl-A",
+    "`CLICK` font color dropdown."],
+    ["`CLICK` black",
+    "`CLICK` underline icon",
+    "`CLICK` Slide 5."],
+    ["`CLICK` the title text box",
+    "`HOTKEY` ctrl-A",
+    "`CLICK` font color dropdown."],
+    ["`CLICK` black",
+    "`CLICK` underline icon"]
+  ]
+}]

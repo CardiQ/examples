@@ -1,0 +1,30 @@
+[{
+  "id": "ed43c15f-00cb-4054-9c95-62c880865d68",
+  "snapshot": "libreoffice_impress",
+  "instruction": "Move the picture on page 2 to slide top. Make textboxes underlined on slide 1 and 2.",
+  "source": "https://arxiv.org/pdf/2311.01767.pdf"
+},
+{
+  "minimal": [
+    "`CLICK` text in 'minimalistic newsletter'",
+    "`HOTKEY` ctrl-a",
+    "`HOTKEY` ctrl-U",
+    "`CLICK` text in 'here is the start...'",
+    "`HOTKEY` ctrl-a",
+    "`HOTKEY` ctrl-U",
+    "`CLICK` slide 2",
+    "`MOVE_TO` image",
+    "`DRAG_TO` top of slide"
+  ],
+  "batched": [
+    ["`CLICK` text in 'minimalistic newsletter'",
+    "`HOTKEY` ctrl-a",
+    "`HOTKEY` ctrl-U",
+    "`CLICK` text in 'here is the start...'",
+    "`HOTKEY` ctrl-a",
+    "`HOTKEY` ctrl-U",
+    "`CLICK` slide 2"],
+    ["`MOVE_TO` image",
+    "`DRAG_TO` top of slide"]
+  ]
+}]
