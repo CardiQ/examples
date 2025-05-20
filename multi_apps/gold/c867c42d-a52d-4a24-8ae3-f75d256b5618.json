@@ -1,6 +1,84 @@
-{
+[{
     "id": "c867c42d-a52d-4a24-8ae3-f75d256b5618",
     "snapshot": "thunderbird",
     "instruction": "Please assist me in exporting my contacts of Personal Address Book from Thunderbird into contacts.csv file in the desktop and convert it to .xlsx with Libreoffice Calc.",
     "source": "https://www.sync.blue/en/sync/mozilla-thunderbird/google-sheets/"
-}
+},
+{
+  "minimal": [
+    "`CLICK` thunderbird window",
+    "`CLICK` on 'Address Book'",
+    "`CLICK` on 'Personal Address Book'",
+    "`CLICK` on 'Tools' in the menu bar",
+    "`CLICK` on 'Export'",
+    "`CLICK` on 'Desktop' in the sidebar",
+    "`TYPING` contacts.csv",
+    "`CLICK` on 'Save'",
+    "`CLICK` on 'File type' dropdown",
+    "`CLICK` on 'Comma Separated (System Charset)'",
+    "`CLICK` on 'Save'",
+    "`CLICK` on 'Close'",
+    "`CLICK` libreoffice window",
+    "`CLICK` on 'Text Import' dialog 'OK' button to accept default settings (comma as separator)",
+    "`CLICK` on 'File' in the menu bar",
+    "`CLICK` on 'Save As'",
+    "`TYPING` contacts.xlsx",
+    "`CLICK` on 'Save'",
+    "`CLICK` on 'Yes' to confirm current format"
+  ],
+  "batched": [
+    [
+    "`CLICK` thunderbird window"
+    ],
+    [
+      "`CLICK` on 'Address Book'"
+    ],
+    [
+      "`CLICK` on 'Personal Address Book'"
+    ],
+    [
+      "`CLICK` on 'Tools' in the menu bar"
+    ],
+    [
+      "`CLICK` on 'Export'"
+    ],
+    [
+      "`CLICK` on 'Desktop' in the sidebar"
+    ],
+    [
+      "`TYPING` contacts.csv",
+      "`CLICK` on 'Save'"
+    ],
+    [
+      "`CLICK` on 'File type' dropdown"
+    ],
+    [
+      "`CLICK` on 'Comma Separated (System Charset)'"
+    ],
+    [
+      "`CLICK` on 'Save'"
+    ],
+    [
+      "`CLICK` on 'Close'"
+    ],
+    [
+      "`CLICK` libreoffice window"
+    ],
+    [
+      "`CLICK` on 'Text Import' dialog 'OK' button to accept default settings (comma as separator)"
+    ],
+    [
+      "`CLICK` on 'File' in the menu bar"
+    ],
+    [
+      "`CLICK` on 'Save As'"
+    ],
+    [
+      "`TYPING` contacts.xlsx",
+      "`CLICK` on 'Save'"
+    ],
+    [
+      "`CLICK` on 'Yes' to confirm current format"
+    ]
+  ]
+}]

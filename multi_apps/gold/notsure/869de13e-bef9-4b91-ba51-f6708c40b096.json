@@ -1,0 +1,62 @@
+[{
+  "id": "869de13e-bef9-4b91-ba51-f6708c40b096",
+  "snapshot": "libreoffice_calc",
+  "instruction": "Can you organize my desktop by identifying academic papers, coding projects, and other documents, ensuring no file is misplaced? Specifically, place academic papers in the 'Paper_reading' folder, coding projects in 'Projects,' and categorize everything else under 'Miscellaneous.' For files lacking clear extensions or names, apply content analysis to determine their appropriate classification.",
+  "source": "authors"
+},
+{
+  "minimal": [
+    "`CLICK`'Files' icon (your file manager, e.g., Nautilus)",
+    "`CLICK`'Desktop' in the sidebar to navigate to your Desktop",
+    "`RIGHT_CLICK` an empty space on your Desktop",
+    "`CLICK`'New Folder'",
+    "`TYPING` Paper_reading",
+    "`PRESS` Enter",
+    "`RIGHT_CLICK` an empty space on your Desktop",
+    "`CLICK`'New Folder'",
+    "`TYPING` Projects",
+    "`PRESS` Enter",
+    "`RIGHT_CLICK` an empty space on your Desktop",
+    "`CLICK`'New Folder'",
+    "`TYPING` Miscellaneous",
+    "`PRESS` Enter",
+    "`CLICK` and drag an academic paper file (e.g., 'research_article.pdf') from your Desktop into the 'Paper_reading' folder",
+    "`CLICK` and drag a coding project folder or file (e.g., 'website_project' folder or 'script.py' file) from your Desktop into the 'Projects' folder",
+    "`CLICK` and drag any other document or file (e.g., 'receipt.jpg', 'meeting_notes.txt') from your Desktop into the 'Miscellaneous' folder"
+  ],
+  "batched": [
+    [
+      "`CLICK`'Files' icon (your file manager, e.g., Nautilus)"
+    ],
+    [
+      "`CLICK`'Desktop' in the sidebar to navigate to your Desktop"
+    ],
+    [
+      "`RIGHT_CLICK` an empty space on your Desktop",
+      "`CLICK`'New Folder'",
+      "`TYPING` Paper_reading",
+      "`PRESS` Enter"
+    ],
+    [
+      "`RIGHT_CLICK` an empty space on your Desktop",
+      "`CLICK`'New Folder'",
+      "`TYPING` Projects",
+      "`PRESS` Enter"
+    ],
+    [
+      "`RIGHT_CLICK` an empty space on your Desktop",
+      "`CLICK`'New Folder'",
+      "`TYPING` Miscellaneous",
+      "`PRESS` Enter"
+    ],
+    [
+      "`CLICK` and drag an academic paper file (e.g., 'research_article.pdf') from your Desktop into the 'Paper_reading' folder"
+    ],
+    [
+      "`CLICK` and drag a coding project folder or file (e.g., 'website_project' folder or 'script.py' file) from your Desktop into the 'Projects' folder"
+    ],
+    [
+      "`CLICK` and drag any other document or file (e.g., 'receipt.jpg', 'meeting_notes.txt') from your Desktop into the 'Miscellaneous' folder"
+    ]
+  ]
+}]

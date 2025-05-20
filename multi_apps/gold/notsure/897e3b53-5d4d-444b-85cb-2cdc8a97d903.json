@@ -1,0 +1,74 @@
+[{
+    "id": "897e3b53-5d4d-444b-85cb-2cdc8a97d903",
+    "snapshot": "chrome",
+    "instruction": "I have a LibreOffice Writer file form.docx on the desktop. Help me convert it to PDF format and store the PDF in the forms/ folder in my Google Drive.",
+    "source": "https://marketplace.uipath.com/listings/convert-word-file-to-pdf-and-store-in-onedrive"
+},
+{
+  "minimal": [
+    "`CLICK`'LibreOffice Writer' icon",
+    "`CLICK`'File' menu",
+    "`CLICK`'Open...' option",
+    "`CLICK`'Desktop' in the file open dialog",
+    "`CLICK`'form.docx'",
+    "`CLICK`'Open' button",
+    "`CLICK`'File' menu",
+    "`CLICK`'Export As' submenu",
+    "`CLICK`'Export as PDF...' option",
+    "`CLICK`'Desktop' in the file save dialog",
+    "`CLICK`'Save' button",
+    "`CLICK`'Chrome' icon",
+    "`TYPING` drive.google.com",
+    "`PRESS` Enter",
+    "`CLICK` the 'forms' folder in Google Drive",
+    "`CLICK`'New' button in Google Drive",
+    "`CLICK`'File upload' in the context menu",
+    "`CLICK`'Desktop' in the file picker dialog",
+    "`CLICK`'form.pdf'",
+    "`CLICK`'Open' button in the file picker dialog"
+  ],
+  "batched": [
+    [
+      "`CLICK`'LibreOffice Writer' icon"
+    ],
+    [
+      "`CLICK`'File' menu",
+      "`CLICK`'Open...' option"
+    ],
+    [
+      "`CLICK`'Desktop' in the file open dialog",
+      "`CLICK`'form.docx'",
+      "`CLICK`'Open' button"
+    ],
+    [
+      "`CLICK`'File' menu",
+      "`CLICK`'Export As' submenu",
+      "`CLICK`'Export as PDF...' option"
+    ],
+    [
+      "`CLICK`'Desktop' in the file save dialog",
+      "`CLICK`'Save' button"
+    ],
+    [
+      "`CLICK`'Chrome' icon"
+    ],
+    [
+      "`TYPING` drive.google.com",
+      "`PRESS` Enter"
+    ],
+    [
+      "`CLICK` the 'forms' folder in Google Drive"
+    ],
+    [
+      "`CLICK`'New' button in Google Drive"
+    ],
+    [
+      "`CLICK`'File upload' in the context menu"
+    ],
+    [
+      "`CLICK`'Desktop' in the file picker dialog",
+      "`CLICK`'form.pdf'",
+      "`CLICK`'Open' button in the file picker dialog"
+    ]
+  ]
+}]

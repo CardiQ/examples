@@ -1,0 +1,66 @@
+{
+  "id": "82e3c869-49f6-4305-a7ce-f3e64a0618e7",
+  "snapshot": "libreoffice_calc",
+  "instruction": "Please sift through the folder with all the event photos taken by our photographer. I need you to extract the photos featuring the presenters and place them in a separate folder named 'presenter'. Then, compress this folder into a zip file so I can easily share it with others later.",
+  "source": "authors"
+},
+{
+  "minimal": [
+    "`CLICK`'Files' icon (or your file manager application)",
+    "`CLICK`'Pictures' folder in the sidebar",
+    "`CLICK`'Event Photos' folder (assuming this is where they are stored)",
+    "`RIGHT_CLICK` on an empty space in the folder",
+    "`CLICK`'New Folder' or 'Create Folder'",
+    "`TYPING` presenter",
+    "`PRESS` Enter",
+    "`CLICK` on the first photo to review",
+    "`PRESS`'Right Arrow' key to navigate through photos and identify presenters",
+    "`CLICK` on a photo featuring a presenter",
+    "`HOTKEY`'Ctrl+X' cut the photo",
+    "`CLICK`'presenter' folder in the file manager",
+    "`HOTKEY`'Ctrl+V' paste the photo",
+    "`CLICK`'Back' arrow to return to 'Event Photos'",
+    "`RIGHT_CLICK`'presenter' folder",
+    "`CLICK`'Compress' or 'Create Archive'",
+    "`CLICK`'Zip' or '.zip' as the archive type",
+    "`CLICK`'Create' or 'Save'"
+  ],
+  "batched": [
+    [
+      "`CLICK`'Files' icon (or your file manager application)"
+    ],
+    [
+      "`CLICK`'Pictures' folder in the sidebar"
+    ],
+    [
+      "`CLICK`'Event Photos' folder (assuming this is where they are stored)"
+    ],
+    [
+      "`RIGHT_CLICK` on an empty space in the folder",
+      "`CLICK`'New Folder' or 'Create Folder'",
+      "`TYPING` presenter",
+      "`PRESS` Enter"
+    ],
+    [
+      "`CLICK` on the first photo to review",
+      "`PRESS`'Right Arrow' key to navigate through photos and identify presenters"
+    ],
+    [
+      "`CLICK` on a photo featuring a presenter",
+      "`HOTKEY`'Ctrl+X' cut the photo",
+      "`CLICK`'presenter' folder in the file manager",
+      "`HOTKEY`'Ctrl+V' paste the photo"
+    ],
+    [
+      "`CLICK`'Back' arrow to return to 'Event Photos'"
+    ],
+    [
+      "`RIGHT_CLICK`'presenter' folder",
+      "`CLICK`'Compress' or 'Create Archive'"
+    ],
+    [
+      "`CLICK`'Zip' or '.zip' as the archive type",
+      "`CLICK`'Create' or 'Save'"
+    ]
+  ]
+}

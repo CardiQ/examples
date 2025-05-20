@@ -1,0 +1,138 @@
+[{
+    "id": "7ff48d5b-2df2-49da-b500-a5150ffc7f18",
+    "snapshot": "multiapps",
+    "instruction": "I am a Chinese citizen and I want to go to Macau to watch a concert recently, but I have not yet applied for a visa for Macau. I live in Futian District, Shenzhen City. I heard that Shenzhen currently has 24-hour self-service check-in machines. Please help me find the addresses of 5 24-hour self-service check-in machines in Futian District and save them in Chinese in this open word document.",
+    "source": "authors"
+},
+{
+  "minimal": [
+    "`TYPING` google-chrome",
+    "`PRESS` enter",
+    "`TYPING` 深圳福田区24小时自助签注机地址",
+    "`PRESS` enter",
+    "`TYPING` 深圳公安出入境",
+    "`CLICK` on '深圳公安' (Shenzhen Public Security) official website or WeChat official account link if found in search results, looking for '出入境业务' (Exit-Entry Business) or '智能签注设备' (Intelligent Endorsement Equipment)",
+    "`SCROLL` 0, 500",
+    "`TYPING` (Assuming you've found a map or list on the website/WeChat that shows locations.)",
+    "`CLICK` on the address of the first 24-hour self-service check-in machine in Futian District to highlight it",
+    "`HOTKEY` ['control', 'c']",
+    "`TYPING` libreoffice --writer",
+    "`PRESS` enter",
+    "`HOTKEY` ['control', 'v']",
+    "`PRESS` enter",
+    "`CLICK` on the address of the second 24-hour self-service check-in machine in Futian District (switch back to Chrome window if needed, then copy)",
+    "`HOTKEY` ['alt', 'tab']",
+    "`HOTKEY` ['control', 'v']",
+    "`PRESS` enter",
+    "`CLICK` on the address of the third 24-hour self-service check-in machine in Futian District (switch back to Chrome window if needed, then copy)",
+    "`HOTKEY` ['alt', 'tab']",
+    "`HOTKEY` ['control', 'v']",
+    "`PRESS` enter",
+    "`CLICK` on the address of the fourth 24-hour self-service check-in machine in Futian District (switch back to Chrome window if needed, then copy)",
+    "`HOTKEY` ['alt', 'tab']",
+    "`HOTKEY` ['control', 'v']",
+    "`PRESS` enter",
+    "`CLICK` on the address of the fifth 24-hour self-service check-in machine in Futian District (switch back to Chrome window if needed, then copy)",
+    "`HOTKEY` ['alt', 'tab']",
+    "`HOTKEY` ['control', 'v']",
+    "`HOTKEY` ['control', 's']",
+    "`TYPING` /home/user/Documents/macau_visa_machines.odt",
+    "`CLICK` on 'Save'"
+  ],
+  "batched": [
+    [
+      "`TYPING` google-chrome"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING` 深圳福田区24小时自助签注机地址"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`CLICK` on '深圳公安' (Shenzhen Public Security) official website or WeChat official account link if found in search results, looking for '出入境业务' (Exit-Entry Business) or '智能签注设备' (Intelligent Endorsement Equipment)"
+    ],
+    [
+      "`SCROLL` 0, 500"
+    ],
+    [
+      "`TYPING` (Assuming you've found a map or list on the website/WeChat that shows locations.)"
+    ],
+    [
+      "`CLICK` on the address of the first 24-hour self-service check-in machine in Futian District to highlight it"
+    ],
+    [
+      "`HOTKEY` ['control', 'c']"
+    ],
+    [
+      "`TYPING` libreoffice --writer"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`HOTKEY` ['control', 'v']"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`CLICK` on the address of the second 24-hour self-service check-in machine in Futian District"
+    ],
+    [
+      "`HOTKEY` ['alt', 'tab']"
+    ],
+    [
+      "`HOTKEY` ['control', 'v']"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`CLICK` on the address of the third 24-hour self-service check-in machine in Futian District"
+    ],
+    [
+      "`HOTKEY` ['alt', 'tab']"
+    ],
+    [
+      "`HOTKEY` ['control', 'v']"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`CLICK` on the address of the fourth 24-hour self-service check-in machine in Futian District"
+    ],
+    [
+      "`HOTKEY` ['alt', 'tab']"
+    ],
+    [
+      "`HOTKEY` ['control', 'v']"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`CLICK` on the address of the fifth 24-hour self-service check-in machine in Futian District"
+    ],
+    [
+      "`HOTKEY` ['alt', 'tab']"
+    ],
+    [
+      "`HOTKEY` ['control', 'v']"
+    ],
+    [
+      "`HOTKEY` ['control', 's']"
+    ],
+    [
+      "`TYPING` /home/user/Documents/macau_visa_machines.odt"
+    ],
+    [
+      "`CLICK` on 'Save'"
+    ]
+  ]
+}
+  ]

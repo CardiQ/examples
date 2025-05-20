@@ -1,0 +1,48 @@
+[{
+	"id": "81c425f5-78f3-4771-afd6-3d2973825947",
+	"snapshot": "libreoffice_calc",
+	"instruction": "Can you assist me in transferring the data from LibreOffice Calc in the current sheet to a LibreOffice Writer table while preserving the original format as in calc file? Save the document as \"price.docx\" on the desktop.",
+	"source": "authors"
+},
+{
+  "minimal": [
+    "`CLICK`'LibreOffice Calc' icon open window",
+    "`CLICK`'A1' cell (or the top-left cell of your data)",
+    "`HOTKEY`'Ctrl+A' select all data in the sheet",
+    "`HOTKEY`'Ctrl+C' copy the selected data",
+    "`CLICK`'LibreOffice Writer' icon",
+    "`HOTKEY`'Ctrl+V' paste the data into Writer",
+    "`CLICK`'File' menu",
+    "`CLICK`'Save As...' option",
+    "`TYPING` price.docx",
+    "`CLICK`'Desktop' in the file save dialog",
+    "`CLICK`'Save' button"
+  ],
+  "batched": [
+    [
+    "`CLICK`'LibreOffice Calc' icon open window"
+    ],
+    [
+      "`CLICK`'A1' cell (or the top-left cell of your data)",
+      "`HOTKEY`'Ctrl+A' select all data in the sheet",
+      "`HOTKEY`'Ctrl+C' copy the selected data"
+    ],
+    [
+      "`CLICK`'LibreOffice Writer' icon"
+    ],
+    [
+      "`HOTKEY`'Ctrl+V' paste the data into Writer"
+    ],
+    [
+      "`CLICK`'File' menu",
+      "`CLICK`'Save As...' option"
+    ],
+    [
+      "`TYPING` price.docx"
+    ],
+    [
+      "`CLICK`'Desktop' in the file save dialog",
+      "`CLICK`'Save' button"
+    ]
+  ]
+}]

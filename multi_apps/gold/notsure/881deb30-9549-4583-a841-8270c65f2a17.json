@@ -1,0 +1,95 @@
+[{
+  "id": "881deb30-9549-4583-a841-8270c65f2a17",
+  "snapshot": "libreoffice_calc",
+  "instruction": "I want to find a faculty job in Hong Kong, so I am more curious about the \"Early Career Scheme\" of those schools is better to apply, please help me to count all the documents in the ecs pdf files in my hand, and organize the pass rate of each school by year into table!",
+  "source": "authors"
+},
+{
+  "minimal": [
+    "`HOTKEY`'Ctrl+Alt+T' open the terminal",
+    "`TYPING` cd /home/user/Documents/Fundings/ecs",
+    "`PRESS` Enter",
+    "`TYPING` ls -1 *.pdf | wc -l",
+    "`PRESS` Enter",
+    "`CLICK`'Files' icon (your file manager, e.g., Nautilus)",
+    "`CLICK`'Documents' in the sidebar",
+    "`CLICK`'Fundings' folder",
+    "`CLICK`'ecs' folder",
+    "`DOUBLE_CLICK` the first PDF file (e.g., 'school_grant_2023.pdf') to open it in your PDF viewer",
+    "`CLICK`'LibreOffice Calc' icon to switch to the 'supported_rate.xlsx' window (assuming it's already open)",
+    "`CLICK` a cell in 'supported_rate.xlsx' where you want to enter the first school's data (e.g., A2 for School Name)",
+    "`TYPING` [Manually type the School Name extracted from the PDF]",
+    "`PRESS` Right",
+    "`TYPING` [Manually type the Year extracted from the PDF]",
+    "`PRESS` Right",
+    "`TYPING` [Manually type the Pass Rate extracted from the PDF]",
+    "`PRESS` Enter",
+    "`DOUBLE_CLICK` the next PDF file in the 'ecs' folder to open it (if not already closed)",
+    "`CLICK`'LibreOffice Calc' icon to switch back to Calc",
+    "`CLICK` a cell in the next row of your table (e.g., A3)",
+    "`TYPING` [Manually type the School Name from the new PDF]",
+    "`PRESS` Right",
+    "`TYPING` [Manually type the Year from the new PDF]",
+    "`PRESS` Right",
+    "`TYPING` [Manually type the Pass Rate from the new PDF]",
+    "`PRESS` Enter",
+    "`CLICK`'File' menu in Calc",
+    "`CLICK`'Save' option"
+  ],
+  "batched": [
+    [
+      "`HOTKEY`'Ctrl+Alt+T' open the terminal"
+    ],
+    [
+      "`TYPING` cd /home/user/Documents/Fundings/ecs",
+      "`PRESS` Enter"
+    ],
+    [
+      "`TYPING` ls -1 *.pdf | wc -l",
+      "`PRESS` Enter"
+    ],
+    [
+      "`CLICK`'Files' icon (your file manager, e.g., Nautilus)"
+    ],
+    [
+      "`CLICK`'Documents' in the sidebar",
+      "`CLICK`'Fundings' folder",
+      "`CLICK`'ecs' folder"
+    ],
+    [
+      "`DOUBLE_CLICK` the first PDF file (e.g., 'school_grant_2023.pdf') to open it in your PDF viewer"
+    ],
+    [
+      "`CLICK`'LibreOffice Calc' icon to switch to the 'supported_rate.xlsx' window (assuming it's already open)"
+    ],
+    [
+      "`CLICK` a cell in 'supported_rate.xlsx' where you want to enter the first school's data (e.g., A2 for School Name)",
+      "`TYPING` [Manually type the School Name extracted from the PDF]",
+      "`PRESS` Right",
+      "`TYPING` [Manually type the Year extracted from the PDF]",
+      "`PRESS` Right",
+      "`TYPING` [Manually type the Pass Rate extracted from the PDF]",
+      "`PRESS` Enter"
+    ],
+    [
+      "`DOUBLE_CLICK` the next PDF file in the 'ecs' folder to open it (if not already closed)"
+    ],
+    [
+      "`CLICK`'LibreOffice Calc' icon to switch back to Calc"
+    ],
+    [
+      "`CLICK` a cell in the next row of your table (e.g., A3)",
+      "`TYPING` [Manually type the School Name from the new PDF]",
+      "`PRESS` Right",
+      "`TYPING` [Manually type the Year from the new PDF]",
+      "`PRESS` Right",
+      "`TYPING` [Manually type the Pass Rate from the new PDF]",
+      "`PRESS` Enter"
+    ],
+    [
+      "`CLICK`'File' menu in Calc",
+      "`CLICK`'Save' option"
+    ]
+  ]
+}
+]

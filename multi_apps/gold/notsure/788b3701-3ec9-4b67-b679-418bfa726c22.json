@@ -1,0 +1,45 @@
+[{
+  "id": "788b3701-3ec9-4b67-b679-418bfa726c22",
+  "snapshot": "chrome",
+  "instruction": "I'm tracking updates for a short tale set on https://github.com/liangjs333/4th-year-in-tsinghua-eng. I have already downloaded several chapters for reading and archiving. Please assist me in downloading the next chapter I haven't obtained yet and save it to my novel collection folder.",
+  "source": "authors"
+},
+{
+  "minimal": [
+    "`CLICK`'Chrome' icon",
+    "`TYPING` https://github.com/liangjs333/4th-year-in-tsinghua-eng",
+    "`PRESS` Enter",
+    "`CLICK` the link for the next chapter file (e.g., 'Chapter_05.txt')",
+    "`CLICK`'Raw' button on the GitHub file page",
+    "`RIGHT_CLICK` on the page displaying the raw text content",
+    "`CLICK`'Save As...' from the context menu",
+    "`CLICK`'Documents' in the sidebar of the file save dialog",
+    "`CLICK`'Novel Collection' folder",
+    "`CLICK`'Save' button"
+  ],
+  "batched": [
+    [
+      "`CLICK`'Chrome' icon"
+    ],
+    [
+      "`TYPING` https://github.com/liangjs333/4th-year-in-tsinghua-eng",
+      "`PRESS` Enter"
+    ],
+    [
+      "`CLICK` the link for the next chapter file (e.g., 'Chapter_05.txt')"
+    ],
+    [
+      "`CLICK`'Raw' button on the GitHub file page"
+    ],
+    [
+      "`RIGHT_CLICK` on the page displaying the raw text content",
+      "`CLICK`'Save As...' from the context menu"
+    ],
+    [
+      "`CLICK`'Documents' in the sidebar of the file save dialog",
+      "`CLICK`'Novel Collection' folder",
+      "`CLICK`'Save' button"
+    ]
+  ]
+}
+]

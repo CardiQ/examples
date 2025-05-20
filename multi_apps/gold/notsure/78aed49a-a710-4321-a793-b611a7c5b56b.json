@@ -1,0 +1,70 @@
+[{
+    "id": "78aed49a-a710-4321-a793-b611a7c5b56b",
+    "snapshot": "chrome",
+    "instruction": "Could you help me save all attachments of the oldest email in Bills local folders to the attachment/ folder in Google Drive and then move this email to a different folder \"have_seen\" in Local Folders.",
+    "source": "https://marketplace.uipath.com/listings/upload-email-attachments-from-gmail-to-google-drive"
+},
+{
+  "minimal": [
+    "`CLICK`open thunderbird window",
+    "`CLICK`'Bills' in the folder pane",
+    "`CLICK` the oldest email in the message list",
+    "`CLICK`'Save All' button for attachments",
+    "`TYPING`'Desktop/Bills' in the file picker dialog",
+    "`CLICK`'Save' button in the file picker dialog",
+    "`CLICK` open chrome window",
+    "`TYPING` drive.google.com",
+    "`PRESS` Enter",
+    "`CLICK`'New' button in Google Drive",
+    "`CLICK`'File upload' in the context menu",
+    "`CLICK`'Desktop/Bills' in the file picker dialog",
+    "`HOTKEY`'Ctrl+A' select all files",
+    "`CLICK`'Open' button in the file picker dialog",
+    "`HOTKEY`'Super+1' open thunderbird",
+    "`CLICK`'Move To' button in the toolbar",
+    "`CLICK`'have_seen' folder in 'Local Folders' in the context menu"
+  ],
+  "batched": [
+    [
+    "`CLICK`open thunderbird window"
+    ],
+    [
+      "`CLICK`'Bills' in the folder pane"
+    ],
+    [
+      "`CLICK` the oldest email in the message list"
+    ],
+    [
+      "`CLICK`'Save All' button for attachments"
+    ],
+    [
+      "`CLICK`'Desktop/Bills' in the file picker dialog",
+      "`CLICK`'Save' button in the file picker dialog"
+    ],
+    [
+      "`CLICK` open chrome window"
+    ],
+    [
+      "`TYPING` drive.google.com",
+      "`PRESS` Enter"
+    ],
+    [
+      "`CLICK`'New' button in Google Drive"
+    ],
+    [
+      "`CLICK`'File upload' in the context menu"
+    ],
+    [
+      "`CLICK`'Desktop/Bills' in the file picker dialog",
+      "`HOTKEY`'Ctrl+A' select all files",
+      "`CLICK`'Open' button in the file picker dialog"
+    ],
+    [
+      "`HOTKEY`'Super+1' open thunderbird"
+    ],
+    [
+      "`CLICK`'Move To' button in the toolbar",
+      "`CLICK`'have_seen' folder in 'Local Folders' in the context menu"
+    ]
+  ]
+}]

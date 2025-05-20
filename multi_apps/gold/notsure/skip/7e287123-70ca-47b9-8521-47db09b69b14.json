@@ -1,0 +1,160 @@
+{
+	"id": "7e287123-70ca-47b9-8521-47db09b69b14",
+	"snapshot": "libreoffice_calc",
+	"instruction": "I am an assistant professor of CS at HKU, I want to apply for the General Research Fund next year, I need to get some insights, so I need you to help me to organise the data. First please help me to organise the pass rate of the GRF applications of the CS departments of each school for 2019~2023 in percentage form with 2 decimal digits in a table, which I can use subsequently. Set the headers as \"Year\", \"#Applied\", \"#Supported\", and \"Success Rate\". The materials are saved under Documents/Fundings. And please save the result table as \"GRF-p5y.xlsx\" on my desktop.",
+	"source": "authors"
+},
+{
+  "minimal": [
+    "`TYPING` libreoffice --calc",
+    "`PRESS` enter",
+    "`CLICK` on Cell A1",
+    "`TYPING` Year",
+    "`CLICK` on Cell B1",
+    "`TYPING` #Applied",
+    "`CLICK` on Cell C1",
+    "`TYPING` #Supported",
+    "`CLICK` on Cell D1",
+    "`TYPING` Success Rate",
+    "`CLICK` on Cell A2",
+    "`TYPING` 2019",
+    "`CLICK` on Cell A3",
+    "`TYPING` 2020",
+    "`CLICK` on Cell A4",
+    "`TYPING` 2021",
+    "`CLICK` on Cell A5",
+    "`TYPING` 2022",
+    "`CLICK` on Cell A6",
+    "`TYPING` 2023",
+    "`TYPING` Please manually open each GRF PDF file from /home/user/Documents/Fundings/grf/ (e.g., grf19.pdf, grf20.pdf, etc.) in a PDF viewer. Find the '#Applied' and '#Supported' numbers for the CS department for each year and enter them into cells B2:C6 respectively. For example, for 2019, enter '#Applied' in B2 and '#Supported' in C2.",
+    "`WAIT` 5",
+    "`CLICK` on Cell D2",
+    "`TYPING` =C2/B2",
+    "`PRESS` enter",
+    "`DRAG_TO` D6",
+    "`CLICK` on 'Format' in the menu bar",
+    "`CLICK` on 'Cells'",
+    "`CLICK` on 'Numbers' tab",
+    "`CLICK` on 'Percentage' in the 'Category' list",
+    "`TYPING` 2",
+    "`CLICK` on 'OK'",
+    "`CLICK` on 'File' in the menu bar",
+    "`CLICK` on 'Save As'",
+    "`TYPING` /home/user/Desktop/GRF-p5y.xlsx",
+    "`CLICK` on 'Save'",
+    "`DONE`"
+  ],
+  "batched": [
+    [
+      "`TYPING` libreoffice --calc"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`CLICK` on Cell A1"
+    ],
+    [
+      "`TYPING` Year"
+    ],
+    [
+      "`CLICK` on Cell B1"
+    ],
+    [
+      "`TYPING` #Applied"
+    ],
+    [
+      "`CLICK` on Cell C1"
+    ],
+    [
+      "`TYPING` #Supported"
+    ],
+    [
+      "`CLICK` on Cell D1"
+    ],
+    [
+      "`TYPING` Success Rate"
+    ],
+    [
+      "`CLICK` on Cell A2"
+    ],
+    [
+      "`TYPING` 2019"
+    ],
+    [
+      "`CLICK` on Cell A3"
+    ],
+    [
+      "`TYPING` 2020"
+    ],
+    [
+      "`CLICK` on Cell A4"
+    ],
+    [
+      "`TYPING` 2021"
+    ],
+    [
+      "`CLICK` on Cell A5"
+    ],
+    [
+      "`TYPING` 2022"
+    ],
+    [
+      "`CLICK` on Cell A6"
+    ],
+    [
+      "`TYPING` 2023"
+    ],
+    [
+      "`TYPING` Please manually open each GRF PDF file from /home/user/Documents/Fundings/grf/ (e.g., grf19.pdf, grf20.pdf, etc.) in a PDF viewer. Find the '#Applied' and '#Supported' numbers for the CS department for each year and enter them into cells B2:C6 respectively. For example, for 2019, enter '#Applied' in B2 and '#Supported' in C2."
+    ],
+    [
+      "`WAIT` 5"
+    ],
+    [
+      "`CLICK` on Cell D2"
+    ],
+    [
+      "`TYPING` =C2/B2"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`DRAG_TO` D6"
+    ],
+    [
+      "`CLICK` on 'Format' in the menu bar"
+    ],
+    [
+      "`CLICK` on 'Cells'"
+    ],
+    [
+      "`CLICK` on 'Numbers' tab"
+    ],
+    [
+      "`CLICK` on 'Percentage' in the 'Category' list"
+    ],
+    [
+      "`TYPING` 2"
+    ],
+    [
+      "`CLICK` on 'OK'"
+    ],
+    [
+      "`CLICK` on 'File' in the menu bar"
+    ],
+    [
+      "`CLICK` on 'Save As'"
+    ],
+    [
+      "`TYPING` /home/user/Desktop/GRF-p5y.xlsx"
+    ],
+    [
+      "`CLICK` on 'Save'"
+    ],
+    [
+      "`DONE`"
+    ]
+  ]
+}

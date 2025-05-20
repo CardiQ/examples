@@ -1,0 +1,56 @@
+[{
+	"id": "9219480b-3aed-47fc-8bac-d2cffc5849f7",
+	"snapshot": "vs_code",
+	"instruction": "Hi, I recently playing with developing a small python-based tetris game. While I have finished most of the part, something is wrong under some cases when I press up to rotate, the whole program will crash, please run the code for me and fix the bugs of code.",
+	"source": "authors"
+},
+{
+  "minimal": [
+    "`HOTKEY`'Ctrl+Alt+T' open the terminal",
+    "`TYPING` cd to the directory containing the Tetris game code",
+    "`PRESS` Enter",
+    "`TYPING` python tetris.py",
+    "`PRESS` Enter",
+    "`WAIT` for the game window to open",
+    "`PRESS` Up key repeatedly to test rotation",
+    "`OBSERVE` crash and read the error traceback",
+    "`OPEN` the tetris.py file in a code editor",
+    "`FIND` the function or block handling the Up key / rotation logic",
+    "`ANALYZE` for index errors, illegal state transitions, or piece collision edge cases",
+    "`MODIFY` the code to handle edge/corner rotations safely (e.g., wall kicks or bounds checks)",
+    "`SAVE` the file",
+    "`TYPING` python tetris.py",
+    "`PRESS` Enter"
+  ],
+  "batched": [
+    [
+      "`HOTKEY`'Ctrl+Alt+T' open the terminal",
+      "`TYPING` cd to the directory containing the Tetris game code",
+      "`PRESS` Enter"
+    ],
+    [
+      "`TYPING` python tetris.py",
+      "`PRESS` Enter",
+      "`WAIT` for the game window to open"
+    ],
+    [
+      "`PRESS` Up key repeatedly to test rotation",
+      "`OBSERVE` crash and read the error traceback"
+    ],
+    [
+      "`OPEN` the tetris.py file in a code editor",
+      "`FIND` the function or block handling the Up key / rotation logic",
+      "`ANALYZE` for index errors, illegal state transitions, or piece collision edge cases"
+    ],
+    [
+      "`MODIFY` the code to handle edge/corner rotations safely (e.g., wall kicks or bounds checks)",
+      "`SAVE` the file"
+    ],
+    [
+      "`TYPING` python tetris.py",
+      "`PRESS` Enter"
+    ]
+  ]
+}
+
+]

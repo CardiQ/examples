@@ -1,0 +1,140 @@
+[{
+  "id": "7f35355e-02a6-45b5-b140-f0be698bcf85",
+  "snapshot": "libreoffice_calc",
+  "instruction": "Export the table to a CSV file and then help me write code to find the medium price (fill empty value with average). Save the result in \"result.txt\".",
+  "source": ""
+},
+{
+  "minimal": [
+      "`HOTKEY`'Ctrl+Alt+T' open the terminal",
+    "`PRESS` enter",
+    "`TYPING` libreoffice --headless --convert-to csv --outdir /home/user/Desktop/ /home/user/Desktop/your_spreadsheet.ods",
+    "`PRESS` enter",
+    "`TYPING` python3",
+    "`PRESS` enter",
+    "`TYPING` import pandas as pd",
+    "`PRESS` enter",
+    "`TYPING` df = pd.read_csv('/home/user/Desktop/your_spreadsheet.csv')",
+    "`PRESS` enter",
+    "`TYPING` # Assuming the price column is named 'Price'",
+    "`PRESS` enter",
+    "`TYPING` if 'Price' in df.columns:",
+    "`PRESS` enter",
+    "`TYPING`     average_price = df['Price'].mean()",
+    "`PRESS` enter",
+    "`TYPING`     df['Price'].fillna(average_price, inplace=True)",
+    "`PRESS` enter",
+    "`TYPING`     median_price = df['Price'].median()",
+    "`PRESS` enter",
+    "`TYPING`     with open('/home/user/Desktop/result.txt', 'w') as f:",
+    "`PRESS` enter",
+    "`TYPING`         f.write(f'The median price (with empty values filled by average) is: {median_price}')",
+    "`PRESS` enter",
+    "`TYPING` else:",
+    "`PRESS` enter",
+    "`TYPING`     with open('/home/user/Desktop/result.txt', 'w') as f:",
+    "`PRESS` enter",
+    "`TYPING`         f.write('Error: \"Price\" column not found in the CSV file.')",
+    "`PRESS` enter",
+    "`TYPING` exit()",
+    "`PRESS` enter"
+  ],
+  "batched": [
+    [
+      "`HOTKEY`'Ctrl+Alt+T' open the terminal"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING` libreoffice --headless --convert-to csv --outdir /home/user/Desktop/ /home/user/Desktop/your_spreadsheet.ods"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING` python3"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING` import pandas as pd"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING` df = pd.read_csv('/home/user/Desktop/your_spreadsheet.csv')"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING` # Assuming the price column is named 'Price'"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING` if 'Price' in df.columns:"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING`     average_price = df['Price'].mean()"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING`     df['Price'].fillna(average_price, inplace=True)"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING`     median_price = df['Price'].median()"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING`     with open('/home/user/Desktop/result.txt', 'w') as f:"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING`         f.write(f'The median price (with empty values filled by average) is: {median_price}')"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING` else:"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING`     with open('/home/user/Desktop/result.txt', 'w') as f:"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING`         f.write('Error: \"Price\" column not found in the CSV file.')"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING` exit()"
+    ],
+    [
+      "`PRESS` enter"
+    ]
+  ]
+}]

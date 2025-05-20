@@ -1,0 +1,58 @@
+[{
+    "id": "8df7e444-8e06-4f93-8a1a-c5c974269d82",
+    "snapshot": "libreoffice_writer",
+    "instruction": "The guidelines for submitting our essay work are provided in the \"reminder.docx\" on the Desktop. My essay is stored as a docx file in /home/user. Please assist me in organizing the files for submission according to the specified requirements.",
+    "source": "authors"
+},
+{
+  "minimal": [
+      "`HOTKEY`'Ctrl+Alt+T' open the terminal",
+    "`TYPING` libreoffice --writer /home/user/essay.docx",
+    "`PRESS` enter",
+    "`CLICK` on 'File' in the menu bar",
+    "`CLICK` on 'Export As'",
+    "`CLICK` on 'Export as PDF'",
+    "`CLICK` on 'Export'",
+    "`TYPING` /home/user/essay.pdf",
+    "`CLICK` on 'Save'",
+    "`TYPING` konsole",
+    "`PRESS` enter",
+    "`TYPING` zip /home/user/essay_submission.zip /home/user/essay.docx /home/user/essay.pdf",
+    "`PRESS` enter"
+  ],
+  "batched": [
+    [
+      "`HOTKEY`'Ctrl+Alt+T' open the terminal"
+    ],
+    [
+      "`TYPING` libreoffice --writer /home/user/essay.docx",
+      "`PRESS` enter"
+    ],
+    [
+      "`CLICK` on 'File' in the menu bar"
+    ],
+    [
+      "`CLICK` on 'Export As'"
+    ],
+    [
+      "`CLICK` on 'Export as PDF'"
+    ],
+    [
+      "`CLICK` on 'Export'"
+    ],
+    [
+      "`TYPING` /home/user/essay.pdf"
+    ],
+    [
+      "`CLICK` on 'Save'"
+    ],
+    [
+      "`TYPING` konsole",
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING` zip /home/user/essay_submission.zip /home/user/essay.docx /home/user/essay.pdf",
+      "`PRESS` enter"
+    ]
+  ]
+}]

@@ -1,0 +1,153 @@
+[{
+    "id": "873cafdd-a581-47f6-8b33-b9696ddb7b05",
+    "snapshot": "multiapps",
+    "instruction": "My friend is a \"plugin guru\" and he recommended some good plug-ins to me. Please go to the Chrome plug-in store and install all the listed plug-ins.",
+    "source": "author"
+  },
+  {
+  "minimal": [
+    "`CLICK`'LibreOffice Writer' icon",
+    "`CLICK`'File' menu",
+    "`CLICK`'Open...' option",
+    "`CLICK`'Desktop' in the sidebar of the file open dialog",
+    "`CLICK`'Recommended_plugin_list.docx'",
+    "`CLICK`'Open' button",
+    "`CLICK`'Chrome' icon",
+    "`TYPING` chrome.google.com/webstore",
+    "`PRESS` Enter",
+    "`CLICK` the first plugin name in the LibreOffice Writer document (e.g., select it with mouse)",
+    "`HOTKEY`'Ctrl+C' copy the selected plugin name",
+    "`CLICK` the search bar in the Chrome Web Store",
+    "`HOTKEY`'Ctrl+V' paste the plugin name",
+    "`PRESS` Enter",
+    "`CLICK`'Add to Chrome' button for the plugin",
+    "`CLICK`'Add extension' in the confirmation dialog",
+    "`CLICK` the next plugin name in the LibreOffice Writer document",
+    "`HOTKEY`'Ctrl+C' copy the selected plugin name",
+    "`CLICK` the search bar in the Chrome Web Store",
+    "`HOTKEY`'Ctrl+V' paste the plugin name",
+    "`PRESS` Enter",
+    "`CLICK`'Add to Chrome' button for the plugin",
+    "`CLICK`'Add extension' in the confirmation dialog",
+    "`CLICK` the next plugin name in the LibreOffice Writer document",
+    "`HOTKEY`'Ctrl+C' copy the selected plugin name",
+    "`CLICK` the search bar in the Chrome Web Store",
+    "`HOTKEY`'Ctrl+V' paste the plugin name",
+    "`PRESS` Enter",
+    "`CLICK`'Add to Chrome' button for the plugin",
+    "`CLICK`'Add extension' in the confirmation dialog",
+    "`CLICK` the next plugin name in the LibreOffice Writer document",
+    "`HOTKEY`'Ctrl+C' copy the selected plugin name",
+    "`CLICK` the search bar in the Chrome Web Store",
+    "`HOTKEY`'Ctrl+V' paste the plugin name",
+    "`PRESS` Enter",
+    "`CLICK`'Add to Chrome' button for the plugin",
+    "`CLICK`'Add extension' in the confirmation dialog",
+    "`CLICK` the next plugin name in the LibreOffice Writer document",
+    "`HOTKEY`'Ctrl+C' copy the selected plugin name",
+    "`CLICK` the search bar in the Chrome Web Store",
+    "`HOTKEY`'Ctrl+V' paste the plugin name",
+    "`PRESS` Enter",
+    "`CLICK`'Add to Chrome' button for the plugin",
+    "`CLICK`'Add extension' in the confirmation dialog"
+  ],
+  "batched": [
+    [
+      "`CLICK`'LibreOffice Writer' icon"
+    ],
+    [
+      "`CLICK`'File' menu",
+      "`CLICK`'Open...' option"
+    ],
+    [
+      "`CLICK`'Desktop' in the sidebar of the file open dialog",
+      "`CLICK`'Recommended_plugin_list.docx'",
+      "`CLICK`'Open' button"
+    ],
+    [
+      "`CLICK`'Chrome' icon"
+    ],
+    [
+      "`TYPING` chrome.google.com/webstore",
+      "`PRESS` Enter"
+    ],
+    [
+      "`CLICK` the first plugin name in the LibreOffice Writer document (e.g., select it with mouse)",
+      "`HOTKEY`'Ctrl+C' copy the selected plugin name"
+    ],
+    [
+      "`CLICK` the search bar in the Chrome Web Store",
+      "`HOTKEY`'Ctrl+V' paste the plugin name",
+      "`PRESS` Enter"
+    ],
+    [
+      "`CLICK`'Add to Chrome' button for the plugin",
+      "`CLICK`'Add extension' in the confirmation dialog"
+    ],
+    [
+      "`CLICK` the next plugin name in the LibreOffice Writer document",
+      "`HOTKEY`'Ctrl+C' copy the selected plugin name"
+    ],
+    [
+      "`CLICK` the search bar in the Chrome Web Store",
+      "`HOTKEY`'Ctrl+V' paste the plugin name",
+      "`PRESS` Enter"
+    ],
+    [
+      "`CLICK`'Add to Chrome' button for the plugin",
+      "`CLICK`'Add extension' in the confirmation dialog"
+    ],
+    [
+      "`CLICK` the next plugin name in the LibreOffice Writer document",
+      "`HOTKEY`'Ctrl+C' copy the selected plugin name"
+    ],
+    [
+      "`CLICK` the search bar in the Chrome Web Store",
+      "`HOTKEY`'Ctrl+V' paste the plugin name",
+      "`PRESS` Enter"
+    ],
+    [
+      "`CLICK`'Add to Chrome' button for the plugin",
+      "`CLICK`'Add extension' in the confirmation dialog"
+    ],
+    [
+      "`CLICK` the next plugin name in the LibreOffice Writer document",
+      "`HOTKEY`'Ctrl+C' copy the selected plugin name"
+    ],
+    [
+      "`CLICK` the search bar in the Chrome Web Store",
+      "`HOTKEY`'Ctrl+V' paste the plugin name",
+      "`PRESS` Enter"
+    ],
+    [
+      "`CLICK`'Add to Chrome' button for the plugin",
+      "`CLICK`'Add extension' in the confirmation dialog"
+    ],
+    [
+      "`CLICK` the next plugin name in the LibreOffice Writer document",
+      "`HOTKEY`'Ctrl+C' copy the selected plugin name"
+    ],
+    [
+      "`CLICK` the search bar in the Chrome Web Store",
+      "`HOTKEY`'Ctrl+V' paste the plugin name",
+      "`PRESS` Enter"
+    ],
+    [
+      "`CLICK`'Add to Chrome' button for the plugin",
+      "`CLICK`'Add extension' in the confirmation dialog"
+    ],
+    [
+      "`CLICK` the next plugin name in the LibreOffice Writer document",
+      "`HOTKEY`'Ctrl+C' copy the selected plugin name"
+    ],
+    [
+      "`CLICK` the search bar in the Chrome Web Store",
+      "`HOTKEY`'Ctrl+V' paste the plugin name",
+      "`PRESS` Enter"
+    ],
+    [
+      "`CLICK`'Add to Chrome' button for the plugin",
+      "`CLICK`'Add extension' in the confirmation dialog"
+    ]
+  ]
+}]

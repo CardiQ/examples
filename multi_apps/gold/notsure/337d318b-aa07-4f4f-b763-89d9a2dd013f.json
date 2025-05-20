@@ -1,49 +1,269 @@
-{
+[{
 	"id": "337d318b-aa07-4f4f-b763-89d9a2dd013f",
 	"snapshot": "libreoffice_calc",
 	"instruction": "Cross-check the invoices with the bank statements and identify any discrepancies. Then pull out the invoices that don't match the statements and put them in the \"problematic\" folder.",
-	"source": "authors",
-	"config": [
-		{
-			"type": "download",
-			"parameters": {
-				"files": [
-					{
-						"path": "/home/user/Desktop/invoice TII-20220301-90.pdf",
-						"url": "https://drive.google.com/uc?id=13y1Dkh9dJUaWeMSk6pg_UY-R7K4bhAJM&export=download"
-					},
-					{
-						"path": "/home/user/Desktop/Invoice # GES-20220215-82.pdf",
-						"url": "https://drive.google.com/uc?id=1zZYJQVpbGmqT_eH0x9Z5O7WoIFrQo3sN&export=download"
-					},
-					{
-						"path": "/home/user/Desktop/Invoice # 243729.pdf",
-						"url": "https://drive.google.com/uc?id=1a7fnWpsAdFQkFWl2BqAA_gTwlZ6nvGAx&export=download"
-					},
-					{
-						"path": "/home/user/Desktop/Bank-Statement.pdf",
-						"url": "https://drive.google.com/uc?id=1-KS6p0aip56iPmH4okhXZhLgqVwrcjfw&export=download"
-					}
-				]
-			}
-		}
+	"source": "authors"
+},
+{
+  "minimal": [
+    "`TYPING` konsole",
+    "`PRESS` enter",
+    "`TYPING` python3",
+    "`PRESS` enter",
+    "`TYPING` import pandas as pd",
+    "`PRESS` enter",
+    "`TYPING` import os",
+    "`PRESS` enter",
+    "`TYPING` from fuzzywuzzy import fuzz",
+    "`PRESS` enter",
+    "`TYPING` try:",
+    "`PRESS` enter",
+    "`TYPING`     invoices_df = pd.read_excel('invoices.xlsx')",
+    "`PRESS` enter",
+    "`TYPING`     bank_statements_df = pd.read_excel('bank_statements.xlsx')",
+    "`PRESS` enter",
+    "`TYPING` except FileNotFoundError:",
+    "`PRESS` enter",
+    "`TYPING`     print('Error: Make sure both invoices.xlsx and bank_statements.xlsx are in the same directory.')",
+    "`PRESS` enter",
+    "`TYPING`     exit()",
+    "`PRESS` enter",
+    "`TYPING` if not os.path.exists('problematic'):",
+    "`PRESS` enter",
+    "`TYPING`     os.makedirs('problematic')",
+    "`PRESS` enter",
+    "`TYPING` discrepancies = pd.DataFrame(columns=invoices_df.columns)",
+    "`PRESS` enter",
+    "`TYPING` for inv_index, invoice in invoices_df.iterrows():",
+    "`PRESS` enter",
+    "`TYPING`     found_match = False",
+    "`PRESS` enter",
+    "`TYPING`     for bank_index, statement in bank_statements_df.iterrows():",
+    "`PRESS` enter",
+    "`TYPING`         invoice_amount_str = str(invoice['Amount'])",
+    "`PRESS` enter",
+    "`TYPING`         statement_amount_str = str(statement['Amount'])",
+    "`PRESS` enter",
+    "`TYPING`         if fuzz.ratio(invoice_amount_str, statement_amount_str) > 90 and \\",
+    "`PRESS` enter",
+    "`TYPING`            fuzz.partial_ratio(str(invoice['Date']), str(statement['Date'])) > 80:",
+    "`PRESS` enter",
+    "`TYPING`             found_match = True",
+    "`PRESS` enter",
+    "`TYPING`             break",
+    "`PRESS` enter",
+    "`TYPING`     if not found_match:",
+    "`PRESS` enter",
+    "`TYPING`         discrepancies = pd.concat([discrepancies, pd.DataFrame([invoice])], ignore_index=True)",
+    "`PRESS` enter",
+    "`TYPING` if not discrepancies.empty:",
+    "`PRESS` enter",
+    "`TYPING`     output_filename = os.path.join('problematic', 'discrepant_invoices.xlsx')",
+    "`PRESS` enter",
+    "`TYPING`     discrepancies.to_excel(output_filename, index=False)",
+    "`PRESS` enter",
+    "`TYPING`     print(f\"Discrepancies found and saved to {output_filename}\")",
+    "`PRESS` enter",
+    "`TYPING` else:",
+    "`PRESS` enter",
+    "`TYPING`     print(\"No discrepancies found between invoices and bank statements.\")",
+    "`PRESS` enter",
+    "`TYPING` exit()",
+    "`PRESS` enter"
+  ],
+  "batched": [
+    [
+      "`TYPING` konsole"
     ],
-	"trajectory": "trajectories/337d318b-aa07-4f4f-b763-89d9a2dd013f",
-	"related_apps": [
-		"os",
-		"pdf"
+    [
+      "`PRESS` enter"
     ],
-	"evaluator": {
-		"func": "compare_pdfs",
-		"result": {
-			"type": "vm_file",
-			"path": "/home/user/Desktop/problematic/Invoice # 243729.pdf",
-			"dest": "Invoice # 243729.pdf"
-		},
-		"expected": {
-			"type": "cloud_file",
-			"path": "https://drive.google.com/uc?id=1a7fnWpsAdFQkFWl2BqAA_gTwlZ6nvGAx&export=download",
-			"dest": "Invoice # 243729 Gold.pdf"
-		}
-	}
+    [
+      "`TYPING` python3"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING` import pandas as pd"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING` import os"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING` from fuzzywuzzy import fuzz"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING` try:"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING`     invoices_df = pd.read_excel('invoices.xlsx')"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING`     bank_statements_df = pd.read_excel('bank_statements.xlsx')"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING` except FileNotFoundError:"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING`     print('Error: Make sure both invoices.xlsx and bank_statements.xlsx are in the same directory.')"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING`     exit()"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING` if not os.path.exists('problematic'):"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING`     os.makedirs('problematic')"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING` discrepancies = pd.DataFrame(columns=invoices_df.columns)"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING` for inv_index, invoice in invoices_df.iterrows():"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING`     found_match = False"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING`     for bank_index, statement in bank_statements_df.iterrows():"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING`         invoice_amount_str = str(invoice['Amount'])"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING`         statement_amount_str = str(statement['Amount'])"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING`         if fuzz.ratio(invoice_amount_str, statement_amount_str) > 90 and \\"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING`            fuzz.partial_ratio(str(invoice['Date']), str(statement['Date'])) > 80:"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING`             found_match = True"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING`             break"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING`     if not found_match:"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING`         discrepancies = pd.concat([discrepancies, pd.DataFrame([invoice])], ignore_index=True)"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING` if not discrepancies.empty:"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING`     output_filename = os.path.join('problematic', 'discrepant_invoices.xlsx')"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING`     discrepancies.to_excel(output_filename, index=False)"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING`     print(f\"Discrepancies found and saved to {output_filename}\")"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING` else:"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING`     print(\"No discrepancies found between invoices and bank statements.\")"
+    ],
+    [
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING` exit()"
+    ],
+    [
+      "`PRESS` enter"
+    ]
+  ]
 }
+]

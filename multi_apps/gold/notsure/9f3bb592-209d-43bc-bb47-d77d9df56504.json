@@ -1,0 +1,35 @@
+[{
+    "id": "9f3bb592-209d-43bc-bb47-d77d9df56504",
+    "snapshot": "multiapps",
+    "instruction": "I downloaded a video to practice listening, but I don't know how to remove the subtitles. Please help me remove the subtitles from the video and export it as \"subtitles.srt\" and store it in the same directory as the video.",
+    "source": "authors"
+},
+{
+  "minimal": [
+    "`CLICK` on 'Subtitle' in the menu bar of VLC",
+    "`CLICK` on 'Sub Track'",
+    "`CLICK` on 'Disable'",
+    "`HOTKEY`'Ctrl+Alt+T' open the terminal",
+    "`TYPING` ffmpeg -i \"/home/user/Videos/video.mp4\" -map 0:s:0 \"/home/user/Videos/subtitles.srt\"",
+    "`PRESS` enter"
+  ],
+  "batched": [
+    [
+      "`CLICK` on 'Subtitle' in the menu bar of VLC"
+    ],
+    [
+      "`CLICK` on 'Sub Track'"
+    ],
+    [
+      "`CLICK` on 'Disable'"
+    ],
+    [
+    "`HOTKEY`'Ctrl+Alt+T' open the terminal"
+    ],
+    [
+      "`TYPING` ffmpeg -i \"/home/user/Videos/video.mp4\" -map 0:s:0 \"/home/user/Videos/subtitles.srt\"",
+      "`PRESS` enter"
+    ]
+  ]
+}
+  ]

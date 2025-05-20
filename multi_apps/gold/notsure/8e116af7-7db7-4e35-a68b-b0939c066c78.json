@@ -1,0 +1,137 @@
+[{
+  "id": "8e116af7-7db7-4e35-a68b-b0939c066c78",
+  "snapshot": "libreoffice_calc",
+  "instruction": "Please update my bookkeeping sheet with the recent transactions from the provided folder, detailing my expenses over the past few days.",
+  "source": "authors"
+},
+{
+  "minimal": [
+      "`HOTKEY`'Ctrl+Alt+T' open the terminal",
+    "`TYPING` eog /home/user/Desktop/receipt_0.jpeg",
+    "`PRESS` enter",
+    "`CLICK` on 'Close' button to close the image viewer after reviewing",
+    "`TYPING` eog /home/user/Desktop/receipt_1.jpg",
+    "`PRESS` enter",
+    "`CLICK` on 'Close' button to close the image viewer after reviewing",
+    "`TYPING` eog /home/user/Desktop/receipt_2.jpg",
+    "`PRESS` enter",
+    "`CLICK` on 'Close' button to close the image viewer after reviewing",
+    "`TYPING` evince /home/user/Desktop/receipt_3.pdf",
+    "`PRESS` enter",
+    "`CLICK` on 'Close' button to close the PDF viewer after reviewing",
+    "`TYPING` eog /home/user/Desktop/receipt_4.jpg",
+    "`PRESS` enter",
+    "`CLICK` on 'Close' button to close the image viewer after reviewing",
+    "`CLICK` on an empty cell in the row where you want to start a new transaction entry (e.g., A10)",
+    "`TYPING` (Enter Date, e.g., 2025-05-18)",
+    "`PRESS` right",
+    "`TYPING` (Enter Vendor, e.g., Coffee Shop)",
+    "`PRESS` right",
+    "`TYPING` (Enter Amount, e.g., 5.50)",
+    "`PRESS` right",
+    "`TYPING` (Enter Category, e.g., Food)",
+    "`PRESS` enter",
+    "`CLICK` on the next empty row for the subsequent transaction (e.g., A11)",
+    "`TYPING` (Repeat for receipt_1.jpg)",
+    "`CLICK` on the next empty row",
+    "`TYPING` (Repeat for receipt_2.jpg)",
+    "`CLICK` on the next empty row",
+    "`TYPING` (Repeat for receipt_3.pdf)",
+    "`CLICK` on the next empty row",
+    "`TYPING` (Repeat for receipt_4.jpg)",
+    "`HOTKEY` ['control', 's']"
+  ],
+  "batched": [
+    [
+      "`HOTKEY`'Ctrl+Alt+T' open the terminal"
+    ],
+    [
+      "`TYPING` eog /home/user/Desktop/receipt_0.jpeg",
+      "`PRESS` enter"
+    ],
+    [
+      "`CLICK` on 'Close' button to close the image viewer after reviewing"
+    ],
+    [
+      "`TYPING` eog /home/user/Desktop/receipt_1.jpg",
+      "`PRESS` enter"
+    ],
+    [
+      "`CLICK` on 'Close' button to close the image viewer after reviewing"
+    ],
+    [
+      "`TYPING` eog /home/user/Desktop/receipt_2.jpg",
+      "`PRESS` enter"
+    ],
+    [
+      "`CLICK` on 'Close' button to close the image viewer after reviewing"
+    ],
+    [
+      "`TYPING` evince /home/user/Desktop/receipt_3.pdf",
+      "`PRESS` enter"
+    ],
+    [
+      "`CLICK` on 'Close' button to close the PDF viewer after reviewing"
+    ],
+    [
+      "`TYPING` eog /home/user/Desktop/receipt_4.jpg",
+      "`PRESS` enter"
+    ],
+    [
+      "`CLICK` on 'Close' button to close the image viewer after reviewing"
+    ],
+    [
+      "`CLICK` on an empty cell in the row where you want to start a new transaction entry (e.g., A10)"
+    ],
+    [
+      "`TYPING` (Enter Date, e.g., 2025-05-18)"
+    ],
+    [
+      "`PRESS` right"
+    ],
+    [
+      "`TYPING` (Enter Vendor, e.g., Coffee Shop)"
+    ],
+    [
+      "`PRESS` right"
+    ],
+    [
+      "`TYPING` (Enter Amount, e.g., 5.50)"
+    ],
+    [
+      "`PRESS` right"
+    ],
+    [
+      "`TYPING` (Enter Category, e.g., Food)",
+      "`PRESS` enter"
+    ],
+    [
+      "`CLICK` on the next empty row for the subsequent transaction (e.g., A11)"
+    ],
+    [
+      "`TYPING` (Repeat for receipt_1.jpg)"
+    ],
+    [
+      "`CLICK` on the next empty row"
+    ],
+    [
+      "`TYPING` (Repeat for receipt_2.jpg)"
+    ],
+    [
+      "`CLICK` on the next empty row"
+    ],
+    [
+      "`TYPING` (Repeat for receipt_3.pdf)"
+    ],
+    [
+      "`CLICK` on the next empty row"
+    ],
+    [
+      "`TYPING` (Repeat for receipt_4.jpg)"
+    ],
+    [
+      "`HOTKEY` ['control', 's']"
+    ]
+  ]
+}
+]

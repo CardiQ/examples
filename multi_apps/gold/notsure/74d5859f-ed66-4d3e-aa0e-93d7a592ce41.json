@@ -1,0 +1,44 @@
+[{
+	"id": "74d5859f-ed66-4d3e-aa0e-93d7a592ce41",
+	"snapshot": "chrome",
+	"instruction": "Help me to set up an initial web extension project with help of the web tool, tagging it \"happy-extension v0.0.1\". Leave description blank for now. Include a background script and browser action, while other features are not required. Remember to unzip the auto-generated folder into \"~/Projects\".",
+	"source": "authors"
+},
+{
+  "minimal": [
+    "`CLICK` on nautilus window",
+    "`CLICK` on 'Background Script' checkbox",
+    "`CLICK` on 'Browser Action' checkbox",
+    "`CLICK` on 'Download as Zip'",
+      "`HOTKEY`'Ctrl+Alt+T' open the terminal",
+    "`TYPING` unzip ~/Downloads/happy-extension.zip -d ~/Projects/",
+    "`PRESS` enter",
+    "`TYPING` cd ~/Projects/happy-extension",
+    "`PRESS` enter"
+  ],
+  "batched": [
+    [
+    "`CLICK` on nautilus window"
+    ],
+    [
+      "`CLICK` on 'Background Script' checkbox"
+    ],
+    [
+      "`CLICK` on 'Browser Action' checkbox"
+    ],
+    [
+      "`CLICK` on 'Download as Zip'"
+    ],
+    [
+      "`HOTKEY`'Ctrl+Alt+T' open the terminal"
+    ],
+    [
+      "`TYPING` unzip ~/Downloads/happy-extension.zip -d ~/Projects/",
+      "`PRESS` enter"
+    ],
+    [
+      "`TYPING` cd ~/Projects/happy-extension",
+      "`PRESS` enter"
+    ]
+  ]
+}]
