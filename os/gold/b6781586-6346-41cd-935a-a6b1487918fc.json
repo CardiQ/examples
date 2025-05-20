@@ -1,30 +1,44 @@
-{
+[{
   "id": "b6781586-6346-41cd-935a-a6b1487918fc",
   "snapshot": "os",
   "instruction": "I want to set my current time zone to UTC+0. Can you help me?",
-  "source": "https://help.ubuntu.com/lts/ubuntu-help/clock-timezone.html.en",
-  "trajectory": "trajectories/",
-  "config": [
-    {
-      "type": "execute",
-      "parameters": {
-        "command": [
-          "python",
-          "-c",
-          "import pyautogui; import time; pyautogui.click(960, 540); time.sleep(0.5);"
-        ]
-      }
-    }
+  "source": "https://help.ubuntu.com/lts/ubuntu-help/clock-timezone.html.en"
+},
+{
+  "minimal": [
+    "`CLICK` on 'Activities'",
+    "`TYPING` System",
+    "`CLICK` on 'System'",
+    "`CLICK` on 'Date & Time'",
+    "`CLICK` on the 'Automatic Time Zone' switch to turn it off",
+    "`CLICK` on 'Time Zone'",
+    "`TYPING` UTC+0",
+    "`CLICK` on a city within the UTC+0 timezone"
   ],
-  "related_apps": [
-    "os"
-  ],
-  "evaluator": {
-    "func": "is_utc_0",
-    "result": {
-      "type": "vm_command_line",
-      "command": "timedatectl status",
-      "shell": true
-    }
-  }
-}
+  "batched": [
+    [
+      "`CLICK` on 'Activities'"
+    ],
+    [
+      "`TYPING` System"
+    ],
+    [
+      "`CLICK` on 'System'"
+    ],
+    [
+      "`CLICK` on 'Date & Time'"
+    ],
+    [
+      "`CLICK` on the 'Automatic Time Zone' switch to turn it off"
+    ],
+    [
+      "`CLICK` on 'Time Zone'"
+    ],
+    [
+      "`TYPING` UTC+0"
+    ],
+    [
+      "`CLICK` on a city within the UTC+0 timezone"
+    ]
+  ]
+}]

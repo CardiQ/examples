@@ -16,9 +16,9 @@
         "`DOUBLE_CLICK` the duplicate layer name, type 'Edited'",
         "`CLICK` the 'Colors' menu",
         "`CLICK` the 'Levels' option",
-        "`KEY_DOWN` the midtones slider",
+        "`MOUSE_DOWN` the midtones slider",
         "`DRAG_TO` the midtones slider left to reduce brightness",
-        "`KEY_UP`"
+        "`MOUSE_UP`"
     ],
     "batched": [
         ["`CLICK` the 'File' menu"], 
@@ -31,9 +31,9 @@
         ["`DOUBLE_CLICK` the duplicate layer name, type 'Edited'"],
         ["`CLICK` the 'Colors' menu"],
         ["`CLICK` the 'Levels' option"],
-        ["`KEY_DOWN` the midtones slider",
+        ["`MOUSE_DOWN` the midtones slider",
         "`DRAG_TO` the midtones slider left to reduce brightness",
-        "`KEY_UP`"]
+        "`MOUSE_UP`"]
     ]
 }
 ]]
