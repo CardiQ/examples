@@ -1,0 +1,43 @@
+[{
+  "id": "0a2e43bf-b26c-4631-a966-af9dfa12c9e5",
+	"snapshot": "libreoffice_calc",
+	"instruction": "Work out the monthly total sales in a new row called \"Total\" and then create a line chart to show the results (x-axis be Months).",
+	"source": "SheetCopilot@154"
+},
+{
+  "minimal": [
+    "`CLICK` on cell A12",
+    "`TYPE` 'Total'",
+		"`PRESS` tab",
+		"`TYPE` '=SUM(B2:B11)'",
+		"`PRESS` enter",
+		"`CLICK` cell B12",
+		"`MOVE_TO bottom right corner of the cell B12`",
+    "`DRAG_TO` bottom right corner of the cell G12",
+    "`MOVE_TO` middle of cell A1",
+    "`DRAG_TO` middle of cell G1",
+		"`KEY_DOWN` ctrl",
+		"`CLICK` cell A12",
+		"`KEY_UP` ctrl",
+		"`KEY_DOWN` shift",
+		"`CLICK` cell G12",
+		"`KEY_UP` shift",
+		"`CLICK` chart icon",
+    "`CLICK` Line",
+		"`CLICK` icon representing lines only (3rd from the right)",
+		"`CLICK` Finish"
+  ],
+  "batched": [
+    ["`CLICK` on cell A12", "`TYPE` 'Total'", "`PRESS` tab", "`TYPE` '=SUM(B2:B11)'", "`PRESS` enter", "`CLICK` cell B12", "`MOVE_TO bottom right corner of the cell B12`", "`DRAG_TO` bottom right corner of the cell G12",
+			"`MOVE_TO` middle of cell A1",
+    	"`DRAG_TO` middle of cell G1",
+			"`KEY_DOWN` ctrl",
+			"`CLICK` cell A12",
+			"`KEY_UP` ctrl","`KEY_DOWN` shift",
+		"`CLICK` cell G12",
+		"`KEY_UP` shift", "`CLICK` chart icon"],
+    ["`CLICK` Line"],
+		["`CLICK` icon representing lines only (3rd from the right)", "`CLICK` Finish"]
+  ]
+}
+]

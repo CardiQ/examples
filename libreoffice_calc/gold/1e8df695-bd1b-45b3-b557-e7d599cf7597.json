@@ -1,0 +1,29 @@
+[{
+  "id": "1e8df695-bd1b-45b3-b557-e7d599cf7597",
+	"snapshot": "libreoffice_calc",
+	"instruction": "Add a new column named \"Profit\" and calculate the profit for each week by subtracting \"COGS\" from \"Sales\" in that column.",
+	"source": "SheetCopilot@203"
+},
+{
+  "minimal": [
+    "`CLICK` on cell D1",
+    "`TYPE` 'Profit'",
+		"`PRESS` enter",
+		"`TYPE` '=B2-C2'",
+		"`PRESS` enter",
+		"`CLICK` cell D2",
+		"`MOVE_TO` bottom right corner of the cell D2`",
+    "`DOUBLE_CLICK` bottom right corner of the cell D2"
+  ],
+  "batched": [
+    ["`CLICK` on cell D1",
+    "`TYPE` 'Profit'",
+		"`PRESS` enter",
+		"`TYPE` '=B2-C2'",
+		"`PRESS` enter",
+		"`CLICK` cell D2",
+		"`MOVE_TO` bottom right corner of the cell D2`",
+    "`DOUBLE_CLICK` bottom right corner of the cell D2"]
+  ]
+}
+]
