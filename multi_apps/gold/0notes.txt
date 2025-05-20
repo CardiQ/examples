@@ -1,7 +1,8 @@
 self inference:
 
 not sure with known source:
-more not sure than other tasks on multi_apps
+more not sure than other tasks on multi_apps: some are just providing an app in the link
+22a4636f-8179-4357-8e87-d1743ece1f81 - no google drive in VM
 
 in small task:
 "multi_apps": [

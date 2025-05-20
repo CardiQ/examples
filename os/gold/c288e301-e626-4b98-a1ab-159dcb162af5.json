@@ -1,13 +1,34 @@
-{
+[{
     "id": "c288e301-e626-4b98-a1ab-159dcb162af5",
     "snapshot": "os",
     "instruction": "Please set the default Python version to Python3 on my Ubuntu system.",
-    "source": "https://stackoverflow.com/questions/41986507/unable-to-set-default-python-version-to-python3-in-ubuntu",
-    "trajectory": "trajectories/",
-    "related_apps": [
-      "os"
+    "source": "https://stackoverflow.com/questions/41986507/unable-to-set-default-python-version-to-python3-in-ubuntu"
+  },
+  {
+  "minimal": [
+    "`HOTKEY`'Ctrl+Alt+T' open the terminal",
+    "`TYPING` sudo update-alternatives --remove python /usr/bin/python2",
+    "`PRESS` Enter",
+    "`TYPING` your password (if prompted)",
+    "`PRESS` Enter",
+    "`TYPING` sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 10",
+    "`PRESS` Enter"
+  ],
+  "batched": [
+    [
+      "`HOTKEY`'Ctrl+Alt+T' open the terminal"
     ],
-    "evaluator": {
-      "func": "infeasible"
-    }
-  }
+    [
+      "`TYPING` sudo update-alternatives --remove python /usr/bin/python2",
+      "`PRESS` Enter"
+    ],
+    [
+      "`TYPING` your password (if prompted)",
+      "`PRESS` Enter"
+    ],
+    [
+      "`TYPING` sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 10",
+      "`PRESS` Enter"
+    ]
+  ]
+}]
