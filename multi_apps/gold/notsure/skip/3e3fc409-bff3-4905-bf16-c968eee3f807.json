@@ -1,0 +1,132 @@
+{
+    "id": "3e3fc409-bff3-4905-bf16-c968eee3f807",
+    "snapshot": "chrome",
+    "instruction": "I'm a huge movie fan and have kept a record of all the movies I've watched. I'm curious to find out if there are any films released before 2024 from the IMDB Top 30 list that I haven't seen yet. Help me create another sheet 'unseen_movies' in the opened Excel. This sheet should share the same headers and sort the results according to IMDB rankings from high to low.",
+    "source": "authors"
+},
+{
+  "minimal": [
+    "`CLICK` on the Chrome window of IMDB page",
+    "`CLICK` on the first movie title on the IMDB page"
+    "`COPY` the movie title",
+    "`CLICK` on the LibreOffice Calc window",
+    "`CLICK` on 'Sheet2' or the '+' button to create a new sheet",
+    "`CLICK` on cell A1",
+    "`PASTE` the movie title",
+    "`PRESS` Enter",
+    "`SWITCH` back to the Chrome window",
+    "`CLICK` on the movie release year",
+    "`COPY` the movie release year",
+    "`SWITCH` back to the LibreOffice Calc window",
+    "`CLICK` on cell B1",
+    "`PASTE` the movie release year",
+    "`PRESS` Enter",
+    "`REPEAT` steps for all 30 movies, adding each to the new sheet in LibreOffice Calc, in order.",
+    "`CLICK` on cell A1 on the new sheet",
+    "`TYPING` =IF(ISNA(MATCH(A1,Sheet1!A:A,0)),\"Not Seen\",\"\")",
+    "`PRESS` Enter",
+    "`DRAG` the fill handle of cell C1 down to apply the formula to all rows",
+    "`CLICK` on the new sheet's tab and rename it to 'unseen_movies'",
+    "`CLICK` on any cell in the data range",
+    "`CLICK` on 'Data'",
+    "`CLICK` on 'Sort'",
+    "`CLICK` on the 'Sort Key 1' dropdown",
+    "`SELECT` the column containing IMDB ranking (likely column A)",
+    "`CLICK` on 'Descending'",
+    "`CLICK` on 'OK'",
+    "`CLICK` on 'File'",
+    "`CLICK` on 'Save'"
+  ],
+  "batched": [
+    [
+      "`CLICK` on the first movie title on the IMDB page"
+    ],
+    [
+      "`WAIT`"
+    ],
+    [
+      "`COPY` the movie title"
+    ],
+    [
+      "`CLICK` on the LibreOffice Calc window"
+    ],
+    [
+      "`CLICK` on 'Sheet2' or the '+' button to create a new sheet"
+    ],
+        [
+      "`CLICK` on cell A1"
+    ],
+    [
+      "`PASTE` the movie title"
+    ],
+    [
+      "`PRESS` Enter"
+    ],
+    [
+      "`SWITCH` back to the Chrome window"
+    ],
+    [
+      "`CLICK` on the movie release year"
+    ],
+    [
+      "`COPY` the movie release year"
+    ],
+    [
+      "`SWITCH` back to the LibreOffice Calc window"
+    ],
+        [
+      "`CLICK` on cell B1"
+    ],
+    [
+      "`PASTE` the movie release year"
+    ],
+    [
+      "`PRESS` Enter"
+    ],
+    [
+      "`REPEAT` steps for all 30 movies, adding each to the new sheet in LibreOffice Calc, in order."
+    ],
+    [
+      "`CLICK` on cell A1 on the new sheet"
+    ],
+    [
+      "`TYPING` =IF(ISNA(MATCH(A1,Sheet1!A:A,0)),\"Not Seen\",\"\")"
+    ],
+    [
+      "`PRESS` Enter"
+    ],
+    [
+      "`DRAG` the fill handle of cell C1 down to apply the formula to all rows"
+    ],
+    [
+      "`CLICK` on the new sheet's tab and rename it to 'unseen_movies'"
+    ],
+    [
+      "`CLICK` on any cell in the data range"
+    ],
+    [
+      "`CLICK` on 'Data'"
+    ],
+    [
+      "`CLICK` on 'Sort'"
+    ],
+    [
+      "`CLICK` on the 'Sort Key 1' dropdown"
+    ],
+    [
+      "`SELECT` the column containing IMDB ranking (likely column A)"
+    ],
+    [
+      "`CLICK` on 'Descending'"
+    ],
+    [
+      "`CLICK` on 'OK'"
+    ],
+    [
+      "`CLICK` on 'File'"
+    ],
+    [
+      "`CLICK` on 'Save'"
+    ]
+  ]
+}

@@ -1,11 +1,13 @@
 [{
-  "id": "42f4d1c7-4521-4161-b646-0a8934e36081",
-  "snapshot": "gimp",
-  "instruction": "Configure VS Code to edit GIMP script-fu scripts effectively by installing lisp extension. Test by writing code to resize the image \"character.png\" to 128 * 128 as \"resized.png\".",
-  "source": ""
+  "id": "185f29bd-5da0-40a6-b69c-ba7f4e0324ef",
+  "snapshot": "libreoffice_calc",
+  "instruction": "Transfer the data from our 'Employee Performance Evaluation Summary' Excel sheet into our standardized PDF evaluation forms. Each employee's evaluation data should be accurately filled into the designated fields of the PDF form. It's crucial that the final PDF documents retain a uniform and professional look, ready for distribution to our staff or for filing purposes. Furthermore, please ensure that each PDF file is named according to the employee's name as it appears in the Excel document. This will greatly streamline our evaluation process and enhance our efficiency in managing employee performance records. Oh, use \"√\" as mark on characters.",
+  "source": "authors"
 },
 {
   "minimal": [
+    "`TYPING` code",
+    "`PRESS` enter",
     "`CLICK` on 'Extensions' icon in the Activity Bar",
     "`TYPING` lisp",
     "`CLICK` on 'Install' button for a suitable Lisp extension (e.g., 'Common Lisp' by 'Matt L' or similar)",
@@ -60,7 +62,9 @@
   ],
   "batched": [
     [
-      "`TYPING` code",
+      "`TYPING` code"
+    ],
+    [
       "`PRESS` enter"
     ],
     [
@@ -88,74 +92,108 @@
       "`CLICK` on 'Lisp'"
     ],
     [
-      "`TYPING` (define (script-fu-resize-image-example filename width height)",
+      "`TYPING` (define (script-fu-resize-image-example filename width height)"
+    ],
+    [
       "`PRESS` enter"
     ],
     [
-      "`TYPING`   (let* ((image (car (gimp-file-load filename filename)))",
+      "`TYPING`   (let* ((image (car (gimp-file-load filename filename)))"
+    ],
+    [
       "`PRESS` enter"
     ],
     [
-      "`TYPING`          (drawable (car (gimp-image-active-drawable image))))",
+      "`TYPING`          (drawable (car (gimp-image-active-drawable image))))"
+    ],
+    [
       "`PRESS` enter"
     ],
     [
-      "`TYPING`     (gimp-image-scale image width height)",
+      "`TYPING`     (gimp-image-scale image width height)"
+    ],
+    [
       "`PRESS` enter"
     ],
     [
-      "`TYPING`     (gimp-file-save RUN-NONINTERACTIVE image drawable (string-append (car (file-dirname filename)) \"/resized.png\") \"resized.png\")",
+      "`TYPING`     (gimp-file-save RUN-NONINTERACTIVE image drawable (string-append (car (file-dirname filename)) \"/resized.png\") \"resized.png\")"
+    ],
+    [
       "`PRESS` enter"
     ],
     [
-      "`TYPING`     (gimp-image-delete image)))",
+      "`TYPING`     (gimp-image-delete image)))"
+    ],
+    [
       "`PRESS` enter"
     ],
     [
-      "`TYPING` (script-fu-register \"script-fu-resize-image-example\"",
+      "`TYPING` (script-fu-register \"script-fu-resize-image-example\""
+    ],
+    [
       "`PRESS` enter"
     ],
     [
-      "`TYPING`                       \"Resize Image Example\"",
+      "`TYPING`                       \"Resize Image Example\""
+    ],
+    [
       "`PRESS` enter"
     ],
     [
-      "`TYPING`                       \"Resizes an image to a specified width and height.\"",
+      "`TYPING`                       \"Resizes an image to a specified width and height.\""
+    ],
+    [
       "`PRESS` enter"
     ],
     [
-      "`TYPING`                       \"Your Name\"",
+      "`TYPING`                       \"Your Name\""
+    ],
+    [
       "`PRESS` enter"
     ],
     [
-      "`TYPING`                       \"2025\"",
+      "`TYPING`                       \"2025\""
+    ],
+    [
       "`PRESS` enter"
     ],
     [
-      "`TYPING`                       \"<Image>/Filters/Script-Fu/Examples\"",
+      "`TYPING`                       \"<Image>/Filters/Script-Fu/Examples\""
+    ],
+    [
       "`PRESS` enter"
     ],
     [
-      "`TYPING`                       '((filename STRING \"Input image path\" \"/home/user/Desktop/character.png\")",
+      "`TYPING`                       '((filename STRING \"Input image path\" \"/home/user/Desktop/character.png\")"
+    ],
+    [
       "`PRESS` enter"
     ],
     [
-      "`TYPING`                         (width INTEGER \"New width\" 128)",
+      "`TYPING`                         (width INTEGER \"New width\" 128)"
+    ],
+    [
       "`PRESS` enter"
     ],
     [
-      "`TYPING`                         (height INTEGER \"New height\" 128))))",
+      "`TYPING`                         (height INTEGER \"New height\" 128))))"
+    ],
+    [
       "`PRESS` enter"
     ],
     [
       "`HOTKEY` ['control', 's']"
     ],
     [
-      "`TYPING` /home/user/.config/GIMP/2.10/scripts/resize-image.scm",
+      "`TYPING` /home/user/.config/GIMP/2.10/scripts/resize-image.scm"
+    ],
+    [
       "`PRESS` enter"
     ],
     [
-      "`TYPING` gimp",
+      "`TYPING` gimp"
+    ],
+    [
       "`PRESS` enter"
     ],
     [

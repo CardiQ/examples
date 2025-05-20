@@ -6,27 +6,95 @@
 },
 {
   "minimal": [
-    "`CLICK` on 'Activities'",
-    "`TYPING` Accessibility",
-    "`CLICK` on 'Accessibility'",
-    "`CLICK` on 'Seeing'",
-    "`CLICK` on the 'Large Text' switch"
+    "`TYPING` gimp",
+    "`CLICK` on 'GNU Image Manipulation Program'",
+    "`HOTKEY` ['control', 'o']",
+    "`TYPING` /home/user/Desktop/ChMkKV8wsR6IBfEtABYfc0Tgu9cAAA1lQHO_78AFh-L733.jpg",
+    "`CLICK` on 'Open'",
+    "`CLICK` on 'Layer' in the menu bar",
+    "`CLICK` on 'Transparency'",
+    "`CLICK` on 'Add Alpha Channel'",
+    "`CLICK` on 'Tools'",
+    "`CLICK` on 'Selection Tools'",
+    "`CLICK` on 'Fuzzy Select'",
+    "`CLICK` at the desired background area to select it",
+    "`PRESS` delete",
+    "`HOTKEY` ['control', 'e']",
+    "`CLICK` on 'Select File Type (By Extension)'",
+    "`CLICK` on 'JPEG image'",
+    "`CLICK` on 'Select File Type (By Extension)'",
+    "`SCROLL` 0, -200",
+    "`CLICK` on 'PNG image'",
+    "`TYPING` pic.png",
+    "`CLICK` on 'Export'",
+    "`CLICK` on 'Export'"
   ],
   "batched": [
     [
-      "`CLICK` on 'Activities'"
+      "`TYPING` gimp"
     ],
     [
-      "`TYPING` Accessibility"
+      "`CLICK` on 'GNU Image Manipulation Program'"
     ],
     [
-      "`CLICK` on 'Accessibility'"
+      "`HOTKEY` ['control', 'o']"
     ],
     [
-      "`CLICK` on 'Seeing'"
+      "`TYPING` /home/user/Desktop/ChMkKV8wsR6IBfEtABYfc0Tgu9cAAA1lQHO_78AFh-L733.jpg"
     ],
     [
-      "`CLICK` on the 'Large Text' switch"
+      "`CLICK` on 'Open'"
+    ],
+    [
+      "`CLICK` on 'Layer' in the menu bar"
+    ],
+    [
+      "`CLICK` on 'Transparency'"
+    ],
+    [
+      "`CLICK` on 'Add Alpha Channel'"
+    ],
+    [
+      "`CLICK` on 'Tools'"
+    ],
+    [
+      "`CLICK` on 'Selection Tools'"
+    ],
+    [
+      "`CLICK` on 'Fuzzy Select'"
+    ],
+    [
+      "`CLICK` at the desired background area to select it"
+    ],
+    [
+      "`PRESS` delete"
+    ],
+    [
+      "`HOTKEY` ['control', 'e']"
+    ],
+    [
+      "`CLICK` on 'Select File Type (By Extension)'"
+    ],
+    [
+      "`CLICK` on 'JPEG image'"
+    ],
+    [
+      "`CLICK` on 'Select File Type (By Extension)'"
+    ],
+    [
+      "`SCROLL` 0, -200"
+    ],
+    [
+      "`CLICK` on 'PNG image'"
+    ],
+    [
+      "`TYPING` pic.png"
+    ],
+    [
+      "`CLICK` on 'Export'"
+    ],
+    [
+      "`CLICK` on 'Export'"
     ]
   ]
 }]

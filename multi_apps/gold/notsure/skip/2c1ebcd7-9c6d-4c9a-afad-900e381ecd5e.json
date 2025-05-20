@@ -1,0 +1,84 @@
+{
+  "id": "2c1ebcd7-9c6d-4c9a-afad-900e381ecd5e",
+  "snapshot": "libreoffice_calc",
+  "instruction": "Could you please take a moment to review the 'case study' file located within the 'student work' folder? I'm particularly interested in ensuring that the references section at the end of the document adheres to the APA 7th edition formatting guidelines. Making the necessary adjustments if it turns out that the current formatting does not align with APA 7 standards or exists some errors.",
+  "source": "authors"
+},
+{
+  "minimal": [
+    "`TYPING` libreoffice --writer \"student work/case study\"",
+    "`PRESS` Enter",
+    "`WAIT`",
+    "`SCROLL` to the end of the document to locate the 'References' section",
+    "`CLICK` to place the cursor in the 'References' section",
+    "`CLICK` on 'Tools'",
+    "`CLICK` on 'Bibliography Database'",
+    "`CLICK` on 'Insert'",
+    "`CLICK` on 'Bibliography Entry'",
+    "`CLICK` on the 'Type' dropdown",
+    "`CLICK` on 'Book'",
+    "`TYPING` Example Author",
+    "`TYPING` Example Title",
+    "`TYPING` 2023",
+    "`CLICK` on 'OK'",
+    "`CLICK` on 'Close'",
+    "`CLICK` on 'File'",
+    "`CLICK` on 'Save'"
+  ],
+  "batched": [
+    [
+      "`TYPING` libreoffice --writer \"student work/case study\""
+    ],
+    [
+      "`PRESS` Enter"
+    ],
+    [
+      "`WAIT`"
+    ],
+    [
+      "`SCROLL` to the end of the document to locate the 'References' section"
+    ],
+    [
+      "`CLICK` to place the cursor in the 'References' section"
+    ],
+    [
+      "`CLICK` on 'Tools'"
+    ],
+    [
+      "`CLICK` on 'Bibliography Database'"
+    ],
+    [
+      "`CLICK` on 'Insert'"
+    ],
+    [
+      "`CLICK` on 'Bibliography Entry'"
+    ],
+    [
+      "`CLICK` on the 'Type' dropdown"
+    ],
+    [
+      "`CLICK` on 'Book'"
+    ],
+    [
+      "`TYPING` Example Author"
+    ],
+    [
+      "`TYPING` Example Title"
+    ],
+    [
+      "`TYPING` 2023"
+    ],
+    [
+      "`CLICK` on 'OK'"
+    ],
+    [
+      "`CLICK` on 'Close'"
+    ],
+    [
+      "`CLICK` on 'File'"
+    ],
+    [
+      "`CLICK` on 'Save'"
+    ]
+  ]
+}
