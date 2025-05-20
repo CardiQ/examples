@@ -1,0 +1,16 @@
+[{
+  "id": "4d117223-a354-47fb-8b45-62ab1390a95f",
+  "snapshot": "os",
+  "instruction": "Change the permission of all regular files under current directory tree to 644",
+  "source": "NL2Bash"
+},
+{
+  "minimal": [
+    "`TYPE` 'find . -type f -exec chmod 644 {} \\;'",
+    "`PRESS` Enter"
+  ],
+  "batched": [
+    ["`TYPE` 'find . -type f -exec chmod 644 {} \\;'",
+    "`PRESS` Enter"]
+  ]
+}]

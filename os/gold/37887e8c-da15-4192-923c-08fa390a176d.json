@@ -1,0 +1,16 @@
+[{
+  "id": "37887e8c-da15-4192-923c-08fa390a176d",
+  "snapshot": "os",
+  "instruction": "Compress all files in the \"/tmp/test_files\" directory tree that were last modified 30 days ago",
+  "source": "NL2Bash"
+},
+{
+  "minimal": [
+    "`TYPE` 'find /tmp/test_files -type f -mtime 30 -exec gzip {} \\;'",
+    "`PRESS` Enter"
+  ],
+  "batched": [
+    ["`TYPE` 'find /tmp/test_files -type f -mtime 30 -exec gzip {} \\;'",
+    "`PRESS` Enter"]
+  ]
+}]
