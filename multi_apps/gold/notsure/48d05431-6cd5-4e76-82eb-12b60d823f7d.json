@@ -1,76 +1,58 @@
-[{
-  "id": "48d05431-6cd5-4e76-82eb-12b60d823f7d",
-  "snapshot": "os",
-  "instruction": "When I ran \"conda install datasets\" in terminal, I got \"conda: command not found\". Could you help me solve it?",
-  "source": "authors"
-},
-{
-  "minimal": [
-    "`TYPING` konsole",
-    "`PRESS` enter",
-    "`TYPING` curl -sL \"https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh\" > \"Miniconda3.sh\"",
-    "`PRESS` enter",
-    "`TYPING` bash Miniconda3.sh",
-    "`PRESS` enter",
-    "`TYPING` yes",
-    "`PRESS` enter",
-    "`PRESS` enter",
-    "`TYPING` yes",
-    "`PRESS` enter",
-    "`TYPING` source ~/.bashrc",
-    "`PRESS` enter",
-    "`TYPING` conda install datasets",
-    "`PRESS` enter",
-    "`DONE`"
-  ],
-  "batched": [
-    [
-      "`TYPING` konsole"
-    ],
-    [
+[
+  {
+    "id": "48d05431-6cd5-4e76-82eb-12b60d823f7d",
+    "snapshot": "os",
+    "instruction": "When I ran \"conda install datasets\" in terminal, I got \"conda: command not found\". Could you help me solve it?",
+    "source": "authors"
+  },
+  {
+    "minimal": [
+      "`HOTKEY` 'Ctrl+Alt+T'",
+      "`TYPING` curl -sL \"https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh\" > \"Miniconda3.sh\"",
+      "`PRESS` enter",
+      "`TYPING` bash Miniconda3.sh",
+      "`PRESS` enter",
+      "`TYPING` yes",
+      "`PRESS` enter",
+      "`PRESS` enter",
+      "`TYPING` yes",
+      "`PRESS` enter",
+      "`TYPING` source ~/.bashrc",
+      "`PRESS` enter",
+      "`TYPING` conda install datasets",
       "`PRESS` enter"
     ],
-    [
-      "`TYPING` curl -sL \"https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh\" > \"Miniconda3.sh\""
-    ],
-    [
-      "`PRESS` enter"
-    ],
-    [
-      "`TYPING` bash Miniconda3.sh"
-    ],
-    [
-      "`PRESS` enter"
-    ],
-    [
-      "`TYPING` yes"
-    ],
-    [
-      "`PRESS` enter"
-    ],
-    [
-      "`PRESS` enter"
-    ],
-    [
-      "`TYPING` yes"
-    ],
-    [
-      "`PRESS` enter"
-    ],
-    [
-      "`TYPING` source ~/.bashrc"
-    ],
-    [
-      "`PRESS` enter"
-    ],
-    [
-      "`TYPING` conda install datasets"
-    ],
-    [
-      "`PRESS` enter"
-    ],
-    [
-      "`DONE`"
+    "batched": [
+      [
+        "`HOTKEY` 'Ctrl+Alt+T'"
+      ],
+      [
+        "`TYPING` curl -sL \"https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh\" > \"Miniconda3.sh\"",
+        "`PRESS` enter"
+      ],
+      [
+        "`TYPING` bash Miniconda3.sh",
+        "`PRESS` enter"
+      ],
+      [
+        "`TYPING` yes",
+        "`PRESS` enter"
+      ],
+      [
+        "`PRESS` enter"
+      ],
+      [
+        "`TYPING` yes",
+        "`PRESS` enter"
+      ],
+      [
+        "`TYPING` source ~/.bashrc",
+        "`PRESS` enter"
+      ],
+      [
+        "`TYPING` conda install datasets",
+        "`PRESS` enter"
+      ]
     ]
-  ]
-}]
+  }
+]

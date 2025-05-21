@@ -6,8 +6,7 @@
 },
 {
   "minimal": [
-    "`TYPING` konsole",
-    "`PRESS` enter",
+    "`HOTKEY` 'Ctrl+Alt+T'",
     "`TYPING` cd ~/OSWorld",
     "`PRESS` enter",
     "`TYPING` dolphin ~/OSWorld",
@@ -15,42 +14,27 @@
     "`TYPING` google-chrome https://github.com/",
     "`PRESS` enter",
     "`TYPING` google-chrome https://docs.python.org/3/",
-    "`PRESS` enter",
-    "`DONE`"
+    "`PRESS` enter"
   ],
   "batched": [
     [
-      "`TYPING` konsole"
+      "`HOTKEY` 'Ctrl+Alt+T'"
     ],
     [
+      "`TYPING` cd ~/OSWorld",
       "`PRESS` enter"
     ],
     [
-      "cd ~/OSWorld"
-    ],
-    [
+      "`TYPING` dolphin ~/OSWorld",
       "`PRESS` enter"
     ],
     [
-      "`TYPING` dolphin ~/OSWorld"
-    ],
-    [
+      "`TYPING` google-chrome https://github.com/",
       "`PRESS` enter"
     ],
     [
-      "`TYPING` google-chrome https://github.com/"
-    ],
-    [
+      "`TYPING` google-chrome https://docs.python.org/3/",
       "`PRESS` enter"
-    ],
-    [
-      "`TYPING` google-chrome https://docs.python.org/3/"
-    ],
-    [
-      "`PRESS` enter"
-    ],
-    [
-      "`DONE`"
     ]
   ]
 }

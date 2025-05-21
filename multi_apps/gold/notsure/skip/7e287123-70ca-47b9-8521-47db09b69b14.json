@@ -41,8 +41,7 @@
     "`CLICK` on 'File' in the menu bar",
     "`CLICK` on 'Save As'",
     "`TYPING` /home/user/Desktop/GRF-p5y.xlsx",
-    "`CLICK` on 'Save'",
-    "`DONE`"
+    "`CLICK` on 'Save'"
   ],
   "batched": [
     [
@@ -152,9 +151,6 @@
     ],
     [
       "`CLICK` on 'Save'"
-    ],
-    [
-      "`DONE`"
     ]
   ]
 }

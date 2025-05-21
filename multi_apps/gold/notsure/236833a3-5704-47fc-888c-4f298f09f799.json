@@ -1,48 +1,60 @@
-[{
-    "id": "236833a3-5704-47fc-888c-4f298f09f799",
-    "snapshot": "chrome",
-    "instruction": "Find the daily paper list on Huggingface and take down the meta information of papers on 1st March, 2024 in the opened .docx file. I have recorded two papers. Please conform to the format and complete others.",
-    "source": "authors"
-},
-{
-  "minimal": [
-    "`HOTKEY`'Ctrl+Alt+T' open the terminal",
-    "`TYPING` firefox https://huggingface.co/papers",
-    "`PRESS` Enter",
-    "`WAIT` for the Hugging Face Papers page to load",
-    "`SCROLL` or `CLICK` to locate date selector or navigate to March 1st, 2024",
-    "`CLICK` the section for papers on 1st March, 2024",
-    "`COPY` the title, authors, publication venue, and URL for each paper",
-    "`HOTKEY`'Ctrl+Alt+T' open new terminal or reuse",
-    "`TYPING` libreoffice --writer ~/Desktop/daily_papers.docx",
-    "`PRESS` Enter",
-    "`WAIT` for document to open",
-    "`TYPING` append the remaining paper entries under March 1st, 2024, matching the format of the first two",
-    "`SAVE` the document"
-  ],
-  "batched": [
-    [
-      "`HOTKEY`'Ctrl+Alt+T' open the terminal",
-      "`TYPING` firefox https://huggingface.co/papers",
-      "`PRESS` Enter"
-    ],
-    [
-      "`WAIT` for the Hugging Face Papers page to load",
-      "`SCROLL` or `CLICK` to locate date selector or navigate to March 1st, 2024",
-      "`CLICK` the section for papers on 1st March, 2024"
-    ],
-    [
-      "`COPY` the title, authors, publication venue, and URL for each paper"
-    ],
-    [
-      "`HOTKEY`'Ctrl+Alt+T' open new terminal or reuse",
-      "`TYPING` libreoffice --writer ~/Desktop/daily_papers.docx",
-      "`PRESS` Enter",
-      "`WAIT` for document to open"
-    ],
-    [
-      "`TYPING` append the remaining paper entries under March 1st, 2024, matching the format of the first two",
-      "`SAVE` the document"
-    ]
-  ]
-}]
+[
+    {
+        "id": "236833a3-5704-47fc-888c-4f298f09f799",
+        "snapshot": "chrome",
+        "instruction": "Find the daily paper list on Huggingface and take down the meta information of papers on 1st March, 2024 in the opened .docx file. I have recorded two papers. Please conform to the format and complete others.",
+        "source": "authors"
+    },
+    {
+        "minimal": [
+            "`HOTKEY`'Ctrl+Alt+T' open the terminal",
+            "`TYPING` firefox https://huggingface.co/papers",
+            "`PRESS` Enter",
+            "`WAIT` for the Hugging Face Papers page to load",
+            "`SCROLL` navigate to March 1st, 2024",
+            "`CLICK` the section for papers on 1st March, 2024",
+            "`MOVE_TO` before the title, authors, publication venue, and URL for each paper",
+            "`DRAG_TO` after the title, authors, publication venue, and URL for each paper",
+            "`HOTKEY` 'Ctrl+C'",
+            "`HOTKEY`'Ctrl+Alt+T' open new terminal or reuse",
+            "`TYPING` libreoffice --writer ~/Desktop/daily_papers.docx",
+            "`PRESS` Enter",
+            "`WAIT` for document to open",
+            "`SCROLL` navigate to the end",
+            "`CLICK` to write",
+            "`HOTKEY` 'Ctrl+V' append the remaining paper entries under March 1st, 2024, matching the format of the first two",
+            "`SAVE` the document"
+        ],
+        "batched": [
+            [
+                "`HOTKEY`'Ctrl+Alt+T' open the terminal",
+                "`TYPING` firefox https://huggingface.co/papers",
+                "`PRESS` Enter"
+            ],
+            [
+                "`WAIT` for the Hugging Face Papers page to load",
+                "`SCROLL` navigate to March 1st, 2024",
+                "`CLICK` the section for papers on 1st March, 2024"
+            ],
+            [
+                "`MOVE_TO` before the title, authors, publication venue, and URL for each paper",
+                "`DRAG_TO` after the title, authors, publication venue, and URL for each paper",
+                "`HOTKEY` 'Ctrl+C'"
+            ],
+            [
+                "`HOTKEY`'Ctrl+Alt+T' open new terminal or reuse",
+                "`TYPING` libreoffice --writer ~/Desktop/daily_papers.docx",
+                "`PRESS` Enter",
+                "`WAIT` for document to open"
+            ],
+            [
+                "`SCROLL` navigate to the end",
+                "`CLICK` to write"
+            ],
+            [
+                "`HOTKEY` 'Ctrl+V' append the remaining paper entries under March 1st, 2024, matching the format of the first two",
+                "`SAVE` the document"
+            ]
+        ]
+    }
+]

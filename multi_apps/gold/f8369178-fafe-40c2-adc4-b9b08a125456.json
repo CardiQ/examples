@@ -10,8 +10,7 @@
     "`PRESS` enter",
     "`CLICK` on 'Files' tab",
     "`CLICK` on 'Download' button for the latest stable version (e.g., 'Orchis-dark.tar.xz')",
-    "`TYPING` konsole",
-    "`PRESS` enter",
+    "`HOTKEY` 'Ctrl+Alt+T'",
     "`TYPING` mkdir -p ~/.themes",
     "`PRESS` enter",
     "`TYPING` tar -xvf ~/Downloads/Orchis-dark.tar.xz -C ~/.themes/",
@@ -38,8 +37,7 @@
       "`CLICK` on 'Download' button for the latest stable version (e.g., 'Orchis-dark.tar.xz')"
     ],
     [
-      "`TYPING` konsole",
-      "`PRESS` enter"
+    "`HOTKEY` 'Ctrl+Alt+T'"
     ],
     [
       "`TYPING` mkdir -p ~/.themes",

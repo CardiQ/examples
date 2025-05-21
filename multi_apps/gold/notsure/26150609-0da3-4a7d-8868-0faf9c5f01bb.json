@@ -21,8 +21,7 @@
     "`TYPING` python3 snake_game.py",
     "`PRESS` Enter",
     "`WAIT` for game window to run",
-    "`VERIFY` that snake now eats food when touching it",
-    "`DONE`"
+    "`VERIFY` that snake now eats food when touching it"
   ],
   "batched": [
     [
@@ -51,8 +50,7 @@
     ],
     [
       "`WAIT` for game window to run",
-      "`VERIFY` that snake now eats food when touching it",
-      "`DONE`"
+      "`VERIFY` that snake now eats food when touching it"
     ]
   ]
 }

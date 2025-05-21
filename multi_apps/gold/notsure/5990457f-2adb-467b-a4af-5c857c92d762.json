@@ -17,20 +17,15 @@
     "`CLICK` on the first empty cell in the row after the last existing entry (e.g., if data ends at row 10, click A11)",
     "`HOTKEY` ['control', 'v']",
     "`TYPING` (After pasting the first piece of information, you may need to use 'Tab' or 'Right Arrow' and then 'Control+V' again to paste other pieces of information, like affiliation, into subsequent columns, assuming you copied them separately or can parse them visually.)",
-    "`HOTKEY` ['control', 's']",
-    "`DONE`"
+    "`HOTKEY` ['control', 's']"
   ],
   "batched": [
     [
-      "`TYPING` google-chrome https://scholar.google.com/"
-    ],
-    [
+      "`TYPING` google-chrome https://scholar.google.com/",
       "`PRESS` enter"
     ],
     [
-      "`TYPING` Yann LeCun"
-    ],
-    [
+      "`TYPING` Yann LeCun",
       "`CLICK` on 'Search' button"
     ],
     [
@@ -40,9 +35,7 @@
       "`WAIT` 5"
     ],
     [
-      "`TYPING` libreoffice --calc /home/user/Desktop/researchers.xlsx"
-    ],
-    [
+      "`TYPING` libreoffice --calc /home/user/Desktop/researchers.xlsx",
       "`PRESS` enter"
     ],
     [

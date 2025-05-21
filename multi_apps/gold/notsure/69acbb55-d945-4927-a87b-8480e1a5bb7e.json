@@ -6,8 +6,7 @@
 },
 {
   "minimal": [
-    "`TYPING` konsole",
-    "`PRESS` enter",
+    "`HOTKEY` 'Ctrl+Alt+T'",
     "`TYPING` cd /home/user",
     "`PRESS` enter",
     "`TYPING` git clone https://github.com/xlang-ai/instructor-embedding.git",
@@ -17,48 +16,31 @@
     "`TYPING` pip install -r requirements.txt",
     "`PRESS` enter",
     "`TYPING` pip install InstructorEmbedding",
-    "`PRESS` enter",
-    "`DONE`"
+    "`PRESS` enter"
   ],
   "batched": [
     [
-      "`TYPING` konsole"
+    "`HOTKEY` 'Ctrl+Alt+T'"
     ],
     [
+      "`TYPING` cd /home/user",
       "`PRESS` enter"
     ],
     [
-      "`TYPING` cd /home/user"
-    ],
-    [
+      "`TYPING` git clone https://github.com/xlang-ai/instructor-embedding.git",
       "`PRESS` enter"
     ],
     [
-      "`TYPING` git clone https://github.com/xlang-ai/instructor-embedding.git"
-    ],
-    [
+      "`TYPING` cd instructor-embedding",
       "`PRESS` enter"
     ],
     [
-      "`TYPING` cd instructor-embedding"
-    ],
-    [
+      "`TYPING` pip install -r requirements.txt",
       "`PRESS` enter"
     ],
     [
-      "`TYPING` pip install -r requirements.txt"
-    ],
-    [
+      "`TYPING` pip install InstructorEmbedding",
       "`PRESS` enter"
-    ],
-    [
-      "`TYPING` pip install InstructorEmbedding"
-    ],
-    [
-      "`PRESS` enter"
-    ],
-    [
-      "`DONE`"
     ]
   ]
 }]

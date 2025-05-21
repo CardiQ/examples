@@ -1,4 +1,4 @@
-[{
+{
 	"id": "337d318b-aa07-4f4f-b763-89d9a2dd013f",
 	"snapshot": "libreoffice_calc",
 	"instruction": "Cross-check the invoices with the bank statements and identify any discrepancies. Then pull out the invoices that don't match the statements and put them in the \"problematic\" folder.",
@@ -6,8 +6,7 @@
 },
 {
   "minimal": [
-    "`TYPING` konsole",
-    "`PRESS` enter",
+    "`HOTKEY` 'Ctrl+Alt+T'",
     "`TYPING` python3",
     "`PRESS` enter",
     "`TYPING` import pandas as pd",
@@ -73,10 +72,7 @@
   ],
   "batched": [
     [
-      "`TYPING` konsole"
-    ],
-    [
-      "`PRESS` enter"
+      "`HOTKEY` 'Ctrl+Alt+T'"
     ],
     [
       "`TYPING` python3"
@@ -266,4 +262,3 @@
     ]
   ]
 }
-]

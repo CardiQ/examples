@@ -15,8 +15,7 @@
     "`CLICK` on 'Export'",
     "`TYPING` /home/user/essay.pdf",
     "`CLICK` on 'Save'",
-    "`TYPING` konsole",
-    "`PRESS` enter",
+    "`HOTKEY` 'Ctrl+Alt+T'",
     "`TYPING` zip /home/user/essay_submission.zip /home/user/essay.docx /home/user/essay.pdf",
     "`PRESS` enter"
   ],
@@ -47,8 +46,7 @@
       "`CLICK` on 'Save'"
     ],
     [
-      "`TYPING` konsole",
-      "`PRESS` enter"
+    "`HOTKEY` 'Ctrl+Alt+T'"
     ],
     [
       "`TYPING` zip /home/user/essay_submission.zip /home/user/essay.docx /home/user/essay.pdf",
