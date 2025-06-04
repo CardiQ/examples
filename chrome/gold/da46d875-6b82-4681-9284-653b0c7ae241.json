@@ -17,21 +17,44 @@
       "`CLICK` 10:15 am button",
       "`SCROLL` down 200 units (-200)",
       "`CLICK` the 'First and last name' field",
-      "`TYPE` 'James Smith' into the 'First and last name' field'",
+      "`TYPING` 'James Smith' into the 'First and last name' field'",
       "`CLICK` the Email field",
-      "`TYPE` 'james.smith@gmail.com' into the 'Email address' field'"
+      "`TYPING` 'james.smith@gmail.com' into the 'Email address' field'"
     ],
     "batched": [
-      ["`CLICK` 'Fares'"],
-      ["`CLICK` 'Charlie Service Center'"],
-      ["`SCROLL` down 400 units (-400)"],
-      ["`CLICK` 'Schedule an appointment'"],
-      ["`CLICK` 'Apply for Transportation Access Pass'"],
-      ["`SCROLL` down 200 units (-200)"],
-      ["4x`CLICK` the right arrow next to the month"],
-      ["`CLICK` 10:15 am button"],
-      ["`SCROLL` down 200 units (-200)"],
-      ["`CLICK` the 'First and last name' field", "`TYPE` 'James Smith' into the 'First and last name' field'", "`CLICK` the Email field", "`TYPE` 'james.smith@gmail.com' into the 'Email address' field'"]
+      [
+        "`CLICK` 'Fares'"
+      ],
+      [
+        "`CLICK` 'Charlie Service Center'"
+      ],
+      [
+        "`SCROLL` down 400 units (-400)"
+      ],
+      [
+        "`CLICK` 'Schedule an appointment'"
+      ],
+      [
+        "`CLICK` 'Apply for Transportation Access Pass'"
+      ],
+      [
+        "`SCROLL` down 200 units (-200)"
+      ],
+      [
+        "4x`CLICK` the right arrow next to the month"
+      ],
+      [
+        "`CLICK` 10:15 am button"
+      ],
+      [
+        "`SCROLL` down 200 units (-200)"
+      ],
+      [
+        "`CLICK` the 'First and last name' field",
+        "`TYPING` 'James Smith' into the 'First and last name' field'",
+        "`CLICK` the Email field",
+        "`TYPING` 'james.smith@gmail.com' into the 'Email address' field'"
+      ]
     ]
-}
+  }
 ]

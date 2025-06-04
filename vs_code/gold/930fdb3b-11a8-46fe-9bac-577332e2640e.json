@@ -1,34 +1,56 @@
-[{
-  "id": "930fdb3b-11a8-46fe-9bac-577332e2640e",
-  "snapshot": "vscode",
-  "instruction": "Please help me create a shortcut \"ctrl+j\" to move cursor focus from terminal to editor in VS Code.",
-  "source": "https://superuser.com/questions/1270103/how-to-switch-the-cursor-between-terminal-and-code-in-vscode"
-},
-{
-  "minimal": [
-    "`CLICK` 'File'",
-    "`CLICK` 'Preferences'",
-    "`CLICK` 'Keyboard shortcuts'",
-    "`CLICK` the search bar",
-    "`TYPE` 'focus active editor group'",
-    "`DOUBLE_CLICK` on the box below 'keybinding'",
-    "`PRESS` 'ctrl+j'",
-    "`PRESS` 'Enter'",
-    "`RIGHT_CLICK` on the box below 'When'",
-    "`CLICK` 'Change when expression'",
-    "`TYPE` 'terminalFocus'",
-    "`PRESS` 'Enter'"
-  ],
-  "batched": [
-    ["`CLICK` 'File'"],
-    ["`CLICK` 'Preferences'"],
-    ["`CLICK` 'Keyboard shortcuts'"],
-    ["`CLICK` the search bar", "`TYPE` 'focus active editor group'"],
-    ["`DOUBLE_CLICK` on the box below 'keybinding'"],
-    ["`PRESS` 'ctrl+j'", "`PRESS 'Enter"], 
-    ["`RIGHT_CLICK` on the box below 'When'"],
-    ["`CLICK` 'Change when expression'"],
-    ["`TYPE` 'terminalFocus'", "`PRESS` 'Enter'"]
-  ]
-}
+[
+  {
+    "id": "930fdb3b-11a8-46fe-9bac-577332e2640e",
+    "snapshot": "vscode",
+    "instruction": "Please help me create a shortcut \"ctrl+j\" to move cursor focus from terminal to editor in VS Code.",
+    "source": "https://superuser.com/questions/1270103/how-to-switch-the-cursor-between-terminal-and-code-in-vscode"
+  },
+  {
+    "minimal": [
+      "`CLICK` 'File'",
+      "`CLICK` 'Preferences'",
+      "`CLICK` 'Keyboard shortcuts'",
+      "`CLICK` the search bar",
+      "`TYPING` 'focus active editor group'",
+      "`DOUBLE_CLICK` on the box below 'keybinding'",
+      "`PRESS` 'ctrl+j'",
+      "`PRESS` 'Enter'",
+      "`RIGHT_CLICK` on the box below 'When'",
+      "`CLICK` 'Change when expression'",
+      "`TYPING` 'terminalFocus'",
+      "`PRESS` 'Enter'"
+    ],
+    "batched": [
+      [
+        "`CLICK` 'File'"
+      ],
+      [
+        "`CLICK` 'Preferences'"
+      ],
+      [
+        "`CLICK` 'Keyboard shortcuts'"
+      ],
+      [
+        "`CLICK` the search bar",
+        "`TYPING` 'focus active editor group'"
+      ],
+      [
+        "`DOUBLE_CLICK` on the box below 'keybinding'"
+      ],
+      [
+        "`PRESS` 'ctrl+j'",
+        "`PRESS 'Enter"
+      ],
+      [
+        "`RIGHT_CLICK` on the box below 'When'"
+      ],
+      [
+        "`CLICK` 'Change when expression'"
+      ],
+      [
+        "`TYPING` 'terminalFocus'",
+        "`PRESS` 'Enter'"
+      ]
+    ]
+  }
 ]

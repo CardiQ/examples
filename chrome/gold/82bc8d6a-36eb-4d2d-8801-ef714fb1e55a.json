@@ -9,22 +9,32 @@
     "minimal": [
       "`CLICK` 'One way'",
       "`CLICK` 'From'",
-      "`TYPE` 'Mumabi'",
+      "`TYPING` 'Mumabi'",
       "`PRESS` 'Enter'",
-      "`TYPE` 'Stockholm'",
+      "`TYPING` 'Stockholm'",
       "`PRESS` 'Enter'",
       "`CLICK` the next monday on the calendar displayed",
       "`CLICK` 'Continue'",
       "`CLICK` 'Search flights'"
     ],
     "batched": [
-      ["`CLICK` 'One way'"],
-      ["`CLICK` 'From'"],
-      ["`TYPE` 'Mumabi'",
-      "`PRESS` 'Enter'",
-      "`TYPE` 'Stockholm'",
-      "`PRESS` 'Enter'"],
-      ["`CLICK` the next monday on the calendar displayed", "`CLICK` 'Continue'","`CLICK` 'Search flights'"]
+      [
+        "`CLICK` 'One way'"
+      ],
+      [
+        "`CLICK` 'From'"
+      ],
+      [
+        "`TYPING` 'Mumabi'",
+        "`PRESS` 'Enter'",
+        "`TYPING` 'Stockholm'",
+        "`PRESS` 'Enter'"
+      ],
+      [
+        "`CLICK` the next monday on the calendar displayed",
+        "`CLICK` 'Continue'",
+        "`CLICK` 'Search flights'"
+      ]
     ]
-}
+  }
 ]

@@ -61,9 +61,7 @@
       "`CLICK` on 'Scene filter'"
     ],
     [
-      "`TYPING` /home/user/Desktop/snapshot.png"
-    ],
-    [
+      "`TYPING` /home/user/Desktop/snapshot.png",
       "`CLICK` on 'Save'"
     ],
     [
@@ -85,9 +83,7 @@
       "`CLICK` on 'Add/Import'"
     ],
     [
-      "`TYPING` /home/user/Desktop/snapshot.png"
-    ],
-    [
+      "`TYPING` /home/user/Desktop/snapshot.png",
       "`CLICK` on 'Open'"
     ],
     [
@@ -96,5 +92,6 @@
     [
       "`CLICK` on 'OK'"
     ]
-  ]
+  ],
+  "error&change": ["too strict batched, changed to batched more"]
 }]

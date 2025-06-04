@@ -17,8 +17,7 @@
     "`TYPING` complete the bubbleSort function according to the tutorial",
     "`SAVE` the bubbleSort.py file",
     "`TYPING` python3 bubbleSort.py > res.txt",
-    "`PRESS` Enter",
-    "`VERIFY` the file res.txt is created on Desktop with correct output"
+    "`PRESS` Enter"
   ],
   "batched": [
     [
@@ -42,9 +41,7 @@
     [
       "`TYPING` python3 bubbleSort.py > res.txt",
       "`PRESS` Enter"
-    ],
-    [
-      "`VERIFY` the file res.txt is created on Desktop with correct output"
     ]
-  ]
+  ],
+  "error&change": ["delete non-existent `VERIFY` action"]
 }]

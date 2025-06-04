@@ -1,57 +1,70 @@
-[{
-  "id": "51719eea-10bc-4246-a428-ac7c433dd4b3",
-	"snapshot": "libreoffice_calc",
-	"instruction": "Calculate revenue in a new column and generate a Pivot Table in a new sheet (Sheet2) that summarizes the revenue of each product.",
-	"source": "SheetCopilot@7"
-},
-{
-  "minimal": [
-    "`CLICK` cell G1",
-		"`TYPE` 'Revenue'",
-		"`PRESS` enter",
-		"`CLICK` sheet 'Retail Price'",
-		"`CLICK` sheet 'Sheet1'",
-		"`CLICK` cell G2",
-		"`TYPE` '=VLOOKUP(C2,$'Retail Price'.$A$2:$B$23,2,FALSE())*E2*(1-F2)'",
-		"`PRESS` enter",
-		"`CLICK` cell G2",
-		"`MOVE_TO` bottom right corner of the cell G2`",
-		"`DOUBLE_CLICK`",
-    "`HOTKEY` ctrl-A",
-		"`CLICK` pivot table icon",
-		"`PRESS` enter",
-		"`MOVE_TO` product in available fields box",
-		"`DRAG_TO` row fields box",
-		"`MOVE_TO` revenue in available fields box",
-		"`DRAG_TO` data fields box",
-		"`PRESS` enter",
-		"`DOUBLE_CLICK` Pivot Table Sheet1_1",
-		"`TYPE` Sheet2",
-		"`PRESS` enter"
-  ],
-  "batched": [
-    ["`CLICK` cell G1",
-		"`TYPE` 'Revenue'",
-		"`PRESS` enter",
-		"`CLICK` sheet 'Retail Price'"],
-		["`CLICK` sheet 'Sheet1'"],
-		["`CLICK` cell G2",
-		"`TYPE` '=VLOOKUP(C2,$'Retail Price'.$A$2:$B$23,2,FALSE())*E2*(1-F2)'",
-		"`PRESS` enter",
-		"`CLICK` cell G2",
-		"`MOVE_TO` bottom right corner of the cell G2`",
-		"`DOUBLE_CLICK`",
-    "`HOTKEY` ctrl-A",
-		"`CLICK` pivot table icon"],
-		["`PRESS` enter"],
-		["`MOVE_TO` product in available fields box",
-		"`DRAG_TO` row fields box",
-		"`MOVE_TO` revenue in available fields box",
-		"`DRAG_TO` data fields box",
-		"`PRESS` enter"],
-		["`DOUBLE_CLICK` Pivot Table Sheet1_1",
-		"`TYPE` Sheet2",
-		"`PRESS` enter"]
-  ]
-}
+[
+	{
+		"id": "51719eea-10bc-4246-a428-ac7c433dd4b3",
+		"snapshot": "libreoffice_calc",
+		"instruction": "Calculate revenue in a new column and generate a Pivot Table in a new sheet (Sheet2) that summarizes the revenue of each product.",
+		"source": "SheetCopilot@7"
+	},
+	{
+		"minimal": [
+			"`CLICK` cell G1",
+			"`TYPING` 'Revenue'",
+			"`PRESS` enter",
+			"`CLICK` sheet 'Retail Price'",
+			"`CLICK` sheet 'Sheet1'",
+			"`CLICK` cell G2",
+			"`TYPING` '=VLOOKUP(C2,$'Retail Price'.$A$2:$B$23,2,FALSE())*E2*(1-F2)'",
+			"`PRESS` enter",
+			"`CLICK` cell G2",
+			"`MOVE_TO` bottom right corner of the cell G2`",
+			"`DOUBLE_CLICK`",
+			"`HOTKEY` ctrl-A",
+			"`CLICK` pivot table icon",
+			"`PRESS` enter",
+			"`MOVE_TO` product in available fields box",
+			"`DRAG_TO` row fields box",
+			"`MOVE_TO` revenue in available fields box",
+			"`DRAG_TO` data fields box",
+			"`PRESS` enter",
+			"`DOUBLE_CLICK` Pivot Table Sheet1_1",
+			"`TYPING` Sheet2",
+			"`PRESS` enter"
+		],
+		"batched": [
+			[
+				"`CLICK` cell G1",
+				"`TYPING` 'Revenue'",
+				"`PRESS` enter",
+				"`CLICK` sheet 'Retail Price'"
+			],
+			[
+				"`CLICK` sheet 'Sheet1'"
+			],
+			[
+				"`CLICK` cell G2",
+				"`TYPING` '=VLOOKUP(C2,$'Retail Price'.$A$2:$B$23,2,FALSE())*E2*(1-F2)'",
+				"`PRESS` enter",
+				"`CLICK` cell G2",
+				"`MOVE_TO` bottom right corner of the cell G2`",
+				"`DOUBLE_CLICK`",
+				"`HOTKEY` ctrl-A",
+				"`CLICK` pivot table icon"
+			],
+			[
+				"`PRESS` enter"
+			],
+			[
+				"`MOVE_TO` product in available fields box",
+				"`DRAG_TO` row fields box",
+				"`MOVE_TO` revenue in available fields box",
+				"`DRAG_TO` data fields box",
+				"`PRESS` enter"
+			],
+			[
+				"`DOUBLE_CLICK` Pivot Table Sheet1_1",
+				"`TYPING` Sheet2",
+				"`PRESS` enter"
+			]
+		]
+	}
 ]

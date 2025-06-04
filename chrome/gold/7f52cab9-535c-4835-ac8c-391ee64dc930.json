@@ -7,31 +7,44 @@
   },
   {
     "minimal": [
-        "`CLICK` the search bar at the top of the page that says 'shop'",
-        "`TYPE` drip coffee maker",
-        "`CLICK` on sale on the left sidebar",
-        "`CLICK` the black square under 'Finish'",
-        "`MOVE_TO` the left sidebar",
-        "`SCROLL` down 200 units (-200)",
-        "`CLICK` the text box that says 'Min' under 'Price'",
-        "`TYPE` 25",
-        "`CLICK` the text box that says 'Max' under 'Price'",
-        "`TYPE` 60",
-        "`CLICK` 'Go'"
+      "`CLICK` the search bar at the top of the page that says 'shop'",
+      "`TYPING` drip coffee maker",
+      "`CLICK` on sale on the left sidebar",
+      "`CLICK` the black square under 'Finish'",
+      "`MOVE_TO` the left sidebar",
+      "`SCROLL` down 200 units (-200)",
+      "`CLICK` the text box that says 'Min' under 'Price'",
+      "`TYPING` 25",
+      "`CLICK` the text box that says 'Max' under 'Price'",
+      "`TYPING` 60",
+      "`CLICK` 'Go'"
     ],
     "batched": [
-      ["`CLICK` the search bar at the top of the page that says 'shop'"],
-      ["`TYPE` drip coffee maker"],
-      ["`CLICK` on sale on the left sidebar"],
-      ["`CLICK` the black square under 'Finish'"],
-      ["`MOVE_TO` the left sidebar"],
-      ["`SCROLL` down 200 units (-200)"],
-      ["`CLICK` the text box that says 'Min' under 'Price'",
-       "`TYPE` 25",
-       "`CLICK` the text box that says 'Max' under 'Price'",
-       "`TYPE` 60",
-       "`CLICK` 'Go'"
+      [
+        "`CLICK` the search bar at the top of the page that says 'shop'"
+      ],
+      [
+        "`TYPING` drip coffee maker"
+      ],
+      [
+        "`CLICK` on sale on the left sidebar"
+      ],
+      [
+        "`CLICK` the black square under 'Finish'"
+      ],
+      [
+        "`MOVE_TO` the left sidebar"
+      ],
+      [
+        "`SCROLL` down 200 units (-200)"
+      ],
+      [
+        "`CLICK` the text box that says 'Min' under 'Price'",
+        "`TYPING` 25",
+        "`CLICK` the text box that says 'Max' under 'Price'",
+        "`TYPING` 60",
+        "`CLICK` 'Go'"
       ]
     ]
-}
+  }
 ]

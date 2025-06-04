@@ -8,15 +8,23 @@
   {
     "minimal": [
       "`CLICK` the text box labeled 'Search'",
-      "`TYPE` 'DOTA 2'",
+      "`TYPING` 'DOTA 2'",
       "`SCROLL` down 300 units (-300)",
       "`CLICK` 'Add all DLC to cart' button"
     ],
     "batched": [
-      ["`CLICK` the text box labeled 'Search'"],
-      ["`TYPE` 'DOTA 2'"],
-      ["`SCROLL` down 300 units (-300)"],
-      ["`CLICK` 'Add all DLC to cart' button"]
+      [
+        "`CLICK` the text box labeled 'Search'"
+      ],
+      [
+        "`TYPING` 'DOTA 2'"
+      ],
+      [
+        "`SCROLL` down 300 units (-300)"
+      ],
+      [
+        "`CLICK` 'Add all DLC to cart' button"
+      ]
     ]
-}
+  }
 ]

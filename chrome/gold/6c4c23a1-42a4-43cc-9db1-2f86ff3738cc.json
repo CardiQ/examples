@@ -7,33 +7,58 @@
   },
   {
     "minimal": [
-        "`CLICK` the big letters to the left of the double-arrow",
-        "`TYPE` SEA",
-        "`CLICK` 'Seattle, WA'",
-        "`CLICK` the big letters that say 'TO' to the right of the double-arrow",
-        "`TYPE` NYC",
-        "`CLICK` 'New York airports'",
-        "`CLICK the dropdown that says 'Round trip' to the right of the 'NYC' text",
-        "`CLICK` 'One way'",
-        "`CLICK` the calendar icon to the right of the 'Depart' text",
-        "`CLICK` the 5th of next month (which is the month on the right-hand side)",
-        "`CLICK` the 'Done' button",
-        "`CLICK` the 'Shop with miles' checkbox",
-        "`CLICK` the 'Search' button"
+      "`CLICK` the big letters to the left of the double-arrow",
+      "`TYPING` SEA",
+      "`CLICK` 'Seattle, WA'",
+      "`CLICK` the big letters that say 'TO' to the right of the double-arrow",
+      "`TYPING` NYC",
+      "`CLICK` 'New York airports'",
+      "`CLICK the dropdown that says 'Round trip' to the right of the 'NYC' text",
+      "`CLICK` 'One way'",
+      "`CLICK` the calendar icon to the right of the 'Depart' text",
+      "`CLICK` the 5th of next month (which is the month on the right-hand side)",
+      "`CLICK` the 'Done' button",
+      "`CLICK` the 'Shop with miles' checkbox",
+      "`CLICK` the 'Search' button"
     ],
     "batched": [
-      ["`CLICK` the big letters to the left of the double-arrow"],
-      ["`TYPE` SEA"],
-      ["`CLICK` 'Seattle, WA'"],
-      ["`CLICK` the big letters that say 'TO' to the right of the double-arrow"],
-      ["`TYPE` NYC"],
-      ["`CLICK` 'New York airports'"],
-      ["`CLICK the dropdown that says 'Round trip' to the right of the 'NYC' text"],
-      ["`CLICK` 'One way'"],
-      ["`CLICK` the calendar icon to the right of the 'Depart' text"],
-      ["`CLICK` the 5th of next month (which is the month on the right-hand side)"],
-      ["`CLICK` the 'Done' button"],
-      ["`CLICK` the 'Shop with miles' checkbox", "`CLICK` the 'Search' button"]
+      [
+        "`CLICK` the big letters to the left of the double-arrow"
+      ],
+      [
+        "`TYPING` SEA"
+      ],
+      [
+        "`CLICK` 'Seattle, WA'"
+      ],
+      [
+        "`CLICK` the big letters that say 'TO' to the right of the double-arrow"
+      ],
+      [
+        "`TYPING` NYC"
+      ],
+      [
+        "`CLICK` 'New York airports'"
+      ],
+      [
+        "`CLICK the dropdown that says 'Round trip' to the right of the 'NYC' text"
+      ],
+      [
+        "`CLICK` 'One way'"
+      ],
+      [
+        "`CLICK` the calendar icon to the right of the 'Depart' text"
+      ],
+      [
+        "`CLICK` the 5th of next month (which is the month on the right-hand side)"
+      ],
+      [
+        "`CLICK` the 'Done' button"
+      ],
+      [
+        "`CLICK` the 'Shop with miles' checkbox",
+        "`CLICK` the 'Search' button"
+      ]
     ]
-}
+  }
 ]

@@ -1,16 +1,20 @@
-[{
-  "id": "5ced85fc-fa1a-4217-95fd-0fb530545ce2",
-  "snapshot": "os",
-  "instruction": "Append \"<br/>\" to the end of each line in \"1\\n2\\n3\" and save in output.txt",
-  "source": "NL2Bash"
-},
-{
-  "minimal": [
-    "`TYPE` 'printf \"1\\n2\\n3\" | sed 's/$/<br\\/>/' > output.txt'",
-    "`PRESS` Enter"
-  ],
-  "batched": [
-    ["`TYPE` 'printf \"1\\n2\\n3\" | sed 's/$/<br\\/>/' > output.txt'",
-    "`PRESS` Enter"]
-  ]
-}]
+[
+  {
+    "id": "5ced85fc-fa1a-4217-95fd-0fb530545ce2",
+    "snapshot": "os",
+    "instruction": "Append \"<br/>\" to the end of each line in \"1\\n2\\n3\" and save in output.txt",
+    "source": "NL2Bash"
+  },
+  {
+    "minimal": [
+      "`TYPING` 'printf \"1\\n2\\n3\" | sed 's/$/<br\\/>/' > output.txt'",
+      "`PRESS` Enter"
+    ],
+    "batched": [
+      [
+        "`TYPING` 'printf \"1\\n2\\n3\" | sed 's/$/<br\\/>/' > output.txt'",
+        "`PRESS` Enter"
+      ]
+    ]
+  }
+]

@@ -14,16 +14,31 @@
       "`MOVE_TO` the expand indicator arrow at the bottom of the dropdown",
       "`CLICK` $50,000",
       "`CLICK` the ZIP text box",
-      "`TYPE` '10001'",
+      "`TYPING` '10001'",
       "`CLICK` the 'Search' button"
     ],
     "batched": [
-      ["`CLICK` 'Cars for sale' tab at the top on the navigation bar"],
-      ["`CLICK` 'Electric' tab", "`CLICK` the checkbox 'Electric' under 'Fuel Type'"],
-      ["`CLICK` 'Price' dropdown"],
-      ["`MOVE_TO` the expand indicator arrow at the bottom of the dropdown"],
-      ["`CLICK` $50,000"],
-      ["`CLICK` the ZIP text box", "`TYPE` '10001'", "`CLICK` the 'Search' button"]
+      [
+        "`CLICK` 'Cars for sale' tab at the top on the navigation bar"
+      ],
+      [
+        "`CLICK` 'Electric' tab",
+        "`CLICK` the checkbox 'Electric' under 'Fuel Type'"
+      ],
+      [
+        "`CLICK` 'Price' dropdown"
+      ],
+      [
+        "`MOVE_TO` the expand indicator arrow at the bottom of the dropdown"
+      ],
+      [
+        "`CLICK` $50,000"
+      ],
+      [
+        "`CLICK` the ZIP text box",
+        "`TYPING` '10001'",
+        "`CLICK` the 'Search' button"
+      ]
     ]
-}
+  }
 ]

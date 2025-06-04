@@ -8,15 +8,23 @@
   {
     "minimal": [
       "`CLICK` the text box labeled 'Search'",
-      "`TYPE` 'Manchester, GB'",
+      "`TYPING` 'Manchester, GB'",
       "`CLICK` the entry that says 'Manchester, GB'",
       "`CLICK` the 'Monthly' tab"
     ],
     "batched": [
-      ["`CLICK` the text box labeled 'Search'"],
-      ["`TYPE` 'Manchester, GB'"],
-      ["`CLICK` the entry that says 'Manchester, GB'"],
-      ["`CLICK` the 'Monthly' tab"]
+      [
+        "`CLICK` the text box labeled 'Search'"
+      ],
+      [
+        "`TYPING` 'Manchester, GB'"
+      ],
+      [
+        "`CLICK` the entry that says 'Manchester, GB'"
+      ],
+      [
+        "`CLICK` the 'Monthly' tab"
+      ]
     ]
-}
+  }
 ]

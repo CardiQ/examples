@@ -1,27 +1,42 @@
-[{
-  "id": "c6bf789c-ba3a-4209-971d-b63abf0ab733",
-  "snapshot": "vscode",
-  "instruction": "Please help me modify VS Code setting to hide all \"__pycache__\" folders in the explorer view.",
-  "source": "https://download.microsoft.com/download/8/A/4/8A48E46A-C355-4E5C-8417-E6ACD8A207D4/VisualStudioCode-TipsAndTricks-Vol.1.pdf"
-},
-{
-  "minimal": [
-    "`CLICK` 'File' in the menu",
-    "`CLICK` 'Preferences'",
-    "`CLICK` 'Settings'",
-    "`CLICK` in the search bar",
-    "`TYPE` 'exclude'",
-    "`CLICK` 'Add Pattern'",
-    "`TYPE` '**/__pycache__'",
-    "`CLICK` 'OK'"
-  ],
-  "batched": [
-    ["`CLICK` 'File' in the menu"],
-    ["`CLICK` 'Preferences'"],
-    ["`CLICK` 'Settings'"],
-    ["`CLICK` in the search bar"],
-    ["`TYPE` 'exclude'"],
-    ["`CLICK` 'Add Pattern'", "`TYPE` '**/__pycache__'", "`CLICK` 'OK'"]
-  ]
-}
+[
+  {
+    "id": "c6bf789c-ba3a-4209-971d-b63abf0ab733",
+    "snapshot": "vscode",
+    "instruction": "Please help me modify VS Code setting to hide all \"__pycache__\" folders in the explorer view.",
+    "source": "https://download.microsoft.com/download/8/A/4/8A48E46A-C355-4E5C-8417-E6ACD8A207D4/VisualStudioCode-TipsAndTricks-Vol.1.pdf"
+  },
+  {
+    "minimal": [
+      "`CLICK` 'File' in the menu",
+      "`CLICK` 'Preferences'",
+      "`CLICK` 'Settings'",
+      "`CLICK` in the search bar",
+      "`TYPING` 'exclude'",
+      "`CLICK` 'Add Pattern'",
+      "`TYPING` '**/__pycache__'",
+      "`CLICK` 'OK'"
+    ],
+    "batched": [
+      [
+        "`CLICK` 'File' in the menu"
+      ],
+      [
+        "`CLICK` 'Preferences'"
+      ],
+      [
+        "`CLICK` 'Settings'"
+      ],
+      [
+        "`CLICK` in the search bar"
+      ],
+      [
+        "`TYPING` 'exclude'"
+      ],
+      [
+        "`CLICK` 'Add Pattern'",
+        "`TYPING` '**/__pycache__'",
+        "`CLICK` 'OK'"
+      ]
+    ]
+  }
 ]

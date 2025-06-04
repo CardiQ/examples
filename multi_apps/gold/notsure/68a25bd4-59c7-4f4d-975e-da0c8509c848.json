@@ -51,130 +51,89 @@
   ],
   "batched": [
     [
-      "`TYPING` python3"
-    ],
-    [
+      "`TYPING` python3",
       "`PRESS` enter"
     ],
     [
-      "`TYPING` import pandas as pd"
-    ],
-    [
+      "`TYPING` import pandas as pd",
       "`PRESS` enter"
     ],
     [
-      "`TYPING` import requests"
-    ],
-    [
+      "`TYPING` import requests",
       "`PRESS` enter"
     ],
     [
-      "`TYPING` from docx import Document"
-    ],
-    [
+      "`TYPING` from docx import Document",
       "`PRESS` enter"
     ],
     [
-      "`TYPING` from docx.shared import Inches"
-    ],
-    [
+      "`TYPING` from docx.shared import Inches",
       "`PRESS` enter"
     ],
     [
-      "`TYPING` try:"
-    ],
-    [
+      "`TYPING` try:",
       "`PRESS` enter"
     ],
     [
-      "`TYPING`     df = pd.read_excel('papers_and_books.xlsx')"
-    ],
-    [
+      "`TYPING`     df = pd.read_excel('papers_and_books.xlsx')",
       "`PRESS` enter"
     ],
     [
-      "`TYPING` except FileNotFoundError:"
-    ],
-    [
+      "`TYPING` except FileNotFoundError:",
       "`PRESS` enter"
     ],
     [
-      "`TYPING`     print('Error: \"papers_and_books.xlsx\" not found. Please ensure the spreadsheet is in the current directory.')"
-    ],
-    [
+      "`TYPING`     print('Error: \"papers_and_books.xlsx\" not found. Please ensure the spreadsheet is in the current directory.')",
       "`PRESS` enter"
     ],
     [
-      "`TYPING`     exit()"
-    ],
-    [
+      "`TYPING`     exit()",
       "`PRESS` enter"
     ],
     [
-      "`TYPING` first_paper_link = df.iloc[0]['Link']"
-    ],
-    [
+      "`TYPING` first_paper_link = df.iloc[0]['Link']",
       "`PRESS` enter"
     ],
     [
-      "`TYPING` response = requests.get(first_paper_link)"
-    ],
-    [
+      "`TYPING` response = requests.get(first_paper_link)",
       "`PRESS` enter"
     ],
     [
-      "`TYPING` with open('/home/user/paper01.pdf', 'wb') as f:"
-    ],
-    [
+      "`TYPING` with open('/home/user/paper01.pdf', 'wb') as f:",
       "`PRESS` enter"
     ],
     [
-      "`TYPING`     f.write(response.content)"
-    ],
-    [
+      "`TYPING`     f.write(response.content)",
       "`PRESS` enter"
     ],
     [
-      "`TYPING` print('Downloaded paper01.pdf') "
-    ],
-    [
+      "`TYPING` print('Downloaded paper01.pdf') ",
       "`PRESS` enter"
     ],
     [
-      "`TYPING` document = Document()"
-    ],
-    [
+      "`TYPING` document = Document()",
       "`PRESS` enter"
     ],
     [
-      "`TYPING` document.add_heading('Citing Paper Information', level=1)"
-    ],
-    [
+      "`TYPING` document.add_heading('Citing Paper Information', level=1)",
       "`PRESS` enter"
     ],
     [
-      "`TYPING` document.add_paragraph('To determine which paper in your list cites the initial one, you would typically use academic search engines like Google Scholar, Web of Science, or Scopus. Unfortunately, automating this process directly through a script is not feasible due to the complexity of these platforms and their terms of service, which often restrict automated scraping.', style='Normal')"
-    ],
-    [
+      "`TYPING` document.add_paragraph('To determine which paper in your list cites the initial one, you would typically use academic search engines like Google Scholar, Web of Science, or Scopus. Unfortunately, automating this process directly through a script is not feasible due to the complexity of these platforms and their terms of service, which often restrict automated scraping.', style='Normal')",
       "`PRESS` enter"
     ],
     [
-      "`TYPING` document.add_paragraph('Therefore, I cannot automatically determine and document which paper in your list cites the initial one without manual intervention using these tools.', style='Normal')"
-    ],
-    [
+      "`TYPING` document.add_paragraph('Therefore, I cannot automatically determine and document which paper in your list cites the initial one without manual intervention using these tools.', style='Normal')",
       "`PRESS` enter"
     ],
     [
-      "`TYPING` document.save('/home/user/ans.docx')"
-    ],
-    [
+      "`TYPING` document.save('/home/user/ans.docx')",
       "`PRESS` enter"
     ],
     [
-      "`TYPING` exit()"
-    ],
-    [
+      "`TYPING` exit()",
       "`PRESS` enter"
     ]
-  ]
+  ],
+  "error&change": ["too strict batched, changed to batched more"]
 }]

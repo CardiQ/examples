@@ -1,21 +1,30 @@
-[{
-  "id": "982d12a5-beab-424f-8d38-d2a48429e511",
-  "snapshot": "vscode",
-  "instruction": "Please help me change the color theme of VS Code to Visual Studio Dark.",
-  "source": "https://www.youtube.com/watch?v=ORrELERGIHs"
-},
-{
-  "minimal": [
-    "`CLICK` 'File'",
-    "`CLICK` 'Preferences'",
-    "`TYPE` 'Color theme",
-    "`CLICK` 'Visual Studio Dark'"
-  ],
-  "batched": [
-    ["`CLICK` 'File'"],
-    ["`CLICK` 'Preferences'"],
-    ["`TYPE` 'Color theme"],
-    ["`CLICK` 'Visual Studio Dark'"]
-  ]
-}
+[
+  {
+    "id": "982d12a5-beab-424f-8d38-d2a48429e511",
+    "snapshot": "vscode",
+    "instruction": "Please help me change the color theme of VS Code to Visual Studio Dark.",
+    "source": "https://www.youtube.com/watch?v=ORrELERGIHs"
+  },
+  {
+    "minimal": [
+      "`CLICK` 'File'",
+      "`CLICK` 'Preferences'",
+      "`TYPING` 'Color theme",
+      "`CLICK` 'Visual Studio Dark'"
+    ],
+    "batched": [
+      [
+        "`CLICK` 'File'"
+      ],
+      [
+        "`CLICK` 'Preferences'"
+      ],
+      [
+        "`TYPING` 'Color theme"
+      ],
+      [
+        "`CLICK` 'Visual Studio Dark'"
+      ]
+    ]
+  }
 ]

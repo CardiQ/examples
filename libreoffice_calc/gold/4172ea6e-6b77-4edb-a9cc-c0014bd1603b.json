@@ -1,27 +1,30 @@
-[{
-  "id": "4172ea6e-6b77-4edb-a9cc-c0014bd1603b",
-	"snapshot": "libreoffice_calc",
-	"instruction": "I want to work out the maturity date for all the loans. Please do it for me in a new column with header \"Maturity Date\".",
-	"source": "SheetCopilot@113"
-},
-{
-  "minimal": [
-		"`CLICK` cell C1",
-		"`TYPE` 'Maturity Date'",
-		"`PRESS` enter",
-		"`TYPE` '=A2+B2'",
-    "`PRESS` enter",
-		"`MOVE_TO` bottom right corner of the cell C2`",
-		"`DOUBLE_CLICK`"
-  ],
-  "batched": [
-		["`CLICK` cell C1",
-		"`TYPE` 'Maturity Date'",
-		"`PRESS` enter",
-		"`TYPE` '=A2+B2'",
-    "`PRESS` enter",
-		"`MOVE_TO` bottom right corner of the cell C2`",
-		"`DOUBLE_CLICK`"]
-  ]
-}
+[
+	{
+		"id": "4172ea6e-6b77-4edb-a9cc-c0014bd1603b",
+		"snapshot": "libreoffice_calc",
+		"instruction": "I want to work out the maturity date for all the loans. Please do it for me in a new column with header \"Maturity Date\".",
+		"source": "SheetCopilot@113"
+	},
+	{
+		"minimal": [
+			"`CLICK` cell C1",
+			"`TYPING` 'Maturity Date'",
+			"`PRESS` enter",
+			"`TYPING` '=A2+B2'",
+			"`PRESS` enter",
+			"`MOVE_TO` bottom right corner of the cell C2`",
+			"`DOUBLE_CLICK`"
+		],
+		"batched": [
+			[
+				"`CLICK` cell C1",
+				"`TYPING` 'Maturity Date'",
+				"`PRESS` enter",
+				"`TYPING` '=A2+B2'",
+				"`PRESS` enter",
+				"`MOVE_TO` bottom right corner of the cell C2`",
+				"`DOUBLE_CLICK`"
+			]
+		]
+	}
 ]

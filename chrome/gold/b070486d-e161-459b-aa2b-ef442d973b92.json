@@ -8,13 +8,19 @@
   {
     "minimal": [
       "`CLICK` the search bar",
-      "`TYPE` 'tamiflu side effects'",
+      "`TYPING` 'tamiflu side effects'",
       "`PRESS` 'enter'",
       "`CLICK` the link that says 'Tamiflu Side Effects'"
     ],
     "batched": [
-      ["`CLICK` the search bar", "`TYPE` 'tamiflu side effects'", "`PRESS` 'enter'"],
-      ["`CLICK` the link that says 'Tamiflu Side Effects'"]
+      [
+        "`CLICK` the search bar",
+        "`TYPING` 'tamiflu side effects'",
+        "`PRESS` 'enter'"
+      ],
+      [
+        "`CLICK` the link that says 'Tamiflu Side Effects'"
+      ]
     ]
-}
+  }
 ]

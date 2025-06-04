@@ -10,18 +10,31 @@
       "`CLICK` 'One-way' radio button",
       "`CLICK` 'From' dropdown",
       "`HOTKEY` 'ctrl-a'",
-      "`TYPE` 'Dublin'",
+      "`TYPING` 'Dublin'",
       "`PRESS` 'Enter'",
-      "`TYPE` 'Vienna'",
+      "`TYPING` 'Vienna'",
       "`PRESS` 'Enter'",
       "`CLICK` '10' on the calendar for next month",
       "`CLICK` '+' next to 'Adults'",
       "`CLICK` 'Search' button"
     ],
     "batched": [
-      ["`CLICK` 'One-way' radio button", "`CLICK` 'From' dropdown", "`HOTKEY` 'ctrl-a'", "`TYPE` 'Dublin'", "`PRESS` 'Enter'", "`TYPE` 'Vienna'", "`PRESS` 'Enter'"],
-      ["`CLICK` '10' on the calendar for next month"],
-      ["`CLICK` '+' next to 'Adults'", "`CLICK` 'Search' button"]
+      [
+        "`CLICK` 'One-way' radio button",
+        "`CLICK` 'From' dropdown",
+        "`HOTKEY` 'ctrl-a'",
+        "`TYPING` 'Dublin'",
+        "`PRESS` 'Enter'",
+        "`TYPING` 'Vienna'",
+        "`PRESS` 'Enter'"
+      ],
+      [
+        "`CLICK` '10' on the calendar for next month"
+      ],
+      [
+        "`CLICK` '+' next to 'Adults'",
+        "`CLICK` 'Search' button"
+      ]
     ]
-}
+  }
 ]

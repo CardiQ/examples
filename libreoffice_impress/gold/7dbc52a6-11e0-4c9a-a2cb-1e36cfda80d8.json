@@ -1,28 +1,36 @@
-[{
-  "id": "7dbc52a6-11e0-4c9a-a2cb-1e36cfda80d8",
-  "snapshot": "libreoffice_impress",
-  "instruction": "On page 2, add a note same to the title into the slide. Make the font of title bold.",
-  "source": "https://arxiv.org/pdf/2311.01767.pdf"
-},
-{
-  "minimal": [
-    "`CLICK` Slide 2",
-    "`CLICK` 'Team Members' in the slide.",
-    "`HOTKEY` Ctrl-A",
-    "`CLICK` Bold",
-    "`CLICK` 'View' in the menu bar.'",
-    "`CLICK` 'Notes' in the dropdown menu.",
-    "`DOUBLE_CLICK` 'Click to add notes'",
-    "`TYPE` 'Team Members'"
-  ],
-  "batched": [
-    ["`CLICK` Slide 2"],
-    ["`CLICK` 'Team Members' in the slide.",
-    "`HOTKEY` Ctrl-A",
-    "`CLICK` Bold",
-    "`CLICK` 'View' in the menu bar.'"],
-    ["`CLICK` 'Notes' in the dropdown menu.",
-    "`DOUBLE_CLICK` 'Click to add notes'",
-    "`TYPE` 'Team Members'"]
-  ]
-}]
+[
+  {
+    "id": "7dbc52a6-11e0-4c9a-a2cb-1e36cfda80d8",
+    "snapshot": "libreoffice_impress",
+    "instruction": "On page 2, add a note same to the title into the slide. Make the font of title bold.",
+    "source": "https://arxiv.org/pdf/2311.01767.pdf"
+  },
+  {
+    "minimal": [
+      "`CLICK` Slide 2",
+      "`CLICK` 'Team Members' in the slide.",
+      "`HOTKEY` Ctrl-A",
+      "`CLICK` Bold",
+      "`CLICK` 'View' in the menu bar.'",
+      "`CLICK` 'Notes' in the dropdown menu.",
+      "`DOUBLE_CLICK` 'Click to add notes'",
+      "`TYPING` 'Team Members'"
+    ],
+    "batched": [
+      [
+        "`CLICK` Slide 2"
+      ],
+      [
+        "`CLICK` 'Team Members' in the slide.",
+        "`HOTKEY` Ctrl-A",
+        "`CLICK` Bold",
+        "`CLICK` 'View' in the menu bar.'"
+      ],
+      [
+        "`CLICK` 'Notes' in the dropdown menu.",
+        "`DOUBLE_CLICK` 'Click to add notes'",
+        "`TYPING` 'Team Members'"
+      ]
+    ]
+  }
+]

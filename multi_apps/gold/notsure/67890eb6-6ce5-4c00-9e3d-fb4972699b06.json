@@ -68,7 +68,6 @@
     "`PRESS` Enter",
     "`CLICK` the first column",
     "`HOTKEY` 'Ctrl+V`'fill the rows with extracted data sorted by year descending",
-    "`REPEAT` above for ACL 2020, 2021, and 2022",
     "`SAVE` the file"
   ],
   "batched": [
@@ -228,5 +227,6 @@
       "`CLICK` 'File' menu",
       "`CLICK` 'Save'"
     ]
-  ]
+  ],
+  "error&change": ["change non-existent action `REPEAT` to repetitive multi-action-sets, # according to real task"]
 }]

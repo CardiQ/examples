@@ -64,11 +64,10 @@
       "`CLICK`'Save As...' option"
     ],
     [
-      "`TYPING` concat.docx"
-    ],
-    [
+      "`TYPING` concat.docx",
       "`CLICK`'Desktop' in the file save dialog",
       "`CLICK`'Save' button"
     ]
-  ]
+  ],
+  "error&change": ["too strict batched, changed to batched more"]
 }]

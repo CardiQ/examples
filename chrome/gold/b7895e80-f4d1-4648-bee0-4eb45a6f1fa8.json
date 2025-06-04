@@ -9,7 +9,7 @@
     "minimal": [
       "`CLICK` 'Hotels' tab",
       "`CLICK` the search bar",
-      "`TYPE` 'New York City'",
+      "`TYPING` 'New York City'",
       "`CLICK` 'New York City'",
       "`CLICK` the upcoming saturday in the calendar",
       "`CLICK` the upcoming sunday in the calendar",
@@ -17,10 +17,22 @@
       "`CLICK` 'Price (low to high)'"
     ],
     "batched": [
-      ["`CLICK` 'Hotels' tab", "`CLICK` the search bar", "`TYPE` 'New York City'", "`CLICK` 'New York City'"],
-      ["`CLICK` the upcoming saturday in the calendar", "`CLICK` the upcoming sunday in the calendar"],
-      ["`CLICK` the 'sort by' dropdown"],
-      ["`CLICK` 'Price (low to high)'"]
+      [
+        "`CLICK` 'Hotels' tab",
+        "`CLICK` the search bar",
+        "`TYPING` 'New York City'",
+        "`CLICK` 'New York City'"
+      ],
+      [
+        "`CLICK` the upcoming saturday in the calendar",
+        "`CLICK` the upcoming sunday in the calendar"
+      ],
+      [
+        "`CLICK` the 'sort by' dropdown"
+      ],
+      [
+        "`CLICK` 'Price (low to high)'"
+      ]
     ]
-}
+  }
 ]

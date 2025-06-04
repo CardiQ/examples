@@ -1,27 +1,43 @@
-[{
-  "id": "ea98c5d7-3cf9-4f9b-8ad3-366b58e0fcae",
-  "snapshot": "vscode",
-  "instruction": "Please help me remove the shortcut \"ctrl+f\" for Tree view Find (Explorer search) in VS Code Explorer view to avoid shortcut conflict.",
-  "source": ["https://superuser.com/questions/1748097/vs-code-disable-tree-view-find-explorer-search",
-              "https://superuser.com/questions/1417361/how-to-disable-file-filtering-in-vs-code-sidebar-explorer?rq=1"]
-},
-{
-  "minimal": [
-    "`CLICK` 'File'",
-    "`CLICK` 'Preferences'",
-    "`CLICK` 'Keyboard shortcuts'",
-    "`CLICK` the search bar",
-    "`TYPE` 'list support find'",
-    "`RIGHT_CLICK` on the box below 'keybinding' where the shortcut is set to 'ctrl+f'",
-    "`CLICK` 'Remove keybinding'"
-  ],
-  "batched": [
-    ["`CLICK` 'File'"],
-    ["`CLICK` 'Preferences'"],
-    ["`CLICK` 'Keyboard shortcuts'"],
-    ["`CLICK` the search bar", "`TYPE` 'list support find'"],
-    ["`RIGHT_CLICK` on the box below 'keybinding' where the shortcut is set to 'ctrl+f'"],
-    ["`CLICK` 'Remove keybinding'"]
-  ]
-}
+[
+  {
+    "id": "ea98c5d7-3cf9-4f9b-8ad3-366b58e0fcae",
+    "snapshot": "vscode",
+    "instruction": "Please help me remove the shortcut \"ctrl+f\" for Tree view Find (Explorer search) in VS Code Explorer view to avoid shortcut conflict.",
+    "source": [
+      "https://superuser.com/questions/1748097/vs-code-disable-tree-view-find-explorer-search",
+      "https://superuser.com/questions/1417361/how-to-disable-file-filtering-in-vs-code-sidebar-explorer?rq=1"
+    ]
+  },
+  {
+    "minimal": [
+      "`CLICK` 'File'",
+      "`CLICK` 'Preferences'",
+      "`CLICK` 'Keyboard shortcuts'",
+      "`CLICK` the search bar",
+      "`TYPING` 'list support find'",
+      "`RIGHT_CLICK` on the box below 'keybinding' where the shortcut is set to 'ctrl+f'",
+      "`CLICK` 'Remove keybinding'"
+    ],
+    "batched": [
+      [
+        "`CLICK` 'File'"
+      ],
+      [
+        "`CLICK` 'Preferences'"
+      ],
+      [
+        "`CLICK` 'Keyboard shortcuts'"
+      ],
+      [
+        "`CLICK` the search bar",
+        "`TYPING` 'list support find'"
+      ],
+      [
+        "`RIGHT_CLICK` on the box below 'keybinding' where the shortcut is set to 'ctrl+f'"
+      ],
+      [
+        "`CLICK` 'Remove keybinding'"
+      ]
+    ]
+  }
 ]

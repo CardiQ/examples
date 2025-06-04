@@ -9,16 +9,26 @@
     "minimal": [
       "`CLICK` 'Kids & Toys' tab",
       "`CLICK` the search bar",
-      "`TYPE` 'spider-man toys'",
+      "`TYPING` 'spider-man toys'",
       "`PRESS` 'Enter'",
       "`CLICK` 'Sort by' dropdown",
       "`CLICK` 'Price Low-High'"
     ],
     "batched": [
-      ["`CLICK` 'Kids & Toys' tab"],
-      ["`CLICK` the search bar", "`TYPE` 'spider-man toys'", "`PRESS` 'Enter'"],
-      ["`CLICK` 'Sort by' dropdown"],
-      ["`CLICK` 'Price Low-High'"]
+      [
+        "`CLICK` 'Kids & Toys' tab"
+      ],
+      [
+        "`CLICK` the search bar",
+        "`TYPING` 'spider-man toys'",
+        "`PRESS` 'Enter'"
+      ],
+      [
+        "`CLICK` 'Sort by' dropdown"
+      ],
+      [
+        "`CLICK` 'Price Low-High'"
+      ]
     ]
-}
+  }
 ]

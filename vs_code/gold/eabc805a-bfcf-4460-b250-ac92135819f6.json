@@ -1,19 +1,26 @@
-[{
-  "id": "eabc805a-bfcf-4460-b250-ac92135819f6",
-  "snapshot": "vscode",
-  "instruction": "Please help me install the extension Python in VS Code.",
-  "source": "https://www.youtube.com/watch?v=VqCgcpAypFQ"
-},
-{
-  "minimal": [
-    "`CLICK` the extensions button on the left sidebar (4 squares icon)",
-    "`TYPE` 'Python' in the search bar",
-    "`CLICK` 'Install' on the Python extension"
-  ],
-  "batched": [
-    ["`CLICK` the extensions button on the left sidebar (4 squares icon)"],
-    ["`TYPE` 'Python' in the search bar"],
-    ["`CLICK` 'Install' on the Python extension"]
-  ]
-}
+[
+  {
+    "id": "eabc805a-bfcf-4460-b250-ac92135819f6",
+    "snapshot": "vscode",
+    "instruction": "Please help me install the extension Python in VS Code.",
+    "source": "https://www.youtube.com/watch?v=VqCgcpAypFQ"
+  },
+  {
+    "minimal": [
+      "`CLICK` the extensions button on the left sidebar (4 squares icon)",
+      "`TYPING` 'Python' in the search bar",
+      "`CLICK` 'Install' on the Python extension"
+    ],
+    "batched": [
+      [
+        "`CLICK` the extensions button on the left sidebar (4 squares icon)"
+      ],
+      [
+        "`TYPING` 'Python' in the search bar"
+      ],
+      [
+        "`CLICK` 'Install' on the Python extension"
+      ]
+    ]
+  }
 ]

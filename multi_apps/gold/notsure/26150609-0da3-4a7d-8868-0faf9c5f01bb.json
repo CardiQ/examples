@@ -20,8 +20,7 @@
     "`HOTKEY` 'Ctrl+`' open terminal in editor",
     "`TYPING` python3 snake_game.py",
     "`PRESS` Enter",
-    "`WAIT` for game window to run",
-    "`VERIFY` that snake now eats food when touching it"
+    "`WAIT` for game window to run"
   ],
   "batched": [
     [
@@ -49,9 +48,9 @@
       "`PRESS` Enter"
     ],
     [
-      "`WAIT` for game window to run",
-      "`VERIFY` that snake now eats food when touching it"
+      "`WAIT` for game window to run"
     ]
-  ]
+  ],
+  "error&change": ["delete non-existent `VERIFY` action"]
 }
 ]

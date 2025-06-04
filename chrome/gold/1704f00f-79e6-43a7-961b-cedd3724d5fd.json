@@ -8,7 +8,7 @@
   {
     "minimal": [
       "`CLICK` the text box labeled 'Pick-up location'",
-      "`TYPE` 'Zurich'",
+      "`TYPING` 'Zurich'",
       "`CLICK` 'Zurich' the city",
       "`CLICK` the pick-up date dropdown",
       "`CLICK` the next Monday",
@@ -19,13 +19,31 @@
       "`CLICK` 'Price (lowest first)'"
     ],
     "batched": [
-      ["`CLICK` the text box labeled 'Pick-up location'"],
-      ["`TYPE` 'Zurich'"],
-      ["`CLICK` 'Zurich' the city"],
-      ["`CLICK` the pick-up date dropdown"],
-      ["`CLICK` the next Monday", "`CLICK` the next Friday", "`CLICK` 'Search'"],
-      ["`CLICK` the 'Large car' tab", "`WAIT`", "`CLICK` the 'Sorty by' dropdown"],
-      ["`CLICK` 'Price (lowest first)'"]
+      [
+        "`CLICK` the text box labeled 'Pick-up location'"
+      ],
+      [
+        "`TYPING` 'Zurich'"
+      ],
+      [
+        "`CLICK` 'Zurich' the city"
+      ],
+      [
+        "`CLICK` the pick-up date dropdown"
+      ],
+      [
+        "`CLICK` the next Monday",
+        "`CLICK` the next Friday",
+        "`CLICK` 'Search'"
+      ],
+      [
+        "`CLICK` the 'Large car' tab",
+        "`WAIT`",
+        "`CLICK` the 'Sorty by' dropdown"
+      ],
+      [
+        "`CLICK` 'Price (lowest first)'"
+      ]
     ]
-}
+  }
 ]

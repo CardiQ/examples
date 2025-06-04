@@ -1,37 +1,48 @@
-[{
-  "id": "1954cced-e748-45c4-9c26-9855b97fbc5e",
-	"snapshot": "libreoffice_calc",
-	"instruction": "Create a Pivot Table in a new sheet (Sheet2) to count how many times each \"Invoice No.\" appears.",
-	"source": "SheetCopilot@104"
-},
-{
-  "minimal": [
-    "`CLICK` on grey cell box A for selecting entire column",
-    "`CLICK` on pivot table icon",
-		"`PRESS` enter",
-		"`MOVE_TO` invoice no. in available fields box",
-		"`DRAG_TO` row fields box",
-		"`MOVE_TO` invoice no. in available fields box",
-		"`DRAG_TO` data fields box",
-		"`DOUBLE_CLICK on invoice no. box in data fields",
-		"`CLICK` Count",
-		"`PRESS` enter",
-		"`DOUBLE_CLICK` Pivot Table Sheet1_1",
-		"`TYPE` Sheet2"
-  ],
-  "batched": [
-    ["`CLICK` on grey cell box A for selecting entire column",
-    "`CLICK` on pivot table icon"],
-		["`PRESS` enter"],
-		["`MOVE_TO` invoice no. in available fields box",
-		"`DRAG_TO` row fields box",
-		"`MOVE_TO` invoice no. in available fields box",
-		"`DRAG_TO` data fields box",
-		"`DOUBLE_CLICK on invoice no. box in data fields"],
-		["`CLICK` Count",
-		"`PRESS` enter"],
-		["`DOUBLE_CLICK` Pivot Table Sheet1_1",
-		"`TYPE` Sheet2"]
-  ]
-}
+[
+	{
+		"id": "1954cced-e748-45c4-9c26-9855b97fbc5e",
+		"snapshot": "libreoffice_calc",
+		"instruction": "Create a Pivot Table in a new sheet (Sheet2) to count how many times each \"Invoice No.\" appears.",
+		"source": "SheetCopilot@104"
+	},
+	{
+		"minimal": [
+			"`CLICK` on grey cell box A for selecting entire column",
+			"`CLICK` on pivot table icon",
+			"`PRESS` enter",
+			"`MOVE_TO` invoice no. in available fields box",
+			"`DRAG_TO` row fields box",
+			"`MOVE_TO` invoice no. in available fields box",
+			"`DRAG_TO` data fields box",
+			"`DOUBLE_CLICK on invoice no. box in data fields",
+			"`CLICK` Count",
+			"`PRESS` enter",
+			"`DOUBLE_CLICK` Pivot Table Sheet1_1",
+			"`TYPING` Sheet2"
+		],
+		"batched": [
+			[
+				"`CLICK` on grey cell box A for selecting entire column",
+				"`CLICK` on pivot table icon"
+			],
+			[
+				"`PRESS` enter"
+			],
+			[
+				"`MOVE_TO` invoice no. in available fields box",
+				"`DRAG_TO` row fields box",
+				"`MOVE_TO` invoice no. in available fields box",
+				"`DRAG_TO` data fields box",
+				"`DOUBLE_CLICK on invoice no. box in data fields"
+			],
+			[
+				"`CLICK` Count",
+				"`PRESS` enter"
+			],
+			[
+				"`DOUBLE_CLICK` Pivot Table Sheet1_1",
+				"`TYPING` Sheet2"
+			]
+		]
+	}
 ]

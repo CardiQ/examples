@@ -1,26 +1,42 @@
-[{
-  "id": "276cc624-87ea-4f08-ab93-f770e3790175",
-  "snapshot": "vscode",
-  "instruction": "Please help me set the current user's line length to 50 characters in VS Code.",
-  "source": "https://www.quora.com/unanswered/How-do-you-set-the-line-length-in-Visual-Studio-Code"
-},
-{
-  "minimal": [
-    "`CLICK` 'File' in the menu",
-    "`CLICK` 'Preferences'",
-    "`CLICK` 'Settings'",
-    "`CLICK` search bar",
-    "`TYPE` 'editor.wordWrapColumn' in the search bar",
-    "`CLICK` the 'Editor: Word Wrap Column' setting",
-    "`ENTER` '50' in the value field for this setting"
-  ],
-  "batched": [
-    ["`CLICK` 'File' in the menu"],
-    ["`CLICK` 'Preferences'"],
-    ["`CLICK` 'Settings'"],
-    ["`CLICK` search bar"],
-    ["`TYPE` 'editor.wordWrapColumn' in the search bar"],
-    ["`CLICK` the 'Editor: Word Wrap Column' setting"],
-    ["`ENTER` '50' in the value field for this setting"]
-  ]
-}]
+[
+  {
+    "id": "276cc624-87ea-4f08-ab93-f770e3790175",
+    "snapshot": "vscode",
+    "instruction": "Please help me set the current user's line length to 50 characters in VS Code.",
+    "source": "https://www.quora.com/unanswered/How-do-you-set-the-line-length-in-Visual-Studio-Code"
+  },
+  {
+    "minimal": [
+      "`CLICK` 'File' in the menu",
+      "`CLICK` 'Preferences'",
+      "`CLICK` 'Settings'",
+      "`CLICK` search bar",
+      "`TYPING` 'editor.wordWrapColumn' in the search bar",
+      "`CLICK` the 'Editor: Word Wrap Column' setting",
+      "`ENTER` '50' in the value field for this setting"
+    ],
+    "batched": [
+      [
+        "`CLICK` 'File' in the menu"
+      ],
+      [
+        "`CLICK` 'Preferences'"
+      ],
+      [
+        "`CLICK` 'Settings'"
+      ],
+      [
+        "`CLICK` search bar"
+      ],
+      [
+        "`TYPING` 'editor.wordWrapColumn' in the search bar"
+      ],
+      [
+        "`CLICK` the 'Editor: Word Wrap Column' setting"
+      ],
+      [
+        "`ENTER` '50' in the value field for this setting"
+      ]
+    ]
+  }
+]

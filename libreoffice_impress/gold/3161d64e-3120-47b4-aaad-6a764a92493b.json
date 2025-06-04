@@ -1,32 +1,38 @@
-[{
-  "id": "3161d64e-3120-47b4-aaad-6a764a92493b",
-  "snapshot": "libreoffice_impress",
-  "instruction": "Make the first textbox font size 60 pt while the second 28 pt on slide 14.",
-  "source": "https://arxiv.org/pdf/2311.01767.pdf"
-},
-{
-  "minimal": [
-    "`CLICK` slide 14.",
-    "`CLICK` target audience",
-    "`HOTKEY` ctrl-A",
-    "`CLICK` font size dropdown",
-    "`TYPE` 60 pt",
-    "`PRESS` enter",
-    "`CLICK` 'Elaborate...'",
-    "`CLICK` font size dropdown",
-    "`TYPE` 28 pt",
-    "`PRESS` enter"
-  ],
-  "batched": [
-    ["`CLICK` slide 14."],
-    ["`CLICK` target audience",
-    "`HOTKEY` ctrl-A",
-    "`CLICK` font size dropdown arrow",
-    "`TYPE` 60 pt",
-    "`PRESS` enter",
-    "`CLICK` 'Elaborate...'",
-    "`CLICK` font size dropdown arrow",
-    "`TYPE` 28 pt",
-    "`PRESS` enter"]
-  ]
-}]
+[
+  {
+    "id": "3161d64e-3120-47b4-aaad-6a764a92493b",
+    "snapshot": "libreoffice_impress",
+    "instruction": "Make the first textbox font size 60 pt while the second 28 pt on slide 14.",
+    "source": "https://arxiv.org/pdf/2311.01767.pdf"
+  },
+  {
+    "minimal": [
+      "`CLICK` slide 14.",
+      "`CLICK` target audience",
+      "`HOTKEY` ctrl-A",
+      "`CLICK` font size dropdown",
+      "`TYPING` 60 pt",
+      "`PRESS` enter",
+      "`CLICK` 'Elaborate...'",
+      "`CLICK` font size dropdown",
+      "`TYPING` 28 pt",
+      "`PRESS` enter"
+    ],
+    "batched": [
+      [
+        "`CLICK` slide 14."
+      ],
+      [
+        "`CLICK` target audience",
+        "`HOTKEY` ctrl-A",
+        "`CLICK` font size dropdown arrow",
+        "`TYPING` 60 pt",
+        "`PRESS` enter",
+        "`CLICK` 'Elaborate...'",
+        "`CLICK` font size dropdown arrow",
+        "`TYPING` 28 pt",
+        "`PRESS` enter"
+      ]
+    ]
+  }
+]

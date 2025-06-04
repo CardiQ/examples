@@ -1,38 +1,50 @@
-[{
-  "id": "c82632a4-56b6-4db4-9dd1-3820ee3388e4",
-  "snapshot": "libreoffice_impress",
-  "instruction": "Add an image \"none.png\" on the Desktop to slide 2 with 1cm*1cm size.",
-  "source": "https://arxiv.org/pdf/2311.01767.pdf"
-},
-{
-  "minimal": [
-    "`CLICK` slide 2",
-    "`CLICK` insert image icon",
-    "`CLICK` none.png",
-    "`PRESS` enter",
-    "`CLICK` position and size dropdown",
-    "`CLICK` width text box",
-    "`HOTKEY` ctrl-a",
-    "`TYPE` 1cm",
-    "`PRESS` enter",
-    "`CLICK` height text box",
-    "`HOTKEY` ctrl-a",
-    "`TYPE` 1cm",
-    "`PRESS` enter"
-  ],
-  "batched": [
-    ["`CLICK` slide 2"],
-    ["`CLICK` insert image icon"],
-    ["`CLICK` none.png",
-    "`PRESS` enter"],
-    ["`CLICK` position and size dropdown"],
-    ["`CLICK` width text box",
-    "`HOTKEY` ctrl-a",
-    "`TYPE` 1cm",
-    "`PRESS` enter",
-    "`CLICK` height text box",
-    "`HOTKEY` ctrl-a",
-    "`TYPE` 1cm",
-    "`PRESS` enter"]
-  ]
-}]
+[
+  {
+    "id": "c82632a4-56b6-4db4-9dd1-3820ee3388e4",
+    "snapshot": "libreoffice_impress",
+    "instruction": "Add an image \"none.png\" on the Desktop to slide 2 with 1cm*1cm size.",
+    "source": "https://arxiv.org/pdf/2311.01767.pdf"
+  },
+  {
+    "minimal": [
+      "`CLICK` slide 2",
+      "`CLICK` insert image icon",
+      "`CLICK` none.png",
+      "`PRESS` enter",
+      "`CLICK` position and size dropdown",
+      "`CLICK` width text box",
+      "`HOTKEY` ctrl-a",
+      "`TYPING` 1cm",
+      "`PRESS` enter",
+      "`CLICK` height text box",
+      "`HOTKEY` ctrl-a",
+      "`TYPING` 1cm",
+      "`PRESS` enter"
+    ],
+    "batched": [
+      [
+        "`CLICK` slide 2"
+      ],
+      [
+        "`CLICK` insert image icon"
+      ],
+      [
+        "`CLICK` none.png",
+        "`PRESS` enter"
+      ],
+      [
+        "`CLICK` position and size dropdown"
+      ],
+      [
+        "`CLICK` width text box",
+        "`HOTKEY` ctrl-a",
+        "`TYPING` 1cm",
+        "`PRESS` enter",
+        "`CLICK` height text box",
+        "`HOTKEY` ctrl-a",
+        "`TYPING` 1cm",
+        "`PRESS` enter"
+      ]
+    ]
+  }
+]

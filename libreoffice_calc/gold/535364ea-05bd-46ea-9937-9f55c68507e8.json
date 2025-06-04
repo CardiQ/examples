@@ -1,61 +1,80 @@
-[{
-  "id": "535364ea-05bd-46ea-9937-9f55c68507e8",
-	"snapshot": "libreoffice_calc",
-	"instruction": "Create two tables in a new sheet showing the total revenue for each product and sales channel.",
-	"source": "SheetCopilot@180"
-},
-{
-  "minimal": [
-    "`HOTKEY` ctrl-a",
-		"`CLICK` pivot table icon",
-		"`PRESS` enter",
-		"`MOVE_TO` product in available fields box",
-		"`DRAG_TO` row fields box",
-		"`MOVE_TO` revenue in available fields box",
-		"`DRAG_TO` data fields box",
-		"`PRESS` enter",
-		"`DOUBLE_CLICK` Pivot Table Sheet1_1",
-		"`TYPE` Sheet2",
-		"`PRESS` enter",
-		"`CLICK` sheet 'Sheet1'",
-		"`HOTKEY` ctrl-a",
-		"`CLICK` pivot table icon",
-		"`PRESS` enter",
-		"`MOVE_TO` sales channel in available fields box",
-		"`DRAG_TO` row fields box",
-		"`MOVE_TO` revenue in available fields box",
-		"`DRAG_TO` data fields box",
-		"`CLICK` Source and Destination dropdown",
-		"`CLICK` 'Selection' under destination",
-		"`CLICK` text box",
-		"`TYPE` '$Sheet2.$A$15'",
-		"`PRESS` enter"
-  ],
-  "batched": [
-    ["`HOTKEY` ctrl-a",
-		"`CLICK` pivot table icon"],
-		["`PRESS` enter"],
-		["`MOVE_TO` product in available fields box",
-		"`DRAG_TO` row fields box",
-		"`MOVE_TO` revenue in available fields box",
-		"`DRAG_TO` data fields box",
-		"`PRESS` enter"],
-		["`DOUBLE_CLICK` Pivot Table Sheet1_1",
-		"`TYPE` Sheet2",
-		"`PRESS` enter"],
-		["`CLICK` sheet 'Sheet1'"],
-		["`HOTKEY` ctrl-a",
-		"`CLICK` pivot table icon"],
-		["`PRESS` enter"],
-		["`MOVE_TO` sales channel in available fields box",
-		"`DRAG_TO` row fields box",
-		"`MOVE_TO` revenue in available fields box",
-		"`DRAG_TO` data fields box",
-		"`CLICK` Source and Destination dropdown"],
-		["`CLICK` 'Selection' under destination",
-		"`CLICK` text box",
-		"`TYPE` '$Sheet2.$A$15'",
-		"`PRESS` enter"]
-  ]
-}
+[
+	{
+		"id": "535364ea-05bd-46ea-9937-9f55c68507e8",
+		"snapshot": "libreoffice_calc",
+		"instruction": "Create two tables in a new sheet showing the total revenue for each product and sales channel.",
+		"source": "SheetCopilot@180"
+	},
+	{
+		"minimal": [
+			"`HOTKEY` ctrl-a",
+			"`CLICK` pivot table icon",
+			"`PRESS` enter",
+			"`MOVE_TO` product in available fields box",
+			"`DRAG_TO` row fields box",
+			"`MOVE_TO` revenue in available fields box",
+			"`DRAG_TO` data fields box",
+			"`PRESS` enter",
+			"`DOUBLE_CLICK` Pivot Table Sheet1_1",
+			"`TYPING` Sheet2",
+			"`PRESS` enter",
+			"`CLICK` sheet 'Sheet1'",
+			"`HOTKEY` ctrl-a",
+			"`CLICK` pivot table icon",
+			"`PRESS` enter",
+			"`MOVE_TO` sales channel in available fields box",
+			"`DRAG_TO` row fields box",
+			"`MOVE_TO` revenue in available fields box",
+			"`DRAG_TO` data fields box",
+			"`CLICK` Source and Destination dropdown",
+			"`CLICK` 'Selection' under destination",
+			"`CLICK` text box",
+			"`TYPING` '$Sheet2.$A$15'",
+			"`PRESS` enter"
+		],
+		"batched": [
+			[
+				"`HOTKEY` ctrl-a",
+				"`CLICK` pivot table icon"
+			],
+			[
+				"`PRESS` enter"
+			],
+			[
+				"`MOVE_TO` product in available fields box",
+				"`DRAG_TO` row fields box",
+				"`MOVE_TO` revenue in available fields box",
+				"`DRAG_TO` data fields box",
+				"`PRESS` enter"
+			],
+			[
+				"`DOUBLE_CLICK` Pivot Table Sheet1_1",
+				"`TYPING` Sheet2",
+				"`PRESS` enter"
+			],
+			[
+				"`CLICK` sheet 'Sheet1'"
+			],
+			[
+				"`HOTKEY` ctrl-a",
+				"`CLICK` pivot table icon"
+			],
+			[
+				"`PRESS` enter"
+			],
+			[
+				"`MOVE_TO` sales channel in available fields box",
+				"`DRAG_TO` row fields box",
+				"`MOVE_TO` revenue in available fields box",
+				"`DRAG_TO` data fields box",
+				"`CLICK` Source and Destination dropdown"
+			],
+			[
+				"`CLICK` 'Selection' under destination",
+				"`CLICK` text box",
+				"`TYPING` '$Sheet2.$A$15'",
+				"`PRESS` enter"
+			]
+		]
+	}
 ]

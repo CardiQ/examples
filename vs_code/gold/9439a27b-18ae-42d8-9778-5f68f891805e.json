@@ -1,25 +1,38 @@
-[{
-  "id": "9439a27b-18ae-42d8-9778-5f68f891805e",
-  "snapshot": "vscode",
-  "instruction": "Please help me modify the setting of VS Code to keep my cursor focused on the debug console when debugging in VS Code, instead of automatically focusing back on the Editor.",
-  "source": "https://stackoverflow.com/questions/75832474/how-to-keep-cursor-in-debug-console-when-debugging-in-visual-studio-code"
-},
-{
-  "minimal": [
-   "`CLICK` 'File' in the menu",
-    "`CLICK` 'Preferences'",
-    "`CLICK` 'Settings'",
-    "`CLICK` in the search bar",
-    "`TYPE` 'focus editor on break'",
-    "`CLICK` the currently checked box next to 'Debug: Focus Editor on Break'"
-  ],
-  "batched": [
-    ["`CLICK` 'File' in the menu"],
-    ["`CLICK` 'Preferences'"],
-    ["`CLICK` 'Settings'"],
-    ["`CLICK` in the search bar"],
-    ["`TYPE` 'focus editor on break'"],
-    ["`CLICK` the currently checked box next to 'Debug: Focus Editor on Break'"]
-  ]
-}
+[
+  {
+    "id": "9439a27b-18ae-42d8-9778-5f68f891805e",
+    "snapshot": "vscode",
+    "instruction": "Please help me modify the setting of VS Code to keep my cursor focused on the debug console when debugging in VS Code, instead of automatically focusing back on the Editor.",
+    "source": "https://stackoverflow.com/questions/75832474/how-to-keep-cursor-in-debug-console-when-debugging-in-visual-studio-code"
+  },
+  {
+    "minimal": [
+      "`CLICK` 'File' in the menu",
+      "`CLICK` 'Preferences'",
+      "`CLICK` 'Settings'",
+      "`CLICK` in the search bar",
+      "`TYPING` 'focus editor on break'",
+      "`CLICK` the currently checked box next to 'Debug: Focus Editor on Break'"
+    ],
+    "batched": [
+      [
+        "`CLICK` 'File' in the menu"
+      ],
+      [
+        "`CLICK` 'Preferences'"
+      ],
+      [
+        "`CLICK` 'Settings'"
+      ],
+      [
+        "`CLICK` in the search bar"
+      ],
+      [
+        "`TYPING` 'focus editor on break'"
+      ],
+      [
+        "`CLICK` the currently checked box next to 'Debug: Focus Editor on Break'"
+      ]
+    ]
+  }
 ]

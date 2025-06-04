@@ -9,12 +9,18 @@
     "minimal": [
       "`CLICK` 'Baby Names' tab",
       "`CLICK` text box under 'Search a name'",
-      "`TYPE` 'Carl'",
+      "`TYPING` 'Carl'",
       "`PRESS` 'Enter'"
     ],
     "batched": [
-      ["`CLICK` 'Baby Names' tab"],
-      ["`CLICK` text box under 'Search a name'", "`TYPE` 'Carl'", "`PRESS` 'Enter'"]
+      [
+        "`CLICK` 'Baby Names' tab"
+      ],
+      [
+        "`CLICK` text box under 'Search a name'",
+        "`TYPING` 'Carl'",
+        "`PRESS` 'Enter'"
+      ]
     ]
-}
+  }
 ]

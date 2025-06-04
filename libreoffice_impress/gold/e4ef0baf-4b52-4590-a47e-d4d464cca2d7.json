@@ -1,56 +1,66 @@
-[{
-  "id": "e4ef0baf-4b52-4590-a47e-d4d464cca2d7",
-  "snapshot": "libreoffice_impress",
-  "instruction": "The height of picture should be 20cm on slide 3 while the font size of all textboxes should be 40pt on slide 6.",
-  "source": "https://arxiv.org/pdf/2311.01767.pdf"
-},
-{
-  "minimal": [
-    "`CLICK` slide 3.",
-    "`CLICK` image",
-    "`CLICK` height text box",
-    "`HOTKEY` ctrl-a",
-    "`TYPE` 20cm",
-    "`PRESS` enter",
-    "`CLICK` slide 6.",
-    "`CLICK` text in 'our founder'.",
-    "`HOTKEY` ctrl-a",
-    "`CLICK` font size dropdown",
-    "`TYPE` 40pt",
-    "`PRESS` enter",
-    "`CLICK` text in 'name surname'.",
-    "`HOTKEY` ctrl-a",
-    "`CLICK` font size dropdown",
-    "`TYPE` 40pt",
-    "`PRESS` enter",
-    "`CLICK` text in 'presentations are...'.",
-    "`HOTKEY` ctrl-a",
-    "`CLICK` font size dropdown",
-    "`TYPE` 40pt",
-    "`PRESS` enter"
-  ],
-  "batched": [
-    ["`CLICK` slide 3."],
-    ["`CLICK` image"],
-    ["`CLICK` height text box",
-    "`HOTKEY` ctrl-a",
-    "`TYPE` 20cm",
-    "`PRESS` enter",
-    "`CLICK` slide 6."],
-    ["`CLICK` text in 'our founder'.",
-    "`HOTKEY` ctrl-a",
-    "`CLICK` font size dropdown",
-    "`TYPE` 40pt",
-    "`PRESS` enter",
-    "`CLICK` text in 'name surname'.",
-    "`HOTKEY` ctrl-a",
-    "`CLICK` font size dropdown",
-    "`TYPE` 40pt",
-    "`PRESS` enter",
-    "`CLICK` text in 'presentations are...'.",
-    "`HOTKEY` ctrl-a",
-    "`CLICK` font size dropdown",
-    "`TYPE` 40pt",
-    "`PRESS` enter"]
-  ]
-}]
+[
+  {
+    "id": "e4ef0baf-4b52-4590-a47e-d4d464cca2d7",
+    "snapshot": "libreoffice_impress",
+    "instruction": "The height of picture should be 20cm on slide 3 while the font size of all textboxes should be 40pt on slide 6.",
+    "source": "https://arxiv.org/pdf/2311.01767.pdf"
+  },
+  {
+    "minimal": [
+      "`CLICK` slide 3.",
+      "`CLICK` image",
+      "`CLICK` height text box",
+      "`HOTKEY` ctrl-a",
+      "`TYPING` 20cm",
+      "`PRESS` enter",
+      "`CLICK` slide 6.",
+      "`CLICK` text in 'our founder'.",
+      "`HOTKEY` ctrl-a",
+      "`CLICK` font size dropdown",
+      "`TYPING` 40pt",
+      "`PRESS` enter",
+      "`CLICK` text in 'name surname'.",
+      "`HOTKEY` ctrl-a",
+      "`CLICK` font size dropdown",
+      "`TYPING` 40pt",
+      "`PRESS` enter",
+      "`CLICK` text in 'presentations are...'.",
+      "`HOTKEY` ctrl-a",
+      "`CLICK` font size dropdown",
+      "`TYPING` 40pt",
+      "`PRESS` enter"
+    ],
+    "batched": [
+      [
+        "`CLICK` slide 3."
+      ],
+      [
+        "`CLICK` image"
+      ],
+      [
+        "`CLICK` height text box",
+        "`HOTKEY` ctrl-a",
+        "`TYPING` 20cm",
+        "`PRESS` enter",
+        "`CLICK` slide 6."
+      ],
+      [
+        "`CLICK` text in 'our founder'.",
+        "`HOTKEY` ctrl-a",
+        "`CLICK` font size dropdown",
+        "`TYPING` 40pt",
+        "`PRESS` enter",
+        "`CLICK` text in 'name surname'.",
+        "`HOTKEY` ctrl-a",
+        "`CLICK` font size dropdown",
+        "`TYPING` 40pt",
+        "`PRESS` enter",
+        "`CLICK` text in 'presentations are...'.",
+        "`HOTKEY` ctrl-a",
+        "`CLICK` font size dropdown",
+        "`TYPING` 40pt",
+        "`PRESS` enter"
+      ]
+    ]
+  }
+]

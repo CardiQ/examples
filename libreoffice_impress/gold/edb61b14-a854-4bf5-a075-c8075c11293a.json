@@ -1,22 +1,30 @@
-[{
-  "id": "edb61b14-a854-4bf5-a075-c8075c11293a",
-  "snapshot": "libreoffice_impress",
-  "instruction": "In the last slide, make the font style \"Times New Roman\"",
-  "source": "https://arxiv.org/pdf/2311.01767.pdf"
-},
-{
-  "minimal": [
-    "`CLICK` slide 5",
-    "`CLICK` the conclusion text box",
-    "`CLICK` font dropdown arrow",
-    "`TYPE` Times New Roman",
-    "`PRESS` enter"
-  ],
-  "batched": [
-    ["`CLICK` slide 5"],
-    ["`CLICK` the conclusion text box"],
-    ["`CLICK` font dropdown arrow",
-    "`TYPE` Times New Roman",
-    "`PRESS` enter"]
-  ]
-}]
+[
+  {
+    "id": "edb61b14-a854-4bf5-a075-c8075c11293a",
+    "snapshot": "libreoffice_impress",
+    "instruction": "In the last slide, make the font style \"Times New Roman\"",
+    "source": "https://arxiv.org/pdf/2311.01767.pdf"
+  },
+  {
+    "minimal": [
+      "`CLICK` slide 5",
+      "`CLICK` the conclusion text box",
+      "`CLICK` font dropdown arrow",
+      "`TYPING` Times New Roman",
+      "`PRESS` enter"
+    ],
+    "batched": [
+      [
+        "`CLICK` slide 5"
+      ],
+      [
+        "`CLICK` the conclusion text box"
+      ],
+      [
+        "`CLICK` font dropdown arrow",
+        "`TYPING` Times New Roman",
+        "`PRESS` enter"
+      ]
+    ]
+  }
+]

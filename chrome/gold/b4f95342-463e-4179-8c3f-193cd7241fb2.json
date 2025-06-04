@@ -8,17 +8,27 @@
   {
     "minimal": [
       "`CLICK` the search button",
-      "`TYPE` 'Albion Basin' into the search bar",
+      "`TYPING` 'Albion Basin' into the search bar",
       "`CLICK` the result for 'Albion Basin'",
       "`SCROLL` down 200 units (-200)",
       "`CLICK` 'Next Available'"
     ],
     "batched": [
-      ["`CLICK` the search button"],
-      ["`TYPE` 'Albion Basin' into the search bar"],
-      ["`CLICK` the result for 'Albion Basin'"],
-      ["`SCROLL` down 200 units (-200)"],
-      ["`CLICK` 'Next Available'"]
+      [
+        "`CLICK` the search button"
+      ],
+      [
+        "`TYPING` 'Albion Basin' into the search bar"
+      ],
+      [
+        "`CLICK` the result for 'Albion Basin'"
+      ],
+      [
+        "`SCROLL` down 200 units (-200)"
+      ],
+      [
+        "`CLICK` 'Next Available'"
+      ]
     ]
-}
+  }
 ]
