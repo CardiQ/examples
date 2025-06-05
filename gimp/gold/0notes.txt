@@ -3,7 +3,6 @@ self inference:
 
 not sure with known source:
 for GIMP the annotations mainly rely on source-websites
-045bf3ff-9077-4b86-b483-a1040a949cff - FAIL
 
 
 in small task:

@@ -4,13 +4,45 @@
     "snapshot": "libreoffice_impress",
     "instruction": "Could you help me export an Impress file to a .png image file and save it as res.png on the Desktop? ",
     "source": "https://stackoverflow.com/questions/75626383/how-export-libreoffice-impress-to-image"
-  },
-  {
-    "minimal": [
-      "`FAIL`"
+  },{
+  "minimal": [
+    "`CLICK` on 'File' in the menu bar",
+    "`CLICK` on 'Export...'",
+    "`TYPING` res.png",
+    "`TYPING` /home/user/Desktop/",
+    "`CLICK` on 'Save as type' or 'Format' dropdown",
+    "`SCROLL` 0, -200",
+    "`CLICK` on 'PNG image'",
+    "`CLICK` on 'Save'",
+    "`CLICK` on 'Export' button (if an additional dialog appears for export options)"
+  ],
+  "batched": [
+    [
+      "`CLICK` on 'File' in the menu bar"
     ],
-    "batched": [
-      ["`FAIL`"]
+    [
+      "`CLICK` on 'Export...'"
+    ],
+    [
+      "`TYPING` res.png",
+      "`TYPING` /home/user/Desktop/"
+    ],
+    [
+      "`CLICK` on 'Save as type' or 'Format' dropdown"
+    ],
+    [
+      "`SCROLL` 0, -200"
+    ],
+    [
+      "`CLICK` on 'PNG image'"
+    ],
+    [
+      "`CLICK` on 'Save'"
+    ],
+    [
+      "`CLICK` on 'Export' button (if an additional dialog appears for export options)"
     ]
-  }
+  ],
+  "error&change": ["change fake-fail to expected steps"]
+}
 ]

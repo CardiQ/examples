@@ -6,9 +6,82 @@
 },
 {
   "minimal": [
-    "`FAIL`"
+    "`CLICK` on 'Edit' in the menu bar",
+    "`CLICK` on 'Settings'",
+    "`CLICK` on 'General' tab",
+    "`SCROLL` 0, 500",
+    "`CLICK` on 'Config Editor...' button",
+    "`CLICK` on 'I accept the risk!' button",
+    "`TYPING` mail.quoted_text.style",
+    "`DOUBLE_CLICK` on 'mail.quoted_text.style' row",
+    "`TYPING` 0",
+    "`PRESS` Enter",
+    "`TYPING` mail.quote_chars",
+    "`DOUBLE_CLICK` on 'mail.quote_chars' row",
+    "`PRESS` Backspace",
+    "`PRESS` Enter",
+    "`TYPING` mail.html_quote_style",
+    "`DOUBLE_CLICK` on 'mail.html_quote_style' row",
+    "`TYPING` 0",
+    "`PRESS` Enter",
+    "`HOTKEY` 'Ctrl+W'",
+    "`CLICK` on 'OK'"
   ],
   "batched": [
-    ["`FAIL`"]
-  ]
+    [
+      "`CLICK` on 'Edit' in the menu bar"
+    ],
+    [
+      "`CLICK` on 'Settings'"
+    ],
+    [
+      "`CLICK` on 'General' tab"
+    ],
+    [
+      "`SCROLL` 0, 500"
+    ],
+    [
+      "`CLICK` on 'Config Editor...' button"
+    ],
+    [
+      "`CLICK` on 'I accept the risk!' button"
+    ],
+    [
+      "`TYPING` mail.quoted_text.style"
+    ],
+    [
+      "`DOUBLE_CLICK` on 'mail.quoted_text.style' row"
+    ],
+    [
+      "`TYPING` 0",
+      "`PRESS` Enter"
+    ],
+    [
+      "`TYPING` mail.quote_chars"
+    ],
+    [
+      "`DOUBLE_CLICK` on 'mail.quote_chars' row"
+    ],
+    [
+      "`PRESS` Backspace",
+      "`PRESS` Enter"
+    ],
+    [
+      "`TYPING` mail.html_quote_style"
+    ],
+    [
+      "`DOUBLE_CLICK` on 'mail.html_quote_style' row"
+    ],
+    [
+      "`TYPING` 0",
+      "`PRESS` Enter"
+    ],
+    [
+      "`HOTKEY` ['control', 'w']"
+    ],
+    [
+      "`CLICK` on 'OK'"
+    ]
+  ],
+  "error&change": ["change fake-fail to expected steps"]
 }]
