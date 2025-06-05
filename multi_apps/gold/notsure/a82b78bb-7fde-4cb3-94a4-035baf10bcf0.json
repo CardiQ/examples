@@ -7,33 +7,31 @@
 {
   "minimal": [
     "`HOTKEY`'Ctrl+Alt+T' open the terminal",
-    "`TYPING` google-chrome",
-    "`PRESS` Enter",
-    "`WAIT` 3",
-    "`TYPING` open local pdf /home/user/Desktop/2206.08853.pdf in chrome",
+    "`TYPING` google-chrome /home/user/Desktop/2206.08853.pdf",
     "`PRESS` Enter",
     "`CLICK` 'address bar'",
-    "`HOTKEY`'Ctrl+C' copy text from address bar",
-    "`TYPING` find the initial author and the last three authors",
+    "`TYPING` find the initial author",
     "`CLICK` 'search button'",
-    "`WAIT` 2",
     "`CLICK` 'link to initial author's personal page'",
     "`CLICK` 'bookmark button'",
     "`CLICK` 'create new folder button'",
     "`TYPING` Liked Authors",
     "`PRESS` Enter",
     "`CLICK` 'Done'",
-    "`CLICK` 'back button'",
-    "`CLICK` 'link to second to last author's personal page'",
+    "`CLICK` 'address bar'",
+    "`TYPING` find the next author",
+    "`CLICK` 'link to second author's personal page'",
     "`CLICK` 'bookmark button'",
     "`CLICK` 'Liked Authors folder'",
     "`CLICK` 'Done'",
-    "`CLICK` 'back button'",
-    "`CLICK` 'link to third to last author's personal page'",
+    "`CLICK` 'address bar'",
+    "`TYPING` find the next author",
+    "`CLICK` 'link to third author's personal page'",
     "`CLICK` 'bookmark button'",
     "`CLICK` 'Liked Authors folder'",
     "`CLICK` 'Done'",
-    "`CLICK` 'back button'",
+    "`CLICK` 'address bar'",
+    "`TYPING` find the next author",
     "`CLICK` 'link to last author's personal page'",
     "`CLICK` 'bookmark button'",
     "`CLICK` 'Liked Authors folder'",
@@ -44,26 +42,15 @@
       "`HOTKEY`'Ctrl+Alt+T' open the terminal"
     ],
     [
-      "`TYPING` google-chrome",
+      "`TYPING` google-chrome /home/user/Desktop/2206.08853.pdf",
       "`PRESS` Enter"
     ],
     [
-      "`WAIT` 3"
+      "`CLICK` 'address bar'"
     ],
     [
-      "`TYPING` open local pdf /home/user/Desktop/2206.08853.pdf in chrome",
-      "`PRESS` Enter"
-    ],
-    [
-      "`CLICK` 'address bar'",
-      "`HOTKEY`'Ctrl+C' copy text from address bar"
-    ],
-    [
-      "`TYPING` find the initial author and the last three authors",
+    "`TYPING` find the initial author",
       "`CLICK` 'search button'"
-    ],
-    [
-      "`WAIT` 2"
     ],
     [
       "`CLICK` 'link to initial author's personal page'",
@@ -74,25 +61,28 @@
       "`CLICK` 'Done'"
     ],
     [
-      "`CLICK` 'back button'"
+    "`CLICK` 'address bar'",
+    "`TYPING` find the next author"
     ],
     [
-      "`CLICK` 'link to second to last author's personal page'",
+      "`CLICK` 'link to second author's personal page'",
       "`CLICK` 'bookmark button'",
       "`CLICK` 'Liked Authors folder'",
       "`CLICK` 'Done'"
     ],
     [
-      "`CLICK` 'back button'"
+    "`CLICK` 'address bar'",
+    "`TYPING` find the next author"
     ],
     [
-      "`CLICK` 'link to third to last author's personal page'",
+      "`CLICK` 'link to third author's personal page'",
       "`CLICK` 'bookmark button'",
       "`CLICK` 'Liked Authors folder'",
       "`CLICK` 'Done'"
     ],
     [
-      "`CLICK` 'back button'"
+    "`CLICK` 'address bar'",
+    "`TYPING` find the next author"
     ],
     [
       "`CLICK` 'link to last author's personal page'",
@@ -100,5 +90,8 @@
       "`CLICK` 'Liked Authors folder'",
       "`CLICK` 'Done'"
     ]
-  ]
+  ],
+  "error&change": [
+      "change wrong steps to expected steps, according to cache and trajectories"
+    ]
 }]

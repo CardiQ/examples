@@ -6,6 +6,7 @@
 },
 {
   "minimal": [
+    "`HOTKEY`'Ctrl+Alt+T' open the terminal",
     "`TYPING` google-chrome",
     "`PRESS` enter",
     "`TYPING` 深圳福田区24小时自助签注机地址",
@@ -40,6 +41,9 @@
     "`CLICK` on 'Save'"
   ],
   "batched": [
+    [
+    "`HOTKEY`'Ctrl+Alt+T' open the terminal"
+    ],
     [
       "`TYPING` google-chrome"
     ],
@@ -133,6 +137,7 @@
     [
       "`CLICK` on 'Save'"
     ]
-  ]
+  ],
+  "error&change": ["executing on unopnened apps, changed to open first"]
 }
   ]

@@ -6,9 +6,7 @@
 },
 {
   "minimal": [
-    "`HOTKEY`'Ctrl+Alt+T' open the terminal",
-    "`TYPING` libreoffice Meeting-Agenda.docx",
-    "`PRESS` Enter",
+    "`CLICK` on libreoffice window to open Meeting-Agenda.docx",
     "`CLICK` on 'File'",
     "`CLICK` on 'Export As'",
     "`CLICK` on 'Export as PDF...'",
@@ -23,11 +21,7 @@
   ],
   "batched": [
     [
-      "`HOTKEY`'Ctrl+Alt+T' open the terminal"
-    ],
-    [
-      "`TYPING` libreoffice Meeting-Agenda.docx",
-      "`PRESS` Enter"
+      "`CLICK` on libreoffice window to open Meeting-Agenda.docx"
     ],
     [
       "`CLICK` on 'File'"
@@ -58,5 +52,6 @@
       "`TYPING` /home/user/Desktop/Meeting-Agenda.pdf",
       "`PRESS` Enter"
     ]
-  ]
+  ],
+  "error&change": ["executing on opnened apps, changed to click instead of start from terminal"]
 }]

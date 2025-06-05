@@ -8,6 +8,7 @@
   "minimal": [
     "`HOTKEY`'Ctrl+Alt+T' open the terminal",
     "`TYPING` gimp",
+    "`RRESS` Enter",
     "`CLICK` on 'GNU Image Manipulation Program'",
     "`HOTKEY` 'Ctrl+O'",
     "`TYPING` /home/user/Desktop/ChMkKV8wsR6IBfEtABYfc0Tgu9cAAA1lQHO_78AFh-L733.jpg",
@@ -35,7 +36,8 @@
     "`HOTKEY`'Ctrl+Alt+T' open the terminal"
     ],
     [
-      "`TYPING` gimp"
+      "`TYPING` gimp",
+      "`RRESS` Enter"
     ],
     [
       "`CLICK` on 'GNU Image Manipulation Program'"
@@ -68,9 +70,7 @@
       "`CLICK` on 'Fuzzy Select'"
     ],
     [
-      "`CLICK` at the desired background area to select it"
-    ],
-    [
+      "`CLICK` at the desired background area to select it",
       "`PRESS` delete"
     ],
     [
@@ -100,5 +100,7 @@
     [
       "`CLICK` on 'Export'"
     ]
-  ]
+  ],
+  "error&change": ["too strict batched, changed to batched more"
+  ,"missing steps added"]
 }]

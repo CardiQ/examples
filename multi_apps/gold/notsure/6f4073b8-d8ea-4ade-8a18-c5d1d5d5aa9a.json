@@ -41,93 +41,63 @@
   ],
   "batched": [
     [
-      "`CLICK` on the cell for 2015 ICLR City"
-    ],
-    [
+      "`CLICK` on the cell for 2015 ICLR City",
       "`TYPING` City A"
     ],
     [
-      "`CLICK` on the cell for 2015 ICML City"
-    ],
-    [
+      "`CLICK` on the cell for 2015 ICML City",
       "`TYPING` City B"
     ],
     [
-      "`CLICK` on the cell for 2015 Neurips City"
-    ],
-    [
+      "`CLICK` on the cell for 2015 Neurips City",
       "`TYPING` City C"
     ],
     [
-      "`CLICK` on the cell for 2016 ICLR City"
-    ],
-    [
+      "`CLICK` on the cell for 2016 ICLR City",
       "`TYPING` City D"
     ],
     [
-      "`CLICK` on the cell for 2016 ICML City"
-    ],
-    [
+      "`CLICK` on the cell for 2016 ICML City",
       "`TYPING` City E"
     ],
     [
-      "`CLICK` on the cell for 2016 Neurips City"
-    ],
-    [
+      "`CLICK` on the cell for 2016 Neurips City",
       "`TYPING` City F"
     ],
     [
-      "`CLICK` on the cell for 2017 ICLR City"
-    ],
-    [
+      "`CLICK` on the cell for 2017 ICLR City",
       "`TYPING` City G"
     ],
     [
-      "`CLICK` on the cell for 2017 ICML City"
-    ],
-    [
+      "`CLICK` on the cell for 2017 ICML City",
       "`TYPING` City H"
     ],
     [
-      "`CLICK` on the cell for 2017 Neurips City"
-    ],
-    [
+      "`CLICK` on the cell for 2017 Neurips City",
       "`TYPING` City I"
     ],
     [
-      "`CLICK` on the cell for 2018 ICLR City"
-    ],
-    [
+      "`CLICK` on the cell for 2018 ICLR City",
       "`TYPING` City J"
     ],
     [
-      "`CLICK` on the cell for 2018 ICML City"
-    ],
-    [
+      "`CLICK` on the cell for 2018 ICML City",
       "`TYPING` City K"
     ],
     [
-      "`CLICK` on the cell for 2018 Neurips City"
-    ],
-    [
+      "`CLICK` on the cell for 2018 Neurips City",
       "`TYPING` City L"
     ],
     [
-      "`CLICK` on the cell for 2019 ICLR City"
-    ],
-    [
+      "`CLICK` on the cell for 2019 ICLR City",
       "`TYPING` City M"
     ],
     [
-      "`CLICK` on the cell for 2019 ICML City"
-    ],
-    [
+      "`CLICK` on the cell for 2019 ICML City",
       "`TYPING` City N"
     ],
     [
-      "`CLICK` on the cell for 2019 Neurips City"
-    ],
-    [
+      "`CLICK` on the cell for 2019 Neurips City",
       "`TYPING` City O"
     ],
     [
@@ -136,6 +106,7 @@
     [
       "`CLICK` on 'Save'"
     ]
-  ]
+  ],
+  "error&change": ["too strict batched, changed to batched more"]
 }
 ]

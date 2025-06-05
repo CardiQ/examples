@@ -18,7 +18,7 @@
     "`CLICK` on 'Scene filter'",
     "`TYPING` /home/user/Desktop/snapshot.png",
     "`CLICK` on 'Save'",
-    "`HOTKEY` ['alt', 'tab']",
+    "`CLICK` change to the opnened window of pptx in LibreOffice Impress",
     "`CLICK` on 'Slide' in the menu bar",
     "`CLICK` on 'Page Properties'",
     "`CLICK` on 'Background' tab",
@@ -31,7 +31,7 @@
   ],
   "batched": [
     [
-      "`HOTKEY` ['alt', 'tab']"
+      "`CLICK` on opened vlc window for the video"
     ],
     [
       "`CLICK` on 'Video' in the menu bar"
@@ -65,7 +65,7 @@
       "`CLICK` on 'Save'"
     ],
     [
-      "`HOTKEY` ['alt', 'tab']"
+      "`CLICK` change to the opnened window of pptx in LibreOffice Impress"
     ],
     [
       "`CLICK` on 'Slide' in the menu bar"
@@ -93,5 +93,5 @@
       "`CLICK` on 'OK'"
     ]
   ],
-  "error&change": ["too strict batched, changed to batched more"]
+  "error&change": ["too strict batched, changed to batched more", "change alt+tab to more accurate step"]
 }]

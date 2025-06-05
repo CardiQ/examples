@@ -6,86 +6,186 @@
 },
 {
   "minimal": [
-    "`HOTKEY`'Super+E' open File Explorer",
-    "`CLICK` 'Notes' folder in the sidebar",
-    "`DOUBLE_CLICK` 'Lecture Document.docx'",
-    "`RIGHT_CLICK` on a chart or graph",
-    "`CLICK` 'Save as Picture...'",
-    "`CLICK` 'PNG' from the 'Save as type' dropdown",
-    "`TYPING` 1",
-    "`CLICK` 'Save'",
-    "`RIGHT_CLICK` on another chart or graph",
-    "`CLICK` 'Save as Picture...'",
-    "`CLICK` 'PNG' from the 'Save as type' dropdown",
-    "`TYPING` 2",
-    "`CLICK` 'Save'",
-    "`CLOSE` 'Lecture Document.docx' window",
-    "`HOTKEY`'Ctrl+Alt+T' open the terminal",
-    "`TYPING` google-chrome https://drive.google.com/",
+    "`CLICK` on 'Notes' folder in Thunderbird",
+    "`CLICK` on 'Lecture Document' email",
+    "`CLICK` on 'Lecture Document.docx' attachment",
+    "`CLICK` on 'Save As...'",
+    "`TYPING` /home/user/Downloads/Lecture Document.docx",
+    "`CLICK` on 'Save'",
+
+    "`HOTKEY` 'Ctrl+Alt+T' open the terminal",
+    "`TYPING` libreoffice --writer \"/home/user/Downloads/Lecture Document.docx\"",
     "`PRESS` Enter",
-    "`WAIT` 5",
-    "`CLICK` 'My Drive' button",
-    "`DOUBLE_CLICK` 'figures' folder",
-    "`CLICK` 'New' button",
-    "`CLICK` 'File upload'",
-    "`CLICK` all the numbered PNG files from the save location",
-    "`CLICK` 'Open'"
+    "`RIGHT_CLICK` on 'Image 1'",
+    "`CLICK` on 'Save Graphics As...'",
+    "`TYPING` image1.png",
+    "`TYPING` /home/user/images_temp/",
+    "`CLICK` on 'Save'",
+    "`HOTKEY` 'Ctrl+W'",
+    "`TYPING` google-chrome --remote-debugging-port=1337",
+    "`PRESS` Enter",
+    "`TYPING` drive.google.com",
+    "`PRESS` Enter",
+    "`CLICK` on 'figures/' folder",
+    "`CLICK` on 'New' button",
+    "`CLICK` on 'File upload'",
+    "`TYPING` /home/user/images_temp/image1.png",
+    "`CLICK` on 'Open'",
+    "`CLICK` on 'Upload' confirmation button",
+
+    "`CLICK` on opened window of libreoffice --writer \"/home/user/Downloads/Lecture Document.docx\"",
+    "`RIGHT_CLICK` on 'Image 2'",
+    "`CLICK` on 'Save Graphics As...'",
+    "`TYPING` image2.png",
+    "`TYPING` /home/user/images_temp/",
+    "`CLICK` on 'Save'",
+    "`HOTKEY` 'Ctrl+W'",
+    "`CLICK` on 'New' button",
+    "`CLICK` on 'File upload'",
+    "`TYPING` /home/user/images_temp/image2.png",
+    "`CLICK` on 'Open'",
+    "`CLICK` on 'Upload' confirmation button",
+
+    "`CLICK` on opened window of libreoffice --writer \"/home/user/Downloads/Lecture Document.docx\"",
+    "`RIGHT_CLICK` on 'Image 3'",
+    "`CLICK` on 'Save Graphics As...'",
+    "`TYPING` image3.png",
+    "`TYPING` /home/user/images_temp/",
+    "`CLICK` on 'Save'",
+    "`HOTKEY` 'Ctrl+W'",
+    "`CLICK` on 'New' button",
+    "`CLICK` on 'File upload'",
+    "`TYPING` /home/user/images_temp/image3.png",
+    "`CLICK` on 'Open'",
+    "`CLICK` on 'Upload' confirmation button"
   ],
   "batched": [
     [
-      "`HOTKEY`'Super+E' open File Explorer"
+      "`CLICK` on 'Notes' folder in Thunderbird"
     ],
     [
-      "`CLICK` 'Notes' folder in the sidebar"
+      "`CLICK` on 'Lecture Document' email"
     ],
     [
-      "`DOUBLE_CLICK` 'Lecture Document.docx'"
+      "`CLICK` on 'Lecture Document.docx' attachment"
     ],
     [
-      "`RIGHT_CLICK` on a chart or graph",
-      "`CLICK` 'Save as Picture...'",
-      "`SELECT` 'PNG' from the 'Save as type' dropdown",
-      "`TYPING` 1",
-      "`CLICK` 'Save'"
+      "`CLICK` on 'Save As...'"
     ],
     [
-      "`RIGHT_CLICK` on another chart or graph",
-      "`CLICK` 'Save as Picture...'",
-      "`SELECT` 'PNG' from the 'Save as type' dropdown",
-      "`TYPING` 2",
-      "`CLICK` 'Save'"
+      "`TYPING` /home/user/Downloads/Lecture Document.docx",
+      "`CLICK` on 'Save'"
+    ],
+
+    [
+      "`HOTKEY` ['control', 'alt', 't']"
     ],
     [
-      "`REPEAT_UNTIL_DONE` saving all charts/graphs as numbered PNGs"
-    ],
-    [
-      "`CLOSE` 'Lecture Document.docx' window"
-    ],
-    [
-      "`HOTKEY`'Ctrl+Alt+T' open the terminal"
-    ],
-    [
-      "`TYPING` google-chrome https://drive.google.com/",
+      "`TYPING` libreoffice --writer \"/home/user/Downloads/Lecture Document.docx\"",
       "`PRESS` Enter"
     ],
     [
-      "`WAIT` 5"
+      "`RIGHT_CLICK` on 'Image 1'"
     ],
     [
-      "`CLICK` 'My Drive' button"
+      "`CLICK` on 'Save Graphics As...'"
     ],
     [
-      "`DOUBLE_CLICK` 'figures' folder"
+      "`TYPING` image1.png",
+      "`TYPING` /home/user/images_temp/",
+      "`CLICK` on 'Save'"
     ],
     [
-      "`CLICK` 'New' button"
+      "`HOTKEY` ['control', 'w']"
     ],
     [
-      "`CLICK` 'File upload'"
+      "`TYPING` google-chrome --remote-debugging-port=1337",
+      "`PRESS` Enter"
     ],
     [
-      "`SELECT` all the numbered PNG files from the save location",
-      "`CLICK` 'Open'"
+      "`TYPING` drive.google.com",
+      "`PRESS` Enter"
+    ],
+    [
+      "`CLICK` on 'figures/' folder"
+    ],
+    [
+      "`CLICK` on 'New' button"
+    ],
+    [
+      "`CLICK` on 'File upload'"
+    ],
+    [
+      "`TYPING` /home/user/images_temp/image1.png",
+      "`CLICK` on 'Open'"
+    ],
+    [
+      "`CLICK` on 'Upload' confirmation button"
+    ],
+
+    [
+     "`CLICK` on opened window of libreoffice --writer \"/home/user/Downloads/Lecture Document.docx\""
+    ],
+    [
+      "`RIGHT_CLICK` on 'Image 2'"
+    ],
+    [
+      "`CLICK` on 'Save Graphics As...'"
+    ],
+    [
+      "`TYPING` image2.png",
+      "`TYPING` /home/user/images_temp/",
+      "`CLICK` on 'Save'"
+    ],
+    [
+      "`HOTKEY` ['control', 'w']"
+    ],
+    [
+      "`CLICK` on 'New' button"
+    ],
+    [
+      "`CLICK` on 'File upload'"
+    ],
+    [
+      "`TYPING` /home/user/images_temp/image2.png",
+      "`CLICK` on 'Open'"
+    ],
+    [
+      "`CLICK` on 'Upload' confirmation button"
+    ],
+
+    [
+      "`CLICK` on opened window of libreoffice --writer \"/home/user/Downloads/Lecture Document.docx\""
+    ],
+    [
+      "`RIGHT_CLICK` on 'Image 3'"
+    ],
+    [
+      "`CLICK` on 'Save Graphics As...'"
+    ],
+    [
+      "`TYPING` image3.png",
+      "`TYPING` /home/user/images_temp/",
+      "`CLICK` on 'Save'"
+    ],
+    [
+      "`HOTKEY` ['control', 'w']"
+    ],
+    [
+      "`CLICK` on 'New' button"
+    ],
+    [
+      "`CLICK` on 'File upload'"
+    ],
+    [
+      "`TYPING` /home/user/images_temp/image3.png",
+      "`CLICK` on 'Open'"
+    ],
+    [
+      "`CLICK` on 'Upload' confirmation button"
     ]
-  ]
+  ],
+  "error&change": [
+      "change wrong steps to expected steps, according to cache and trajectories"
+    ]
 }]

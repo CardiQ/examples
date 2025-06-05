@@ -9,7 +9,7 @@
     "`CLICK`'Chrome' icon",
     "`TYPING` https://github.com/liangjs333/4th-year-in-tsinghua-eng",
     "`PRESS` Enter",
-    "`CLICK` the link for the next chapter file (e.g., 'Chapter_05.txt')",
+    "`CLICK` the link for the next chapter file ('Early Buildings.tex')",
     "`CLICK`'Raw' button on the GitHub file page",
     "`RIGHT_CLICK` on the page displaying the raw text content",
     "`CLICK`'Save As...' from the context menu",
@@ -26,7 +26,7 @@
       "`PRESS` Enter"
     ],
     [
-      "`CLICK` the link for the next chapter file (e.g., 'Chapter_05.txt')"
+      "`CLICK` the link for the next chapter file ('Early Buildings.tex')"
     ],
     [
       "`CLICK`'Raw' button on the GitHub file page"
@@ -40,6 +40,7 @@
       "`CLICK`'Novel Collection' folder",
       "`CLICK`'Save' button"
     ]
-  ]
+  ],
+  "error&change": ["change file name to real, according to trajectories"]
 }
 ]

@@ -6,8 +6,7 @@
 },
 {
   "minimal": [
-      "`HOTKEY`'Ctrl+Alt+T' open the terminal",
-    "`PRESS` enter",
+    "`HOTKEY`'Ctrl+Alt+T' open the terminal",
     "`TYPING` libreoffice --headless --convert-to csv --outdir /home/user/Desktop/ /home/user/Desktop/your_spreadsheet.ods",
     "`PRESS` enter",
     "`TYPING` python3",
@@ -44,97 +43,65 @@
       "`HOTKEY`'Ctrl+Alt+T' open the terminal"
     ],
     [
+      "`TYPING` libreoffice --headless --convert-to csv --outdir /home/user/Desktop/ /home/user/Desktop/your_spreadsheet.ods",
       "`PRESS` enter"
     ],
     [
-      "`TYPING` libreoffice --headless --convert-to csv --outdir /home/user/Desktop/ /home/user/Desktop/your_spreadsheet.ods"
-    ],
-    [
+      "`TYPING` python3",
       "`PRESS` enter"
     ],
     [
-      "`TYPING` python3"
-    ],
-    [
+      "`TYPING` import pandas as pd",
       "`PRESS` enter"
     ],
     [
-      "`TYPING` import pandas as pd"
-    ],
-    [
+      "`TYPING` df = pd.read_csv('/home/user/Desktop/your_spreadsheet.csv')",
       "`PRESS` enter"
     ],
     [
-      "`TYPING` df = pd.read_csv('/home/user/Desktop/your_spreadsheet.csv')"
-    ],
-    [
+      "`TYPING` # Assuming the price column is named 'Price'",
       "`PRESS` enter"
     ],
     [
-      "`TYPING` # Assuming the price column is named 'Price'"
-    ],
-    [
+      "`TYPING` if 'Price' in df.columns:",
       "`PRESS` enter"
     ],
     [
-      "`TYPING` if 'Price' in df.columns:"
-    ],
-    [
+      "`TYPING`     average_price = df['Price'].mean()",
       "`PRESS` enter"
     ],
     [
-      "`TYPING`     average_price = df['Price'].mean()"
-    ],
-    [
+      "`TYPING`     df['Price'].fillna(average_price, inplace=True)",
       "`PRESS` enter"
     ],
     [
-      "`TYPING`     df['Price'].fillna(average_price, inplace=True)"
-    ],
-    [
+      "`TYPING`     median_price = df['Price'].median()",
       "`PRESS` enter"
     ],
     [
-      "`TYPING`     median_price = df['Price'].median()"
-    ],
-    [
+      "`TYPING`     with open('/home/user/Desktop/result.txt', 'w') as f:",
       "`PRESS` enter"
     ],
     [
-      "`TYPING`     with open('/home/user/Desktop/result.txt', 'w') as f:"
-    ],
-    [
+      "`TYPING`         f.write(f'The median price (with empty values filled by average) is: {median_price}')",
       "`PRESS` enter"
     ],
     [
-      "`TYPING`         f.write(f'The median price (with empty values filled by average) is: {median_price}')"
-    ],
-    [
+      "`TYPING` else:",
       "`PRESS` enter"
     ],
     [
-      "`TYPING` else:"
-    ],
-    [
+      "`TYPING`     with open('/home/user/Desktop/result.txt', 'w') as f:",
       "`PRESS` enter"
     ],
     [
-      "`TYPING`     with open('/home/user/Desktop/result.txt', 'w') as f:"
-    ],
-    [
+      "`TYPING`         f.write('Error: \"Price\" column not found in the CSV file.')",
       "`PRESS` enter"
     ],
     [
-      "`TYPING`         f.write('Error: \"Price\" column not found in the CSV file.')"
-    ],
-    [
-      "`PRESS` enter"
-    ],
-    [
-      "`TYPING` exit()"
-    ],
-    [
+      "`TYPING` exit()",
       "`PRESS` enter"
     ]
-  ]
+  ],
+  "error&change": ["too strict batched, changed to batched more"]
 }]

@@ -6,6 +6,7 @@
 },
 {
   "minimal": [
+            "`HOTKEY`'Ctrl+Alt+T' open the terminal",
     "`TYPING` google-chrome https://scholar.google.com/",
     "`PRESS` enter",
     "`TYPING` Yann LeCun",
@@ -20,6 +21,9 @@
     "`HOTKEY` ['control', 's']"
   ],
   "batched": [
+    [
+      "`HOTKEY`'Ctrl+Alt+T' open the terminal"
+    ],
     [
       "`TYPING` google-chrome https://scholar.google.com/",
       "`PRESS` enter"
@@ -50,5 +54,6 @@
     [
       "`HOTKEY` ['control', 's']"
     ]
-  ]
+  ],
+  "error&change": ["executing on unopnened apps, changed to open first"]
 }]
