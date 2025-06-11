@@ -55,22 +55,38 @@
 		],
 		"batched": [
 			[
-				"`CLICK` on cell A12",
+				"`CLICK` on cell A12"
+			],
+			[
 				"`TYPING` 'Total'",
-				"`PRESS` tab",
+				"`PRESS` tab"
+			],
+			[
 				"`TYPING` '=SUM(B2:B11)'",
-				"`PRESS` enter",
-				"`CLICK` cell B12",
+				"`PRESS` enter"
+			],
+			[
+				"`CLICK` cell B12"
+			],
+			[
 				"`MOVE_TO bottom right corner of the cell B12`",
-				"`DRAG_TO` bottom right corner of the cell G12",
+				"`DRAG_TO` bottom right corner of the cell G12"
+			],
+			[
 				"`MOVE_TO` middle of cell A1",
-				"`DRAG_TO` middle of cell G1",
+				"`DRAG_TO` middle of cell G1"
+			],
+			[
 				"`KEY_DOWN` ctrl",
 				"`CLICK` cell A12",
-				"`KEY_UP` ctrl",
+				"`KEY_UP` ctrl"
+			],
+			[
 				"`KEY_DOWN` shift",
 				"`CLICK` cell G12",
-				"`KEY_UP` shift",
+				"`KEY_UP` shift"
+			],
+			[
 				"`CLICK` chart icon"
 			],
 			[
@@ -83,22 +99,40 @@
 				"`PRESS` enter"
 			],
 			[
-				"`CLICK` cell A13",
-				"`TYPING` 'Growth'",
-				"`CLICK` cell C13",
+				"`CLICK` cell A13"
+			],
+			[
+				"`TYPING` 'Growth'"
+			],
+			[
+				"`CLICK` cell C13"
+			],
+			[
 				"`TYPING` '=(C12-B12)/B12'",
-				"`PRESS` enter",
-				"`CLICK` cell C13",
+				"`PRESS` enter"
+			],
+			[
+				"`CLICK` cell C13"
+			],
+			[
 				"`MOVE_TO bottom right corner of the cell C13`",
-				"`DRAG_TO` bottom right corner of the cell G13",
+				"`DRAG_TO` bottom right corner of the cell G13"
+			],
+			[
 				"`MOVE_TO` middle of cell C1",
-				"`DRAG_TO` middle of cell G1",
+				"`DRAG_TO` middle of cell G1"
+			],
+			[
 				"`KEY_DOWN` ctrl",
 				"`CLICK` cell C13",
-				"`KEY_UP` ctrl",
+				"`KEY_UP` ctrl"
+			],
+			[
 				"`KEY_DOWN` shift",
 				"`CLICK` cell G13",
-				"`KEY_UP` shift",
+				"`KEY_UP` shift"
+			],
+			[
 				"`CLICK` chart icon"
 			],
 			[
