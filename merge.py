@@ -5,21 +5,7 @@ src_dir = os.path.dirname(__file__)
 merge_dir = os.path.join(src_dir, 'merged_examples')
 os.makedirs(merge_dir, exist_ok=True)
 
-index = 0
-for app_dir in os.listdir(src_dir):
-    app_path = os.path.join(src_dir, app_dir)
-    if not os.path.isdir(app_path):
-        print(f'{app_path} not a directory')
-        continue
-    if app_dir in ['merged_examples', '.git']:
-        print(f'{app_dir} is a special directory')
-        continue
-    gold_dir = os.path.join(app_path, 'gold')
-    if not os.path.isdir(gold_dir):
-        print(f'{gold_dir} not a directory')
-        continue
-    merge_app_dir = os.path.join(merge_dir, app_dir)
-    os.makedirs(merge_app_dir, exist_ok=True)
+def process_gold_dir(gold_dir, app_path, merge_app_dir, index):
     for fname in os.listdir(gold_dir):
         if not fname.endswith('.json'):
             print(f'{fname} not a json file')
@@ -50,7 +36,27 @@ for app_dir in os.listdir(src_dir):
             human_gt['grouped-action'] = gold_data['batched']
         main_data['human-ground-truth'] = human_gt
         out_path = os.path.join(merge_app_dir, fname)
-        with open(out_path, 'w') as f:
-            json.dump(main_data, f, ensure_ascii=False, indent=2) 
-            index += 1
-            print(f'{index}/369 examples merged')
+        try:
+            with open(out_path, 'w') as f:
+                json.dump(main_data, f, ensure_ascii=False, indent=2)
+            index[0] += 1
+            print(f'{index[0]}/369 examples merged')
+        except Exception as e:
+            print(f'Error writing {out_path}: {e}')
+
+for app_dir in os.listdir(src_dir):
+    app_path = os.path.join(src_dir, app_dir)
+    if not os.path.isdir(app_path):
+        continue
+    if app_dir in ['merged_examples', '.git']:
+        continue
+    gold_dir = os.path.join(app_path, 'gold')
+    if not os.path.isdir(gold_dir):
+        continue
+    merge_app_dir = os.path.join(merge_dir, app_dir)
+    os.makedirs(merge_app_dir, exist_ok=True)
+    index = [0]
+    process_gold_dir(gold_dir, app_path, merge_app_dir, index)
+    notsure_dir = os.path.join(gold_dir, 'notsure')
+    if os.path.isdir(notsure_dir):
+        process_gold_dir(notsure_dir, app_path, merge_app_dir, index)
