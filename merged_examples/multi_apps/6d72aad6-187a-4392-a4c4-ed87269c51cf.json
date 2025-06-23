@@ -1,0 +1,83 @@
+{
+  "id": "6d72aad6-187a-4392-a4c4-ed87269c51cf",
+  "snapshot": "libreoffice_calc",
+  "instruction": "Could you please converting OpenOffice Impress presentation to video and play it with VLC?",
+  "source": "https://superuser.com/questions/923171/converting-openoffice-impress-presentation-to-video-without-screen-recording",
+  "config": [],
+  "trajectory": "trajectories/6d72aad6-187a-4392-a4c4-ed87269c51cf",
+  "related_apps": [
+    "libreoffice_calc",
+    "libreoffice_impress",
+    "libreoffice_writer",
+    "vlc"
+  ],
+  "evaluator": {
+    "func": "infeasible"
+  },
+  "human-ground-truth": {
+    "single-action": [
+      "`CLICK` on 'Slide Show'",
+      "`CLICK` on 'Slide Transition'",
+      "`CLICK` on the 'Advance Slide' tab",
+      "`CLICK` on the checkbox for 'Automatically after'",
+      "`TYPING` 00:03",
+      "`CLICK` on 'Apply to All Slides'",
+      "`CLICK` on 'File'",
+      "`CLICK` on 'Export'",
+      "`CLICK` on the dropdown for 'Save as type'",
+      "`SCROLL` down",
+      "`CLICK` on 'Macromedia Flash (SWF)'",
+      "`CLICK` on 'Desktop'",
+      "`CLICK` on 'Save'",
+      "`TYPING` 'vlc Desktop/presentation.swf'",
+      "`PRESS` Enter"
+    ],
+    "grouped-action": [
+      [
+        "`CLICK` on 'Slide Show'"
+      ],
+      [
+        "`CLICK` on 'Slide Transition'"
+      ],
+      [
+        "`CLICK` on the 'Advance Slide' tab"
+      ],
+      [
+        "`CLICK` on the checkbox for 'Automatically after'"
+      ],
+      [
+        "`TYPING` 00:03"
+      ],
+      [
+        "`CLICK` on 'Apply to All Slides'"
+      ],
+      [
+        "`CLICK` on 'File'"
+      ],
+      [
+        "`CLICK` on 'Export'"
+      ],
+      [
+        "`CLICK` on the dropdown for 'Save as type'"
+      ],
+      [
+        "`SCROLL` down"
+      ],
+      [
+        "`CLICK` on 'Macromedia Flash (SWF)'"
+      ],
+      [
+        "`CLICK` on 'Desktop'"
+      ],
+      [
+        "`CLICK` on 'Save'"
+      ],
+      [
+        "`TYPING`'vlc Desktop/presentation.swf'"
+      ],
+      [
+        "`PRESS` Enter"
+      ]
+    ]
+  }
+}

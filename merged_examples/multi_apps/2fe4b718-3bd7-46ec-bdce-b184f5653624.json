@@ -1,0 +1,133 @@
+{
+  "id": "2fe4b718-3bd7-46ec-bdce-b184f5653624",
+  "snapshot": "vlc",
+  "instruction": "Could you help me create an Animated GIF src_clip.gif from a video file using VLC and GIMP from the source of video \"src.mp4\" in the desktop, 5-second clip beginning at 00:03?",
+  "source": "https://www.maketecheasier.com/create-gif-from-video-gimp/",
+  "config": [
+    {
+      "type": "launch",
+      "parameters": {
+        "command": [
+          "gimp"
+        ]
+      }
+    },
+    {
+      "type": "download",
+      "parameters": {
+        "files": [
+          {
+            "url": "https://drive.usercontent.google.com/download?id=1krQ_vN3QiboMttWrjDY-YROCWZq6cBtb&export=download",
+            "path": "/home/user/Desktop/src.mp4"
+          }
+        ]
+      }
+    },
+    {
+      "type": "launch",
+      "parameters": {
+        "command": [
+          "vlc"
+        ]
+      }
+    }
+  ],
+  "trajectory": "trajectories/",
+  "related_apps": [
+    "vlc",
+    "gimp"
+  ],
+  "evaluator": {
+    "func": "compare_images",
+    "result": {
+      "type": "vm_file",
+      "path": "/home/user/Desktop/src_clip.gif",
+      "dest": "src_clip.gif"
+    },
+    "expected": {
+      "type": "cloud_file",
+      "path": "https://drive.usercontent.google.com/download?id=1kDq8pakgdZvKh8CFpR5368stf14gwFCp&export=download",
+      "dest": "src_clip_gold.gif"
+    }
+  },
+  "human-ground-truth": {
+    "single-action": [
+      "`CLICK` VLC media player window",
+      "`CLICK` on 'Media'",
+      "`CLICK` on 'Convert / Save...'",
+      "`CLICK` on 'Add'",
+      "`SCROLL` to Desktop",
+      "`CLICK` to choose Desktop",
+      "`CLICK` on your Desktop",
+      "`CLICK` on 'src.mp4'",
+      "`CLICK` on 'Open'",
+      "`CLICK` on 'Convert / Save'",
+      "`CLICK` on the 'Profile' dropdown and select 'Video - H.264 + MP3 (MP4)'",
+      "`CLICK` on the 'Edit selected profile' button (wrench icon)",
+      "`CLICK` on the 'Video codec' tab",
+      "`CHECK` the 'Keep original video track' box",
+      "`CLICK` on 'Save'",
+      "`CLICK` on 'Browse'",
+      "`TYPING` src_clip.mp4",
+      "`SCROLL` to Desktop",
+      "`CLICK` to choose Desktop",
+      "`CLICK` on 'Save'",
+      "`TYPING` :start-time=3 :stop-time=8 in the 'Edit Options' field",
+      "`CLICK` on 'Start'",
+      "`CLICK` GIMP media player window",
+      "`CLICK` on 'File'",
+      "`CLICK` on 'Open as Layers...'",
+      "`SCROLL` to Desktop",
+      "`CLICK` to choose Desktop",
+      "`CLICK` on 'src_clip.mp4'",
+      "`CLICK` on 'Open'",
+      "`CLICK` on 'File'",
+      "`CLICK` on 'Export As...'",
+      "`TYPING` src_clip.gif",
+      "`CLICK` on 'Select File Type (By Extension)' and select 'GIF image'",
+      "`CLICK` on 'Export'",
+      "`CHECK` the 'As animation' box",
+      "`CLICK` on 'Export'"
+    ],
+    "grouped-action": [
+      [
+        "`OPEN` VLC media player",
+        "`CLICK` on 'Media'",
+        "`CLICK` on 'Convert / Save...'",
+        "`CLICK` on 'Add'",
+        "`NAVIGATE` to your Desktop",
+        "`CLICK` on 'src.mp4'",
+        "`CLICK` on 'Open'",
+        "`CLICK` on 'Convert / Save'",
+        "`CLICK` on the 'Profile' dropdown and select 'Video - H.264 + MP3 (MP4)'",
+        "`CLICK` on the 'Edit selected profile' button (wrench icon)",
+        "`CLICK` on the 'Video codec' tab",
+        "`CHECK` the 'Keep original video track' box",
+        "`CLICK` on 'Save'",
+        "`CLICK` on 'Browse'",
+        "`TYPING` src_clip.mp4",
+        "`NAVIGATE` to your Desktop",
+        "`CLICK` on 'Save'",
+        "`TYPING` :start-time=3 :stop-time=8 in the 'Edit Options' field",
+        "`CLICK` on 'Start'"
+      ],
+      [
+        "`OPEN` GIMP",
+        "`CLICK` on 'File'",
+        "`CLICK` on 'Open as Layers...'",
+        "`NAVIGATE` to your Desktop",
+        "`CLICK` on 'src_clip.mp4'",
+        "`CLICK` on 'Open'"
+      ],
+      [
+        "`CLICK` on 'File'",
+        "`CLICK` on 'Export As...'",
+        "`TYPING` src_clip.gif",
+        "`CLICK` on 'Select File Type (By Extension)' and select 'GIF image'",
+        "`CLICK` on 'Export'",
+        "`CHECK` the 'As animation' box",
+        "`CLICK` on 'Export'"
+      ]
+    ]
+  }
+}
